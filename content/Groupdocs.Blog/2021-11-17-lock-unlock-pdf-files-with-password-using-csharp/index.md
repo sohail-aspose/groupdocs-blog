@@ -4,14 +4,7 @@ date: Wed, 17 Nov 2021 12:28:00 +0000
 draft: false
 url: /2021/11/17/lock-unlock-pdf-files-with-password-using-csharp/
 author: 'Shoaib Khan'
-summary: 'Let us learn to secure our documents from unauthorized access. Previously we discussed [adding text and image watermarks to the documents](https://blog.groupdocs.com/2021/07/27/watermark-pdf-files-using-csharp/) to avoid and illegal use. In this article, we will see **how to add password protection to PDF documents to get them locked using C#**. Additionally, we will **change the existing password** and also learn to **remove the password** to make the PDF unlocked.
-
-The following topics are discussed in this article:
-
-*   .NET API for Password Protection of PDF files
-*   Lock PDF Files by adding Password
-*   Change PDF Password in C#
-*   How to Remove PDF Password - Unlock PDF'
+summary: 'Let us learn to secure our documents from unauthorized access. Previously we discussed [adding text and image watermarks to the documents](https://blog.groupdocs.com/2021/07/27/watermark-pdf-files-using-csharp/) to avoid and illegal use. In this article, we will see **how to add password protection to PDF documents to get them locked using C#**. Additionally, we will **change the existing password** and also learn to **remove the password** to make the PDF unlocked.'
 tags: ['add password to PDF in csharp', 'Change PDF Password in CSharp', 'Lock PDF in CSharp', 'Remove PDF Password in CSharp', 'Unlock PDF in CSharp']
 categories: ['GroupDocs.Merger Product Family']
 ---

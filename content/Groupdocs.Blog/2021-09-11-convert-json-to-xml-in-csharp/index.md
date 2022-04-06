@@ -4,12 +4,7 @@ date: Sat, 11 Sep 2021 09:17:00 +0000
 draft: false
 url: /2021/09/11/convert-json-to-xml-in-csharp/
 author: 'Shoaib Khan'
-summary: 'JSON and XML, both are the well known structured formats that are vastly used by developers to transmit data. There are many requirement where as a programmer, we need the conversion between JSON and XML data formats. In this article, you will learn how to convert JSON data into XML format using C#.
-
-The following topics will be covered in this article:
-
-*   .NET API for JSON and XML Conversion
-*   Programmatically Convert JSON to XML'
+summary: 'JSON and XML, both are the well known structured formats that are vastly used by developers to transmit data. There are many requirement where as a programmer, we need the conversion between JSON and XML data formats. In this article, you will learn how to convert JSON data into XML format using C#.'
 tags: ['Convert JSON to XML', 'Convert JSON to XML in CSharp', 'JSON to XML', 'JSON to XML in CSharp']
 categories: ['GroupDocs.Conversion Product Family']
 ---

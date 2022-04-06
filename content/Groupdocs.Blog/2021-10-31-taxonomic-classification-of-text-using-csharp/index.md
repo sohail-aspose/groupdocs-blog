@@ -4,13 +4,7 @@ date: Sun, 31 Oct 2021 10:22:00 +0000
 draft: false
 url: /2021/10/31/taxonomic-classification-of-text-using-csharp/
 author: 'Shoaib Khan'
-summary: 'In an article, we discussed how we can [analyze and classify complete documents programmatically](https://blog.groupdocs.com/2021/10/27/taxonomic-classification-of-documents-using-csharp/). It is often required to classify just some part of the document or only a few statements. In this article, we will identify the best possible taxonomic categories of the selected text. We will learn **how we can classify text according to IAB-2 and document taxonomies using C#**.
-
-The following topics are covered in this article:
-
-*   .NET API for Taxonomic Classification
-*   Classify Text with IAB-2 Taxonomy
-*   Classify Text with Document Taxonomy'
+summary: 'In an article, we discussed how we can [analyze and classify complete documents programmatically](https://blog.groupdocs.com/2021/10/27/taxonomic-classification-of-documents-using-csharp/). It is often required to classify just some part of the document or only a few statements. In this article, we will identify the best possible taxonomic categories of the selected text. We will learn **how we can classify text according to IAB-2 and document taxonomies using C#**.'
 tags: ['Classify Text using CSharp', 'document taxonomy', 'Document Taxonomy using CSharp', 'Taxonomic Classification using CSharp', 'Text Classification using CSharp']
 categories: ['GroupDocs.Classification Product Family']
 ---

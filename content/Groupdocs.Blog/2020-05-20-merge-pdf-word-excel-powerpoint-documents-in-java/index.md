@@ -4,7 +4,7 @@ date: Wed, 20 May 2020 08:22:00 +0000
 draft: false
 url: /2020/05/20/merge-pdf-word-excel-powerpoint-documents-in-java/
 author: 'Shoaib Khan'
-summary: ''
+summary: 'Worried about merge or split documents of various types in multiple platforms? There could be many statements in your mind: * How to merge PDF documents together in Java? * Want to split word documents, or merge excel spreadsheets. * What to do if I need to merge PPT/PPTX presentations. * Many more questions, the list may not end.'
 tags: ['Merge Documents in Java', 'Merge PDF in Java', 'Merge Word in Java', 'Split Documents in Java', 'Split PDF in Java', 'Split PPT in Java']
 categories: ['GroupDocs.Merger Product Family']
 ---

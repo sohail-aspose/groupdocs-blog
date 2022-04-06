@@ -4,13 +4,7 @@ date: Sun, 15 Aug 2021 10:50:32 +0000
 draft: false
 url: /2021/08/15/generate-reports-from-csv-data-in-csharp/
 author: 'Shoaib Khan'
-summary: 'CSV ([Comma Separated Values](https://docs.fileformat.com/spreadsheet/csv/)) files are widely used for exchanging data among applications. When you want this data to be translated into presentable and meaningful information, you need to convert it into some other format. In one of our posts, we have seen [how to convert CSV data in Reports using Java](https://blog.groupdocs.com/2021/07/07/generate-reports-from-csv-data-in-java/). This article will guide you to **convert CSV data into PDF and MS Word DOC/DOCX reports using C#** using a simple template.
-
-The following topics are covered in this article:
-
-*   Report Generation .NET API
-*   Generate PDF Report from CSV Data
-*   Generate MS Word Report from CSV data'
+summary: 'CSV ([Comma Separated Values](https://docs.fileformat.com/spreadsheet/csv/)) files are widely used for exchanging data among applications. When you want this data to be translated into presentable and meaningful information, you need to convert it into some other format. In one of our posts, we have seen [how to convert CSV data in Reports using Java](https://blog.groupdocs.com/2021/07/07/generate-reports-from-csv-data-in-java/). This article will guide you to **convert CSV data into PDF and MS Word DOC/DOCX reports using C#** using a simple template.'
 tags: ['Convert CSV to PDF in CSharp', 'CSV to PDF using template', 'CSV to Word Report in CSharp', 'Generate PDF report from CSV', 'Generate Reports', 'generate reports in csharp', ]
 categories: ['GroupDocs.Assembly Product Family']
 ---

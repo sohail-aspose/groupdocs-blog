@@ -4,17 +4,7 @@ date: Tue, 25 Jan 2022 14:15:00 +0000
 draft: false
 url: /2022/01/25/annotate-pdf-files-using-csharp/
 author: 'Shoaib Khan'
-summary: 'No more long discussions within long email threads on the content of the document(s). You can use annotations to markup documents with personalized messages and their replies. This article discussed **how to programmatically annotate PDF files to markup documents using C#**. Additionally, we will also discuss how to remove annotations from PDF files.
-
-The following topics are discussed in this article:
-
-*   .NET API to Annotate PDF Files
-*   Add Annotations to PDF
-    *   Arrow annotations
-    *   Rectangle annotations
-    *   Ellipse or Oval annotations
-    *   Distance annotations
-*   Remove Annotations from PDF Files'
+summary: 'No more long discussions within long email threads on the content of the document(s). You can use annotations to markup documents with personalized messages and their replies. This article discussed **how to programmatically annotate PDF files to markup documents using C#**. Additionally, we will also discuss how to remove annotations from PDF files.'
 tags: ['Add annotations in PDF', 'add annotations in PDF using csharp', 'annotate PDF', 'Annotate PDF in CSharp', ]
 categories: ['GroupDocs.Annotation Product Family']
 ---

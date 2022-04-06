@@ -4,13 +4,7 @@ date: Wed, 07 Jul 2021 14:26:55 +0000
 draft: false
 url: /2021/07/07/generate-reports-from-csv-data-in-java/
 author: 'Shoaib Khan'
-summary: 'The [Comma Separated Values](https://docs.fileformat.com/spreadsheet/csv/) (CSV) is a file format for storing the data in the form of plain text where the values are separated by commas. CSV is widely used for exchanging data among applications. As a developer, we often need to convert the large CSV data into a presentable format. This article will guide you to **convert CSV data into PDF and MS Word reports in Java** using a simple template.
-
-The following topics are covered in this article:
-
-*   Report Generation Java API
-*   Generate PDF Report from CSV Data
-*   Generate MS Word Report from CSV data'
+summary: 'The [Comma Separated Values](https://docs.fileformat.com/spreadsheet/csv/) (CSV) is a file format for storing the data in the form of plain text where the values are separated by commas. CSV is widely used for exchanging data among applications. As a developer, we often need to convert the large CSV data into a presentable format. This article will guide you to **convert CSV data into PDF and MS Word reports in Java** using a simple template.'
 tags: ['Convert CSV to PDF in Java', 'CSV to PDF using template', 'CSV to Word Report in Java', 'Generate PDF report from CSV', 'Generate PDF Report in Java', 'Generate Reports', ]
 categories: ['GroupDocs.Assembly Product Family']
 ---

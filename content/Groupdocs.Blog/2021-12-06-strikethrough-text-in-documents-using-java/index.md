@@ -4,12 +4,7 @@ date: Mon, 06 Dec 2021 07:19:00 +0000
 draft: false
 url: /2021/12/06/strikethrough-text-in-documents-using-java/
 author: 'Shoaib Khan'
-summary: 'Probably you have some content that is no more valid. Let’s cross it out. Crossing out is one of the ways, used to highlight the invalid content within the documents. In order to automate the cross-out within the applications, this article shows how to strikethrough text in documents in Java.
-
-The following topics are discussed in this article.
-
-*   Java API for Strikethrough Annotations
-*   How to Strikeout Text in Documents'
+summary: 'Probably you have some content that is no more valid. Let’s cross it out. Crossing out is one of the ways, used to highlight the invalid content within the documents. In order to automate the cross-out within the applications, this article shows how to strikethrough text in documents in Java.'
 tags: ['Cross out Text', 'Cross out Text in Java', 'Strike through Text in Java', 'Strikeout Text', 'Strikethrough Text']
 categories: ['GroupDocs.Annotation Product Family']
 ---

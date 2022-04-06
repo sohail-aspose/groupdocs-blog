@@ -4,7 +4,7 @@ date: Wed, 15 Jul 2020 15:23:31 +0000
 draft: false
 url: /2020/07/15/compare-text-word-pdf-files-with-java-difference-library/
 author: 'Shoaib Khan'
-summary: ''
+summary: 'After going through this article, we will be able to compare text files, Word files, PDF files, and other documents in Java-based applications. By using this feature, we can compare invoices, contracts, presentations, AutoCAD designs, price lists, or programming files. We will also the privilege to highlight the identified changes and have the option to either accept or reject any change. We can even build our own [document comparison tool](https://products.groupdocs.app/comparison/total) similar to the one launched by GroupDocs, using the document comparison API for Java.'
 tags: ['compare PDF files in Java', 'compare two files using java', 'compare Word files in java', ]
 categories: ['GroupDocs.Comparison Product Family']
 ---

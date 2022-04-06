@@ -4,9 +4,7 @@ date: Mon, 15 Feb 2021 17:30:00 +0000
 draft: false
 url: /2021/02/15/convert-presentations-odp-pptx-ppt-to-pdf-in-java/
 author: 'Shoaib Khan'
-summary: 'As PDF is the popular portable document format, so there comes the need to convert documents of other formats to PDF. Today, we will see **different ways to convert PPT, PPTX, or ODP presentations to PDF in Java**. In an earlier post, we have seen [how to convert presentations using C#](https://blog.groupdocs.com/2020/03/05/convert-presentations-pptx-ppt-to-pdf-in-csharp/).
-
-[Continue Reading ...](https://blog.groupdocs.com/2021/02/15/convert-presentations-odp-pptx-ppt-to-pdf-in-java/)'
+summary: 'As PDF is the popular portable document format, so there comes the need to convert documents of other formats to PDF. Today, we will see **different ways to convert PPT, PPTX, or ODP presentations to PDF in Java**. In an earlier post, we have seen [how to convert presentations using C#](https://blog.groupdocs.com/2020/03/05/convert-presentations-pptx-ppt-to-pdf-in-csharp/).'
 tags: ['Convert ODP to PDF in Java', 'Convert PPT to PDF in Java', 'Convert PPTX to PDF in Java', 'Convert Presentation to PDF in Java', ]
 categories: ['GroupDocs.Conversion Product Family']
 ---

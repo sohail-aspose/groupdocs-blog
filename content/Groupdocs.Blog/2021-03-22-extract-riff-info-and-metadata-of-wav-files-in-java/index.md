@@ -4,15 +4,7 @@ date: Mon, 22 Mar 2021 16:37:44 +0000
 draft: false
 url: /2021/03/22/extract-riff-info-and-metadata-of-wav-files-in-java/
 author: 'Shoaib Khan'
-summary: '**RIFF** file container format used to store audio and video multimedia. This data stored in chunks can include lots of information such as the creation date, copyright information, artists, comments, etc. You can programmatically manipulate the metadata as well as RIFF INFO. This article guides developers to **programmatically extract metadata and RIFF INFO from the WAV audio files in Java**.
-
-The following topics are covered in the article in brief:
-
-*   Java API for Metadata Management
-*   Extract Metadata of WAV Files in Java
-*   Extract RIFF INFO of WAV Files in Java
-
-[Continue Reading ...](https://blog.groupdocs.com/2021/03/22/extract-riff-info-and-metadata-of-wav-files-in-java)'
+summary: '**RIFF** file container format used to store audio and video multimedia. This data stored in chunks can include lots of information such as the creation date, copyright information, artists, comments, etc. You can programmatically manipulate the metadata as well as RIFF INFO. This article guides developers to **programmatically extract metadata and RIFF INFO from the WAV audio files in Java**.'
 tags: ['extract metadata in java', 'Extract Metadata of WAV file in Java', 'Extract RIFF INFO of WAV in Java', ]
 categories: ['GroupDocs.Metadata Product Family']
 ---

@@ -4,15 +4,7 @@ date: Fri, 10 Dec 2021 10:20:37 +0000
 draft: false
 url: /2021/12/10/compare-pdf-documents-using-csharp/
 author: 'Shoaib Khan'
-summary: 'Due to the fact that PDF is one of the most in-use formats of the digital world, it is often required to compare two versions of the same document. This article discusses, **how to compare two PDF documents and highlight the differences using C#**. Further, we will see how to compare password-protected PDF files, accept and reject changes, and also the comparison of more than two PDF files with C# examples.
-
-The following topics are discussed in this article:
-
-*   PDF Comparison .NET API
-*   Compare Two PDF Documents
-*   Accept or Reject Identified Changes within PDF Documents
-*   Compare More than Two PDF Documents
-*   Compare Password Protected PDF Files'
+summary: 'Due to the fact that PDF is one of the most in-use formats of the digital world, it is often required to compare two versions of the same document. This article discusses, **how to compare two PDF documents and highlight the differences using C#**. Further, we will see how to compare password-protected PDF files, accept and reject changes, and also the comparison of more than two PDF files with C# examples.'
 tags: ['compare PDF files', 'Compare PDF in CSharp', 'Compare PDF to Accept or Reject Changes in CSharp', 'pdf comparison']
 categories: ['GroupDocs.Comparison Product Family']
 ---

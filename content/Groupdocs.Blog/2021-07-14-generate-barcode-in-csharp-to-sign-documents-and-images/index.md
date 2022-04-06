@@ -4,13 +4,7 @@ date: Wed, 14 Jul 2021 17:25:00 +0000
 draft: false
 url: /2021/07/14/generate-barcode-in-csharp-to-sign-documents-and-images/
 author: 'Shoaib Khan'
-summary: 'Barcode is way to present the data in machine readable format. Barcodes are normally used for quick identification of large number of items. In this article, you will learn how to generate barcodes within .NET applications. Futher you will see, how the generated barcodes can be applied to any of your documents and images using C#.
-
-The following topics are covered n this article:
-
-*   Barcode Generator API for .NET
-*   Generate & apply barcode to documents in C#
-*   Generate & apply barcode to images in C#'
+summary: 'Barcode is way to present the data in machine readable format. Barcodes are normally used for quick identification of large number of items. In this article, you will learn how to generate barcodes within .NET applications. Futher you will see, how the generated barcodes can be applied to any of your documents and images using C#.'
 tags: ['Apply Barcode to Images in C#', 'Apply Barcode to PDF in C#', 'Generate Barcode in C#', 'Sign Documents with Barcode in C#', 'Sign Images with Barcode in C#']
 categories: ['GroupDocs.Signature Product Family']
 ---

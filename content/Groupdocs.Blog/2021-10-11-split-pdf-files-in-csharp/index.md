@@ -4,13 +4,7 @@ date: Mon, 11 Oct 2021 04:14:00 +0000
 draft: false
 url: /2021/10/11/split-pdf-files-in-csharp/
 author: 'Shoaib Khan'
-summary: '[PDF](https://docs.fileformat.com/pdf/) is one of the most commonly used file formats which is highly portable. As a developer, you may have faced the scenario to split large PDF files programmatically. Today, this article discusses different ways of **how to split PDF files using C# in .NET applications**.
-
-*   .NET API to Split PDF Files
-*   Split PDF into Multi-Page Files
-*   Extract Pages from PDF Files by Range
-*   Extract Pages from PDF Files using Even or Odd Filter
-*   Split PDF into Multiple Single Pages Files'
+summary: '[PDF](https://docs.fileformat.com/pdf/) is one of the most commonly used file formats which is highly portable. As a developer, you may have faced the scenario to split large PDF files programmatically. Today, this article discusses different ways of **how to split PDF files using C# in .NET applications**.'
 tags: ['PDF Separator', 'Separate PDF', 'Split API', 'Split PDF', 'Split PDF Files', 'Split PDF using C#']
 categories: ['GroupDocs.Merger Product Family']
 ---

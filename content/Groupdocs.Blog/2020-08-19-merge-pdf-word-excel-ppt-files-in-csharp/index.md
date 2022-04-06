@@ -4,7 +4,7 @@ date: Wed, 19 Aug 2020 18:20:42 +0000
 draft: false
 url: /2020/08/19/merge-pdf-word-excel-ppt-files-in-csharp/
 author: 'Shoaib Khan'
-summary: ''
+summary: 'Today, we will learn to programmatically merge PDF, Word documents, spreadsheets, presentations using C#. In an earlier post, we have seen the [merging and splitting of documents using Java](https://blog.groupdocs.com/2020/05/20/merge-pdf-word-excel-powerpoint-documents-in-java/).'
 tags: ['Merge Documents in CSharp', 'Merge Excel Sheets in CSharp', 'Merge PDF Files in CSharp', 'Merge PPT PPTX in CSharp', 'Merge Word Docs in CSharp']
 categories: ['GroupDocs.Merger Product Family']
 ---

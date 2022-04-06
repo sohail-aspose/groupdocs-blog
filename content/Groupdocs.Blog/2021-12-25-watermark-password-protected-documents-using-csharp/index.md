@@ -4,14 +4,7 @@ date: Sat, 25 Dec 2021 07:54:23 +0000
 draft: false
 url: /2021/12/25/watermark-password-protected-documents-using-csharp/
 author: 'Shoaib Khan'
-summary: 'Watermarking is one of the ways to protect your documents from illegal use; branding your files; mentioning your documents as drafts or confidential. In order to watermark your files programmatically, this article guides you on **how to add watermark to your password-protected files using C#**. We will separately look into adding text and image watermarks to the protected files.
-
-The following topics are discussed in this article:
-
-*   .NET API to Watermark Password Protected Files
-*   Add Watermark to Protected Files using C#
-    *   Apply Text Watermark
-    *   Apply Image Watermark'
+summary: 'Watermarking is one of the ways to protect your documents from illegal use; branding your files; mentioning your documents as drafts or confidential. In order to watermark your files programmatically, this article guides you on **how to add watermark to your password-protected files using C#**. We will separately look into adding text and image watermarks to the protected files.'
 tags: ['Document Watermarking', 'Watermark Protected Documents using CSharp', 'Watermark Protected Files using CSharp', 'watermark using csharp', 'Watermarking API for .NET']
 categories: ['GroupDocs.Watermark Product Family']
 ---

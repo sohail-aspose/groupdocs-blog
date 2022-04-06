@@ -4,20 +4,7 @@ date: Fri, 26 Feb 2021 07:26:57 +0000
 draft: false
 url: /2021/02/26/extract-images-from-ebooks-in-csharp/
 author: 'Shoaib Khan'
-summary: 'An electronic book, popularly known as **eBook**, is a book in digital form that is readable on various electronic devices. These devices include dedicated eReaders like Kindle, or laptops, desktop computers, and smartphones. There are many popular file formats of eBooks in-use in the market that include; **EPUB**, FictionBook **FB2**, Microsoft Compiled HTML Help - **CHM**, **DjVu**, **MOBI**, **PDF**, and many others. As a programmer, this article will help you to **programmatically extract images from eBooks in C#** within .NET applications.
-
-
-
-{{< figure align=center src="images/extract-images-from-epub-fb2-chm-ebooks-in-csharp-dotnet.jpg" alt="Extract Images from eBooks in C# .NET" caption="EPUB eBook from the Adobe <a href="https://www.adobe.com/solutions/ebook/digital-editions/sample-ebook-library.html">Sample eBook Library</a>">}}
-
-
-The following topics will be covered in this article:
-
-*   .NET API for Image Extraction from eBooks
-*   Extract Images from EPUB eBook in C#
-*   Extract Images from FB2, CHM eBooks in C#
-
-[Continue Reading ...](https://blog.groupdocs.com/2021/02/26/extract-images-from-ebooks-in-csharp/)'
+summary: 'An electronic book, popularly known as **eBook**, is a book in digital form that is readable on various electronic devices. These devices include dedicated eReaders like Kindle, or laptops, desktop computers, and smartphones. There are many popular file formats of eBooks in-use in the market that include; **EPUB**, FictionBook **FB2**, Microsoft Compiled HTML Help - **CHM**, **DjVu**, **MOBI**, **PDF**, and many others. As a programmer, this article will help you to **programmatically extract images from eBooks in C#** within .NET applications.'
 tags: ['Extract Images from CHM in CSharp', 'Extract Images from eBooks in CSharp', 'Extract Images from EPUB in CSharp', 'Extract Images from FB2 in CSharp', 'Parse eBooks in CSharp', 'Parse eBooks to Extract Images in CSharp']
 categories: ['GroupDocs.Parser Product Family']
 ---

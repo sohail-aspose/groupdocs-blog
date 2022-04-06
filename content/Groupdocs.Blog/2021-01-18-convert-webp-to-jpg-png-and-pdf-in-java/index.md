@@ -4,11 +4,7 @@ date: Mon, 18 Jan 2021 22:52:00 +0000
 draft: false
 url: /2021/01/18/convert-webp-to-jpg-png-and-pdf-in-java/
 author: 'Shoaib Khan'
-summary: 'WebP images **give transparency like PNG**, **animate like GIF**, and the most important for any web developer is the **smaller size than comparative quality JPG format**. However, due to incompatibility issues or any other requirement, it is sometimes needed to convert the WebP image into JPG, PNG, or other formats.
-
-While converting the WebP to JPG, PNG, or other formats, you can also apply color adjustments to the output images. You can change the contrast, brightness, and gamma of the resultant image. The Image can be flipped, rotated, apply watermarks, or get the grayscale image as the output.
-
-[Continue Reading ...](https://blog.groupdocs.com/2021/01/18/convert-webp-to-jpg-png-and-pdf-in-java/)'
+summary: 'WebP images **give transparency like PNG**, **animate like GIF**, and the most important for any web developer is the **smaller size than comparative quality JPG format**. However, due to incompatibility issues or any other requirement, it is sometimes needed to convert the WebP image into JPG, PNG, or other formats.'
 tags: ['convert WebP to JPG in java', 'Convert WebP to PNG in Java', 'Java Convert WebP', 'Java WebP to JPG', 'Java WebP to PDF', 'Java WebP to PNG']
 categories: ['GroupDocs.Conversion Product Family']
 ---

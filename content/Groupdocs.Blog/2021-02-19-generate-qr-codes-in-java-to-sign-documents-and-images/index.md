@@ -4,9 +4,7 @@ date: Fri, 19 Feb 2021 11:45:00 +0000
 draft: false
 url: /2021/02/19/generate-qr-codes-in-java-to-sign-documents-and-images/
 author: 'Shoaib Khan'
-summary: '**QR code** (**Q**uick **R**esponse code) is the type of 2D Barcodes or matrix barcode. It is the machine-readable label that contains information about the attached item. This article will guide you about programmatically adding QR codes to electronically sign your documents and images using Java.
-
-I will be using [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java) API to add QR codes in PDF files, word documents, spreadsheets, presentations, and images like JPG/JPEG, PNG, WebP, BMP, GIF, SVG, CMX, and TIFF.'
+summary: '**QR code** (**Q**uick **R**esponse code) is the type of 2D Barcodes or matrix barcode. It is the machine-readable label that contains information about the attached item. This article will guide you about programmatically adding QR codes to electronically sign your documents and images using Java.'
 tags: ['Add QR Code in Java', 'Attach QR Code with Images in Java', 'generate QR Code in Java', 'QR codes in Java', 'Sign docs with QR code in Java', 'Sign Images with QR code in Java']
 categories: ['GroupDocs.Signature Product Family']
 ---

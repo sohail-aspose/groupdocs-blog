@@ -4,12 +4,7 @@ date: Tue, 05 Oct 2021 04:21:00 +0000
 draft: false
 url: /2021/10/05/redact-text-and-scanned-images-using-java/
 author: 'Shoaib Khan'
-summary: 'Want to secure the secret, or sensitive information that is within the documents? It is doable even if this is regular textual information or it is text with the scanned document with images. The earlier articles may help you refine your search, where we discussed the [different strategies to search words](https://blog.groupdocs.com/2021/09/01/find-and-replace-text-in-documents-using-java/) and [search synonyms within multiple documents](https://blog.groupdocs.com/2021/10/03/find-synonyms-in-multiple-files-using-java/). This article guides you about **how to redact PDF text and text in images within a document using Java**.
-
-The following topics will be covered in this article:
-
-*   Text and image redaction – Java API
-*   Redact PDF text and scanned Information using Java'
+summary: 'Want to secure the secret, or sensitive information that is within the documents? It is doable even if this is regular textual information or it is text with the scanned document with images. The earlier articles may help you refine your search, where we discussed the [different strategies to search words](https://blog.groupdocs.com/2021/09/01/find-and-replace-text-in-documents-using-java/) and [search synonyms within multiple documents](https://blog.groupdocs.com/2021/10/03/find-synonyms-in-multiple-files-using-java/). This article guides you about **how to redact PDF text and text in images within a document using Java**.'
 tags: ['Blackout Text', 'Blackout Text in PDF', 'redact documents', 'Redact in Java', 'Redact PDF files', 'Redact PDF in Java', 'Redact Text in Image', 'Redact Text in Java', 'Redact Text in PDF']
 categories: ['GroupDocs.Redaction Product Family']
 ---

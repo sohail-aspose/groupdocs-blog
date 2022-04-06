@@ -4,15 +4,7 @@ date: Wed, 01 Dec 2021 09:58:00 +0000
 draft: false
 url: /2021/12/01/compare-word-documents-using-csharp/
 author: 'Shoaib Khan'
-summary: 'Word processing documents are the most common way to draft contracts, agreements, papers, and many other official documents. If you need to compare and merge two Word documents, just like the track changes option of Microsoft Word, we can programmatically do it within our .NET applications. In this article, we will discuss **how to compare two Word documents and highlight the identified differences using C#**. Additionally, we will look at how to compare password-protected documents, **accept and reject changes**, and compare more than two documents with C# examples.
-
-The following topics are discussed in this article:
-
-*   Document Comparison .NET API
-*   Compare Two Word Documents
-*   Accept or Reject Identified Changes in Word Document
-*   Compare More than Two Word Documents
-*   Compare Password Protected Word Files'
+summary: 'Word processing documents are the most common way to draft contracts, agreements, papers, and many other official documents. If you need to compare and merge two Word documents, just like the track changes option of Microsoft Word, we can programmatically do it within our .NET applications. In this article, we will discuss **how to compare two Word documents and highlight the identified differences using C#**. Additionally, we will look at how to compare password-protected documents, **accept and reject changes**, and compare more than two documents with C# examples.'
 tags: ['automate document comparison', 'compare two word documents', 'compare two word documents and highlight differences', 'Compare Word Documents CSharp', 'compare word files in c#', 'GroupDocs Comparison', ]
 categories: ['GroupDocs.Comparison Product Family']
 ---

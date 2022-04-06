@@ -4,12 +4,7 @@ date: Thu, 07 Oct 2021 10:35:00 +0000
 draft: false
 url: /2021/10/07/highlight-pdf-using-annotations-in-java/
 author: 'Shoaib Khan'
-summary: 'It is often needed to highlight important areas of your documents on purpose. As a developer, you can automate highlighting within your applications. In this article, you will learn **how to highlight text and any area in PDF files using Java**. Additionally, there will be several properties of highlighting that can be adjusted according to the requirement.
-
-The following topics are covered in this article:
-
-*   Java API to Highlight PDF
-*   How to Programmatically Highlight PDF'
+summary: 'It is often needed to highlight important areas of your documents on purpose. As a developer, you can automate highlighting within your applications. In this article, you will learn **how to highlight text and any area in PDF files using Java**. Additionally, there will be several properties of highlighting that can be adjusted according to the requirement.'
 tags: ['annotate PDF', 'Annotate PDF in Java', 'Highlight Annotation', 'Highlight PDF in Java', 'Highlight Text in PDF', 'Text Highlight']
 categories: ['GroupDocs.Annotation Product Family']
 ---

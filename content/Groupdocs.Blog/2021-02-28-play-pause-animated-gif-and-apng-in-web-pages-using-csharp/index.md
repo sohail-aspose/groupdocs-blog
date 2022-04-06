@@ -4,13 +4,7 @@ date: Sun, 28 Feb 2021 12:52:00 +0000
 draft: false
 url: /2021/02/28/play-pause-animated-gif-and-apng-in-web-pages-using-csharp/
 author: 'Shoaib Khan'
-summary: '**GIF** and **APNG** are from the list of most common animated image formats. GIF stands for **G**raphics **I**nterchange **F**ormat and APNG files are the **A**nimated **P**ortable **N**etwork **G**raphics. If we compare GIF and APNG files of the same quality, it is noticed that APNG files are smaller in size. This article will be discussing to **play and pause animated GIF and APNG files in an HTML web page using C#**.
-
-The following topics will be covered in this article:
-
-*   .NET API for Animated Images
-*   Play and Pause Animated APNG Image in HTML using C#
-*   Play and Pause Animated GIF Image in HTML using C#'
+summary: '**GIF** and **APNG** are from the list of most common animated image formats. GIF stands for **G**raphics **I**nterchange **F**ormat and APNG files are the **A**nimated **P**ortable **N**etwork **G**raphics. If we compare GIF and APNG files of the same quality, it is noticed that APNG files are smaller in size. This article will be discussing to **play and pause animated GIF and APNG files in an HTML web page using C#**.'
 tags: ['Play and Pause Animated Images', 'Play and Pause APNG in CSharp', 'Play and Pause GIF in CSharp', 'Render APNG to HTML in CSharp', 'Render GIF to HTML in CSharp']
 categories: ['GroupDocs.Viewer Product Family']
 ---

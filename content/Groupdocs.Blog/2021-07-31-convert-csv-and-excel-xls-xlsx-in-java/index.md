@@ -4,13 +4,7 @@ date: Sat, 31 Jul 2021 04:07:00 +0000
 draft: false
 url: /2021/07/31/convert-csv-and-excel-xls-xlsx-in-java/
 author: 'Shoaib Khan'
-summary: '**CSV** contains the comma-separated values, normally used to store tabular data without formatting. These files can be viewed in any text editor and also in MS Excel for tabular format. On the other hand, the most used formats for MS Excel files are XLS and XLSX. These formats support countless formatting options. This article discusses the conversion of the Excel spreadsheets of **XLS/XLSX format to CSV** format and **CSV to XLS/XLSX **format programmatically **using Java**.
-
-The following topics are covered in this article:
-
-*   Java API for XLS/XLSX and CSV Conversion
-*   Excel to CSV Conversion
-*   CSV to Excel Conversion'
+summary: '**CSV** contains the comma-separated values, normally used to store tabular data without formatting. These files can be viewed in any text editor and also in MS Excel for tabular format. On the other hand, the most used formats for MS Excel files are XLS and XLSX. These formats support countless formatting options. This article discusses the conversion of the Excel spreadsheets of **XLS/XLSX format to CSV** format and **CSV to XLS/XLSX **format programmatically **using Java**.'
 tags: ['Convert XLS and CSV in Java', 'CSV to Excel in Java', 'CSV to XLS in Java', 'CSV to XLSX in Java', 'Excel to CSV in Java', 'XLS to CSV in Java', 'XLSX to CSV in Java']
 categories: ['GroupDocs.Conversion Product Family']
 ---

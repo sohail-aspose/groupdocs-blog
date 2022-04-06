@@ -4,13 +4,7 @@ date: Fri, 07 Jan 2022 10:49:14 +0000
 draft: false
 url: /2022/01/07/stl-file-viewer-using-java/
 author: 'Shoaib Khan'
-summary: 'STL (**ST**ereo**L**ithography) file format is vastly used for 3D CAD drawings and printing. On the other hand, there are many other formats that are more portable than STL. Here comes the requirement to render the STL format into other formats. In this article, we will discuss **how to render the STL files into PDF format using Java**. In addition to this, we will convert the **STL files to HTML, JPG, and PNG formats** within Java application using examples.
-
-The following topics are discussed in this article:
-
-*   STL Viewer Java API
-*   View STL as PDF
-*   View STL as HTML, JPG, PNG'
+summary: 'STL (**ST**ereo**L**ithography) file format is vastly used for 3D CAD drawings and printing. On the other hand, there are many other formats that are more portable than STL. Here comes the requirement to render the STL format into other formats. In this article, we will discuss **how to render the STL files into PDF format using Java**. In addition to this, we will convert the **STL files to HTML, JPG, and PNG formats** within Java application using examples.'
 tags: ['STL as HTML', 'STL as JPG', 'STL as PNG', 'STL Viewer', 'STL Viewer using Java', 'View STL', 'View STL as PDF']
 categories: ['GroupDocs.Viewer Product Family']
 ---

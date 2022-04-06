@@ -4,14 +4,7 @@ date: Thu, 25 Nov 2021 15:48:29 +0000
 draft: false
 url: /2021/11/25/lock-unlock-ppt-pptx-files-with-password-using-csharp/
 author: 'Shoaib Khan'
-summary: 'Today, we will provide password protection to our presentation files programmatically. In this article, we will see **how to lock **PowerPoint presentation files** with password protection in C#**. Further, we will learn to unlock these by **removing the password** and also **how to change the existing password** of PPT & PPTX presentation files.
-
-The following topics are discussed in this article:
-
-*   .NET API to Protect PowerPoint PPT/PPTX with Password
-*   Lock PowerPoint Files by adding Password
-*   Change PPT/PPTX Password in C#
-*   How to Remove PowerPoint Presentation Password'
+summary: 'Today, we will provide password protection to our presentation files programmatically. In this article, we will see **how to lock **PowerPoint presentation files** with password protection in C#**. Further, we will learn to unlock these by **removing the password** and also **how to change the existing password** of PPT & PPTX presentation files.'
 tags: ['Add Password to PPT in CSharp', 'Change PPT Password in CSharp', 'Lock PPT in CSharp', 'Remove Password in CSharp', 'Unlock Files in CSharp']
 categories: ['GroupDocs.Merger Product Family']
 ---

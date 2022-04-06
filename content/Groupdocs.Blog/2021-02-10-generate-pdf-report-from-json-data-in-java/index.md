@@ -4,9 +4,7 @@ date: Wed, 10 Feb 2021 18:40:00 +0000
 draft: false
 url: /2021/02/10/generate-pdf-report-from-json-data-in-java/
 author: 'Shoaib Khan'
-summary: 'JSON is a formatted and readable data interchange format to transmit data with attributes. However, the large data in JSON format is not very presentable and easily understandable. We mostly need to convert the large JSON data into a presentable format. This article will guide you to **convert JSON data into PDF report in Java** using a simple template.
-
-[Continue Reading ...](https://blog.groupdocs.com/2021/02/10/generate-pdf-report-from-json-data-in-java)'
+summary: 'JSON is a formatted and readable data interchange format to transmit data with attributes. However, the large data in JSON format is not very presentable and easily understandable. We mostly need to convert the large JSON data into a presentable format. This article will guide you to **convert JSON data into PDF report in Java** using a simple template.'
 tags: ['Convert JSON to PDF in Java', 'Generate PDF report from JSON', 'Generate PDF Report in Java', 'JSON to PDF using Template in Java']
 categories: ['GroupDocs.Assembly Product Family']
 ---

@@ -4,14 +4,7 @@ date: Sat, 22 Jan 2022 12:49:38 +0000
 draft: false
 url: /2022/01/22/read-mp3-tags-using-csharp/
 author: 'Shoaib Khan'
-summary: 'There are different metadata standards that are used with MP3 files. Various types of data can be stored using different standards. In this article, we will discuss how to read different MP3 tags using C#. Specifically, we will learn to extract ID3v1, ID3v2, Lyrics, and APEv2 metadata tags from the mp3 files within the .NET application.
-
-The following topics are covered in this article:
-
-*   .NET API to Manage MP3 tags
-*   Read MP3 ID3 Tags - ID3v1 & ID3v2
-*   Get MP3 Lyrics Tags
-*   Retrieve MP3 APEv2 Tags'
+summary: 'There are different metadata standards that are used with MP3 files. Various types of data can be stored using different standards. In this article, we will discuss how to read different MP3 tags using C#. Specifically, we will learn to extract ID3v1, ID3v2, Lyrics, and APEv2 metadata tags from the mp3 files within the .NET application.'
 tags: ['read ID3 tags', 'read mp3 lyrics', 'Read MP3 tags', 'Read MP3 Tags CSharp']
 categories: ['GroupDocs.Metadata Product Family']
 ---

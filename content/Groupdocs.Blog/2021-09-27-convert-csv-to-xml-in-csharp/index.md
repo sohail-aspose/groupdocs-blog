@@ -4,12 +4,7 @@ date: Mon, 27 Sep 2021 12:59:00 +0000
 draft: false
 url: /2021/09/27/convert-csv-to-xml-in-csharp/
 author: 'Shoaib Khan'
-summary: 'CSV and XML are among the most popular file formats used by developers. These formats are normally used to store and exchange data within and between applications. It is often required to convert one format into another before storing or transmitting the information. In this article, you will find **how to programmatically convert the CSV (comma-separated values) file into XML format using C#**.
-
-The article will cover the following topics:
-
-*   .NET API - CSV to XML Conversion
-*   How to Convert CSV to XML in C#'
+summary: 'CSV and XML are among the most popular file formats used by developers. These formats are normally used to store and exchange data within and between applications. It is often required to convert one format into another before storing or transmitting the information. In this article, you will find **how to programmatically convert the CSV (comma-separated values) file into XML format using C#**.'
 tags: ['Convert CSV to XML', 'Convert CSV to XML in CSharp', 'CSV to XML', 'CSV to XML in CSharp', ]
 categories: ['GroupDocs.Conversion Product Family']
 ---

@@ -4,9 +4,7 @@ date: Sat, 20 Mar 2021 10:45:45 +0000
 draft: false
 url: /2021/03/20/generate-reports-from-json-data-in-csharp/
 author: 'Shoaib Khan'
-summary: 'This article addresses the problem of formatting raw JSON data into a presentable and easily understandable report format within the .NET application. We will be **converting the JSON data into PDF and DOCX reports in C#** using simple templates.
-
-[Continue Reading ...](https://blog.groupdocs.com/2021/03/20/generate-reports-from-json-data-in-csharp/)'
+summary: 'This article addresses the problem of formatting raw JSON data into a presentable and easily understandable report format within the .NET application. We will be **converting the JSON data into PDF and DOCX reports in C#** using simple templates.'
 tags: ['Convert JSON to PDF in CSharp', 'Generate PDF report from JSON', 'Generate PDF Report in CSharp', 'JSON to PDF using Template in CSharp']
 categories: ['GroupDocs.Assembly Product Family']
 ---

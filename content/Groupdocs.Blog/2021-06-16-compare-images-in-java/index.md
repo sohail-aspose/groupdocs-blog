@@ -4,14 +4,7 @@ date: Wed, 16 Jun 2021 14:07:12 +0000
 draft: false
 url: /2021/06/16/compare-images-in-java/
 author: 'Shoaib Khan'
-summary: 'Worried! What is the difference? **Better automate the photo comparison.** In this article, we will discuss how to programmatically find differences between two images. After going through this, you will easily compare any images and highlight the identified differences using Java.
-
-The following topics are covered below:
-
-*   Java API for Comparing Images
-*   Compare Images in Java to Highlight Differences
-
-[Continue Reading ...](https://blog.groupdocs.com/2021/06/16/compare-images-in-java/)'
+summary: 'Worried! What is the difference? **Better automate the photo comparison.** In this article, we will discuss how to programmatically find differences between two images. After going through this, you will easily compare any images and highlight the identified differences using Java.'
 tags: ['compare images in java', 'compare jpg in java', 'compare png in java', 'Image Comparison', 'Image Comparison Java API']
 categories: ['GroupDocs.Comparison Product Family']
 ---

@@ -4,16 +4,7 @@ date: Sat, 07 Aug 2021 08:09:00 +0000
 draft: false
 url: /2021/08/07/build-full-text-search-solution-in-java/
 author: 'Shoaib Khan'
-summary: 'Full-text search is a way to search a text/query within a collection of documents. This approach quickly finds all instances of a term/phrase and it works by using text indexes. In this article, we will learn how to programmatically search full-text in documents using Java.
-
-After this, you can implement various search techniques and build your search solution for word-processing documents, spreadsheets, presentations, HTML files, PDF files, eBooks, email messages, ZIP archives, and many other [document formats](https://docs.groupdocs.com/search/java/supported-document-formats/).
-
-The following topics are covered in this article:
-
-*   Java API for Full-Text Search
-*   Full-Text Search
-*   Perform Search in Java
-*   Highlight Search Results'
+summary: 'Full-text search is a way to search a text/query within a collection of documents. This approach quickly finds all instances of a term/phrase and it works by using text indexes. In this article, we will learn how to programmatically search full-text in documents using Java.'
 tags: ['find in files and folder using Java', 'full text search', 'Full Text Search in Java', 'search via indexing']
 categories: ['GroupDocs.Search Product Family']
 ---

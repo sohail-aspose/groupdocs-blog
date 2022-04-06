@@ -4,15 +4,7 @@ date: Mon, 10 May 2021 08:20:00 +0000
 draft: false
 url: /2021/05/10/xmp-and-exif-data-of-heif-heic-images-using-java/
 author: 'Shoaib Khan'
-summary: '**HEIC** stands for High-Efficiency Image Container. It is the file extension for the captured images for some of the apple devices. It is a container that can contain High-Efficiency Image Format **HEIF** images. In this article, we will discuss **how to extract, update, and remove the EXIF and XMP metadata of the HEIF/HEIC images** within Java applications.
-
-The following topics are covered in this article:
-
-*   Metadata Java API for EXIF, XMP data
-*   Read EXIF Data of HEIC/HEIF Images
-*   Read XMP data of HEIC/HEIF Images
-
-[Continue Reading ...](https://blog.groupdocs.com/2021/05/10/xmp-and-exif-data-of-heif-heic-images-using-java)'
+summary: '**HEIC** stands for High-Efficiency Image Container. It is the file extension for the captured images for some of the apple devices. It is a container that can contain High-Efficiency Image Format **HEIF** images. In this article, we will discuss **how to extract, update, and remove the EXIF and XMP metadata of the HEIF/HEIC images** within Java applications.'
 tags: ['exif data', 'exif data in Java', 'exif data of heic in java', 'XMP data in Java', 'xmp data of heic in java', 'XMP metadata']
 categories: ['GroupDocs.Metadata Product Family']
 ---

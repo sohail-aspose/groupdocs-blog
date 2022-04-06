@@ -4,14 +4,7 @@ date: Sun, 03 Oct 2021 07:50:04 +0000
 draft: false
 url: /2021/10/03/find-synonyms-in-multiple-files-using-java/
 author: 'Shoaib Khan'
-summary: 'We recently have discussed, [how to get all the synonyms of any word](https://blog.groupdocs.com/2021/09/30/find-synonyms-of-words-using-java/). It would be wonderful if we could locate these synonyms within many different documents. In this article, we will see **how to search any word and its synonyms in multiple files using Java**.
-
-The following are the topics covered in this article:
-
-*   Java API – Synonym Search
-*   Find synonyms in documents in Java
-*   Present synonym search results
-*   Complete Java code – Search & print synonyms search results'
+summary: 'We recently have discussed, [how to get all the synonyms of any word](https://blog.groupdocs.com/2021/09/30/find-synonyms-of-words-using-java/). It would be wonderful if we could locate these synonyms within many different documents. In this article, we will see **how to search any word and its synonyms in multiple files using Java**.'
 tags: ['Find in Files', 'Find in Files using Java', 'Find Synonyms', 'Find Synonyms in Java', 'Search Synonyms', 'Search Synonyms in Java']
 categories: ['GroupDocs.Search Product Family']
 ---

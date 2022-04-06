@@ -4,15 +4,7 @@ date: Sun, 13 Jun 2021 05:49:00 +0000
 draft: false
 url: /2021/06/13/merge-multiple-file-types-using-java/
 author: 'Shoaib Khan'
-summary: 'Merging different documents is often required when you intend to gather the scattered data of different documents into one single file. In this article, you will learn to automate the documents merging process. This will show how to programmatically merge multiple documents of either the same or different file types into one file using Java. In another post, we discussed [merging multiple files of different formats using C#](https://blog.groupdocs.com/2021/05/04/merge-multiple-file-types-using-csharp/).
-
-The following topics are covered in this article:
-
-*   Java API - Merge Multiple Files
-*   Merge PDF, Word, Excel files into one PDF
-*   Merge Selective Pages of Multiple files into One File
-
-[Continue Reading ...](https://blog.groupdocs.com/2021/06/13/merge-multiple-file-types-using-java/)'
+summary: 'Merging different documents is often required when you intend to gather the scattered data of different documents into one single file. In this article, you will learn to automate the documents merging process. This will show how to programmatically merge multiple documents of either the same or different file types into one file using Java. In another post, we discussed [merging multiple files of different formats using C#](https://blog.groupdocs.com/2021/05/04/merge-multiple-file-types-using-csharp/).'
 tags: ['Merge Documents in Java', 'Merge Files in Java', 'Merge multiple file types in Java', 'Merge two or more file in Java']
 categories: ['GroupDocs.Merger Product Family']
 ---

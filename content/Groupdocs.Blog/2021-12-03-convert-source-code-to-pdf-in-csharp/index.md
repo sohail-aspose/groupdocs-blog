@@ -4,12 +4,7 @@ date: Fri, 03 Dec 2021 17:19:00 +0000
 draft: false
 url: /2021/12/03/convert-source-code-to-pdf-in-csharp/
 author: 'Shoaib Khan'
-summary: 'You sometimes need to convert the source code files to other formats. It may be for sharing or analysis purposes. This article discusses **how to convert Python**, PHP, Java, C#, C/C++** source code files to PDF** format within the .NET applications. Furthermore, we will programmatically password-protect the converted files.
-
-*   Source Code Conversion .NET API
-*   Java to PDF using C#
-*   Python to PDF using C#
-*   PHP to PDF - Protect the PDF file'
+summary: 'You sometimes need to convert the source code files to other formats. It may be for sharing or analysis purposes. This article discusses **how to convert Python**, PHP, Java, C#, C/C++** source code files to PDF** format within the .NET applications. Furthermore, we will programmatically password-protect the converted files.'
 tags: ['Convert Source Code to PDF in CSharp', 'document rendering API', 'Java to PDF', 'PHP to PDF', 'Python Code to PDF', 'Source Code to PDF', 'source code viewer']
 categories: ['GroupDocs.Viewer Product Family']
 ---

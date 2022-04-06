@@ -4,13 +4,7 @@ date: Thu, 30 Sep 2021 14:17:00 +0000
 draft: false
 url: /2021/09/30/find-synonyms-of-words-using-java/
 author: 'Shoaib Khan'
-summary: 'Avoid the repetition of the same word; use **Synonyms** (two different words that mean the same). What if you need to find all such synonyms of any word programmatically? This article guides you on how to find out all the synonyms of any word using Java. Similarly, a single word could have multiple meanings. We will see how the synonyms can be grouped according to different meanings of that same word.
-
-The following topics will be covered in this article:
-
-*   Java API – Find Synonyms
-*   Get synonyms of any word in Java
-*   Get synonyms – Grouped by different meanings'
+summary: 'Avoid the repetition of the same word; use **Synonyms** (two different words that mean the same). What if you need to find all such synonyms of any word programmatically? This article guides you on how to find out all the synonyms of any word using Java. Similarly, a single word could have multiple meanings. We will see how the synonyms can be grouped according to different meanings of that same word.'
 tags: ['Find Synonyms', 'Find Synonyms in Java', 'Search Synonyms', 'Search Synonyms in Java', 'Synonyms in Java']
 categories: ['GroupDocs.Search Product Family']
 ---

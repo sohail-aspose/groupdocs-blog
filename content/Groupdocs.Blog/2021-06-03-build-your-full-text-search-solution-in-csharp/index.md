@@ -4,16 +4,7 @@ date: Thu, 03 Jun 2021 00:20:00 +0000
 draft: false
 url: /2021/06/03/build-your-full-text-search-solution-in-csharp/
 author: 'Shoaib Khan'
-summary: 'Full-text search is basically a more advanced way to search a text/query over a collection of documents. This approach quickly finds all instances of a term and it works by using text indexes. In this article, we will learn, how to programmatically search full-text in documents using C#.
-
-The following topics are discussed in this article:
-
-*   .NET API for Full-Text Search
-*   Full-Text Search
-*   Perform Search in C#
-*   Highlight Search Results
-
-[Continue Reading ...](https://blog.groupdocs.com/2021/06/03/build-your-full-text-search-solution-in-csharp/)'
+summary: 'Full-text search is basically a more advanced way to search a text/query over a collection of documents. This approach quickly finds all instances of a term and it works by using text indexes. In this article, we will learn, how to programmatically search full-text in documents using C#.'
 tags: ['full text search', 'Full Text Search Csharp', ]
 categories: ['GroupDocs.Search Product Family']
 ---

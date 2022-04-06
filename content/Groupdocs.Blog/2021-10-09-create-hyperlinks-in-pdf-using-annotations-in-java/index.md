@@ -4,12 +4,7 @@ date: Sat, 09 Oct 2021 15:29:53 +0000
 draft: false
 url: /2021/10/09/create-hyperlinks-in-pdf-using-annotations-in-java/
 author: 'Shoaib Khan'
-summary: 'Link annotations are used to create any part of the document as hyperlink. In other words, it allows us to associate external data with the specified area of the document. We can add these link annotations to documents within Java applications. In this article, you will learn **how to create hyperlinks in PDF files using Java**.
-
-The following topics are covered in this article:
-
-*   Java API to Add Hyperlinks in PDF files
-*   How to Programmatically Create Hyperlinks in PDF'
+summary: 'Link annotations are used to create any part of the document as hyperlink. In other words, it allows us to associate external data with the specified area of the document. We can add these link annotations to documents within Java applications. In this article, you will learn **how to create hyperlinks in PDF files using Java**.'
 tags: ['annotate PDF', 'Annotate PDF in Java', 'Create Hyperlink in PDF', 'Link Annotation', 'Link Annotation in Java', 'Link Annotation in PDF']
 categories: ['GroupDocs.Annotation Product Family']
 ---

@@ -4,12 +4,7 @@ date: Sat, 16 Oct 2021 01:00:00 +0000
 draft: false
 url: /2021/10/16/create-hyperlinks-in-pdf-using-annotations-in-csharp/
 author: 'Shoaib Khan'
-summary: 'Hyperlinks are normally used to associate external data to any specified area of the document. We can transform any part of the documents to hyperlinks using the link annotations. As a programmer, you can add these link annotations to documents within your .NET applications. In this article, we are going to discuss that **how to create hyperlinks in PDF files using C#**.
-
-The following topics are covered in this article:
-
-*   .NET API to Add Hyperlinks in PDF files
-*   How to Programmatically Create Hyperlinks in PDF'
+summary: 'Hyperlinks are normally used to associate external data to any specified area of the document. We can transform any part of the documents to hyperlinks using the link annotations. As a programmer, you can add these link annotations to documents within your .NET applications. In this article, we are going to discuss that **how to create hyperlinks in PDF files using C#**.'
 tags: ['annotate PDF', 'Annotate PDF in CSharp', 'Create Hyperlink in PDF', 'Link Annotation', 'Link Annotation in CSharp', 'Link Annotation in PDF']
 categories: ['GroupDocs.Annotation Product Family']
 ---

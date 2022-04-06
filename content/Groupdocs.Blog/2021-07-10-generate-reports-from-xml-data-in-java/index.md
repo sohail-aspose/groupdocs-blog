@@ -4,13 +4,7 @@ date: Sat, 10 Jul 2021 10:01:00 +0000
 draft: false
 url: /2021/07/10/generate-reports-from-xml-data-in-java/
 author: 'Shoaib Khan'
-summary: '**XML** is an e**X**tensive **M**arkup **L**anguage that is self-descriptive, W3C Recommended, and designed to store and transport data. After receiving the data in XML format, as a developer, you can convert it into any other better human-readable format like PDF or MS Word document. This article will guide you to convert XML data into PDF and MS Word reports in Java using simple templates.
-
-The following topics are discussed in this article:
-
-*   Java API for Generating Reports
-*   PDF Report from XML Data using Java
-*   MS Word DOC/DOCX Report from XML Data using Java'
+summary: '**XML** is an e**X**tensive **M**arkup **L**anguage that is self-descriptive, W3C Recommended, and designed to store and transport data. After receiving the data in XML format, as a developer, you can convert it into any other better human-readable format like PDF or MS Word document. This article will guide you to convert XML data into PDF and MS Word reports in Java using simple templates.'
 tags: ['Convert XML to DOCX in Java', 'Convert XML to PDF in Java', 'Generate PDF Report from XML', 'Generate Reports in Java', 'XML to DOCX in Java', 'XML to PDF in Java']
 categories: ['GroupDocs.Assembly Product Family']
 ---

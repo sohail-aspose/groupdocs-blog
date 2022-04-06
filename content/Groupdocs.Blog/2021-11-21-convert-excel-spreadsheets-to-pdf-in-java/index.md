@@ -4,15 +4,7 @@ date: Sun, 21 Nov 2021 07:32:11 +0000
 draft: false
 url: /2021/11/21/convert-excel-spreadsheets-to-pdf-in-java/
 author: 'Shoaib Khan'
-summary: 'When we want to share the data in worksheets that do not require editing, we often convert such Excel workbooks or specific sheets to PDF format. In this article, we will learn **4 different ways of converting Excel spreadsheets into PDF format in Java** using the document conversion API.
-
-Some of the possible ways to convert the spreadsheets are discussed in this article.
-
-*   Java API for Excel Files to PDF Conversion
-*   Convert All Sheets to PDF
-*   Continuous Number of Excel Sheets to PDF Conversion
-*   Specific List of Excel Sheets to PDF Conversion
-*   Convert Selected Cell Range from Excel Sheet to PDF'
+summary: 'When we want to share the data in worksheets that do not require editing, we often convert such Excel workbooks or specific sheets to PDF format. In this article, we will learn **4 different ways of converting Excel spreadsheets into PDF format in Java** using the document conversion API.'
 tags: ['Convert Excel in Java', 'Convert Excel to PDF', 'Convert Excel to PDF in Java', 'convert to PDF in java', 'Excel to PDF', 'Excel to PDF in Java', ]
 categories: ['GroupDocs.Conversion Product Family']
 ---

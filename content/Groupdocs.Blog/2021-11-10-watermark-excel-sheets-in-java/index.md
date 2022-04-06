@@ -4,14 +4,7 @@ date: Wed, 10 Nov 2021 14:04:00 +0000
 draft: false
 url: /2021/11/10/watermark-excel-sheets-in-java/
 author: 'Shoaib Khan'
-summary: 'Watermarks can be added to the documents either to protect the document from piracy, or to show any sumbol or message. In other posts, we discussed ways to watermark different [documents](https://blog.groupdocs.com/2021/06/26/add-watermark-to-pdf-in-java/), [images](https://blog.groupdocs.com/2020/09/15/add-watermark-to-images-in-java/), and [presentations](https://blog.groupdocs.com/2021/06/09/watermark-presentation-slides-using-java/). In this article, you will learn **how to add watermark to Excel workbooks in different ways in Java**. We will be applyling watermarks separately using each approach.
-
-The following topics are covered in this article:
-
-*   Watermarking API for Java
-*   Add **Text Watermark** to Excel Sheets
-*   Apply Watermark to **Specific Excel Sheet**
-*   Add Watermark to Excel Sheet **as Background**'
+summary: 'Watermarks can be added to the documents either to protect the document from piracy, or to show any sumbol or message. In other posts, we discussed ways to watermark different [documents](https://blog.groupdocs.com/2021/06/26/add-watermark-to-pdf-in-java/), [images](https://blog.groupdocs.com/2020/09/15/add-watermark-to-images-in-java/), and [presentations](https://blog.groupdocs.com/2021/06/09/watermark-presentation-slides-using-java/). In this article, you will learn **how to add watermark to Excel workbooks in different ways in Java**. We will be applyling watermarks separately using each approach.'
 tags: ['add watermark in java', 'how to add watermark in Java', 'watermark excel', 'watermark excel sheets in Java', 'watermarking API for Java']
 categories: ['GroupDocs.Watermark Product Family']
 ---

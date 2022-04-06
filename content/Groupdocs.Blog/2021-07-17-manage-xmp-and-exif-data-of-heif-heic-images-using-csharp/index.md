@@ -4,13 +4,7 @@ date: Sat, 17 Jul 2021 17:58:00 +0000
 draft: false
 url: /2021/07/17/manage-xmp-and-exif-data-of-heif-heic-images-using-csharp/
 author: 'Shoaib Khan'
-summary: '**HEIC** (High-Efficiency Image Container) is a container that can contain High-Efficiency Image Format **HEIF** images. **XMP** is an XML-based metadata standard, that can store metadata properties as name/value pairs. However, **EXIF** (Exchangeable Image File Format) is the standard and defines how to store metadata properties in the most common images and audio formats.  In this article, we will learn **how to extract, update, and remove the XMP and EXIP metadata of the HEIF/HEIC images** using C# within .NET applications.
-
-The following topics are covered in this article:
-
-*   .NET API for EXIF, XMP Metadata
-*   Read EXIF Data of HEIC/HEIF Images
-*   Read XMP data of HEIC/HEIF Images'
+summary: '**HEIC** (High-Efficiency Image Container) is a container that can contain High-Efficiency Image Format **HEIF** images. **XMP** is an XML-based metadata standard, that can store metadata properties as name/value pairs. However, **EXIF** (Exchangeable Image File Format) is the standard and defines how to store metadata properties in the most common images and audio formats.  In this article, we will learn **how to extract, update, and remove the XMP and EXIP metadata of the HEIF/HEIC images** using C# within .NET applications.'
 tags: ['exif data', 'exif data in CSharp', 'EXIF data of HEIC in CSharp', 'XMP data in CSharp', 'XMP data of HEIC in CSharp', 'XMP metadata']
 categories: ['GroupDocs.Metadata Product Family']
 ---

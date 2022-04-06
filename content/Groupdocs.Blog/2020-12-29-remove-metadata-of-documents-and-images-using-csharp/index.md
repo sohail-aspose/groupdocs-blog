@@ -4,9 +4,7 @@ date: Tue, 29 Dec 2020 14:14:00 +0000
 draft: false
 url: /2020/12/29/remove-metadata-of-documents-and-images-using-csharp/
 author: 'Shoaib Khan'
-summary: 'Today we are about to learn some ways to **programmatically remove or entirely clean metadata of documents as well as images using C#**. In an [earlier post](https://blog.groupdocs.com/2020/12/17/remove-metadata-from-documents-and-images-using-java/), we discussed removing the selective as well as all the available metadata properties from documents and images using Java. It is sometimes important to hide personal information from the receiver, that is attached to the document. Following are the topics that will help you clean your files from metadata using C#.
-
-[Continue Reading ...](https://blog.groupdocs.com/2020/12/29/remove-metadata-of-documents-and-images-using-csharp/)'
+summary: 'Today we are about to learn some ways to **programmatically remove or entirely clean metadata of documents as well as images using C#**. In an [earlier post](https://blog.groupdocs.com/2020/12/17/remove-metadata-from-documents-and-images-using-java/), we discussed removing the selective as well as all the available metadata properties from documents and images using Java. It is sometimes important to hide personal information from the receiver, that is attached to the document. Following are the topics that will help you clean your files from metadata using C#.'
 tags: ['metadata cleaner using csharp', 'remove metadata from documents in csharp', 'remove metadata from images in csharp', 'remove metadata using csharp']
 categories: ['GroupDocs.Metadata Product Family']
 ---

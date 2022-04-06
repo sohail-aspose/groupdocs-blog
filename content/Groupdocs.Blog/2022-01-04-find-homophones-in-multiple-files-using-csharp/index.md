@@ -4,13 +4,7 @@ date: Tue, 04 Jan 2022 10:54:00 +0000
 draft: false
 url: /2022/01/04/find-homophones-in-multiple-files-using-csharp/
 author: 'Shoaib Khan'
-summary: 'Words that sound the same but are different in meanings or spellings are **Homophones**. Whereas, the words that spell the same, but differ in meaning or pronunciation are **Homographs**. **Homonyms** can either be homophone or homograph; or both. Let us not confuse and automate it. In this article, you will learn **how to search homophones within multiple documents using C#**.
-
-The following topics will be covered in this article:
-
-*   .NET API - Homophone Search
-*   Find homophones in documents using C#
-*   Manage homophone dictionary'
+summary: 'Words that sound the same but are different in meanings or spellings are **Homophones**. Whereas, the words that spell the same, but differ in meaning or pronunciation are **Homographs**. **Homonyms** can either be homophone or homograph; or both. Let us not confuse and automate it. In this article, you will learn **how to search homophones within multiple documents using C#**.'
 tags: ['Find Homophones', 'Find Homophones in CSharp', 'Find Homophones in Files', 'Homophones']
 categories: ['GroupDocs.Search Product Family']
 ---

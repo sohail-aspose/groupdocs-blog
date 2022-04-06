@@ -4,7 +4,7 @@ date: Fri, 26 Nov 2021 09:36:00 +0000
 draft: false
 url: /2021/11/26/watermark-password-protected-documents-in-java/
 author: 'Shoaib Khan'
-summary: ''
+summary: 'Watermarks can be used to protect the content and claim ownership of your documents. Similarly, these can also be used for branding or labelling your documents as drafts. This article discusses **how to add watermarks to the password-protected files** in Java. We will add text, as well as image watermarks to the protected files using code examples.'
 tags: ['Document Watermarking', 'Watermark Protected Documents using Java', 'Watermark Protected Files', 'Watermark Protected Files using Java', 'watermark using java', 'watermarking API for Java']
 categories: ['GroupDocs.Watermark Product Family']
 ---

@@ -4,13 +4,7 @@ date: Sat, 04 Dec 2021 15:37:01 +0000
 draft: false
 url: /2021/12/04/add-wavy-underline-in-documents-using-csharp/
 author: 'Shoaib Khan'
-summary: 'Squiggly underlines are normally used to show inconsistencies in the document. We are quite familiar with these lines as Microsoft Word uses red squiggly underlines to indicate spelling mistakes and blue squiggly/wavy underlines for formatting issues. We can also add such underline annotations in documents programmatically. In this article, we will learn **how to add wavy underlines in Word, PDF, PPT, and other documents using C#**.
-
-The following topics are discussed below:
-
-*   .NET API for Wavy Underline / Squiggly Annotation
-*   Add Wavy Underline to Text in Word - Squiggly Annotation
-*   Add Wavy Underline to Text in PDF, PPT, and Other Documents'
+summary: 'Squiggly underlines are normally used to show inconsistencies in the document. We are quite familiar with these lines as Microsoft Word uses red squiggly underlines to indicate spelling mistakes and blue squiggly/wavy underlines for formatting issues. We can also add such underline annotations in documents programmatically. In this article, we will learn **how to add wavy underlines in Word, PDF, PPT, and other documents using C#**.'
 tags: ['Annotation in CSharp', 'Squiggly Annotation in CSharp', 'Squiggly Underline in Word', 'Wavy Underline in CSharp', 'Wavy Underline in Word']
 categories: ['GroupDocs.Annotation Product Family']
 ---

@@ -4,9 +4,7 @@ date: Wed, 09 Dec 2020 15:43:10 +0000
 draft: false
 url: /2020/12/09/parse-and-extract-data-from-pdf-forms-in-java/
 author: 'Shoaib Khan'
-summary: 'In this article, we will discuss **how to parse PDF document and extract values from PDF forms programmatically in Java**. There are many situations, where we have several filled survey forms or feedbacks in PDF format from a large audience. We can easily extract the filled data values and use them for analysis. Let us now move straight towards reading these PDF forms and extract filled data field values within Java applications.
-
-[Continue Reading](https://blog.groupdocs.com/2020/12/09/parse-and-extract-data-from-pdf-forms-in-java/)'
+summary: 'In this article, we will discuss **how to parse PDF document and extract values from PDF forms programmatically in Java**. There are many situations, where we have several filled survey forms or feedbacks in PDF format from a large audience. We can easily extract the filled data values and use them for analysis. Let us now move straight towards reading these PDF forms and extract filled data field values within Java applications.'
 tags: ['Extract Text from PDF Forms', 'Extract Text from PDF Forms in Java', 'Parse PDF Forms in Java']
 categories: ['GroupDocs.Parser Product Family']
 ---

@@ -4,13 +4,7 @@ date: Wed, 11 Aug 2021 17:05:00 +0000
 draft: false
 url: /2021/08/11/generate-barcode-in-java-to-sign-documents-and-images/
 author: 'Shoaib Khan'
-summary: 'Barcoding is one of the ways to present the data in a machine-readable format. Barcodes are normally used as the identification for a large number of items. In this article, you will learn **how to generate barcodes in Java**. Further, you will see, how the generated barcodes can be applied to any of your **documents as well as images** using Java Signature API within your applications.
-
-The following topics are covered in this article:
-
-*   Barcode Generator API for Java
-*   Apply Barcode to documents in Java
-*   Apply Barcode to images in Java'
+summary: 'Barcoding is one of the ways to present the data in a machine-readable format. Barcodes are normally used as the identification for a large number of items. In this article, you will learn **how to generate barcodes in Java**. Further, you will see, how the generated barcodes can be applied to any of your **documents as well as images** using Java Signature API within your applications.'
 tags: ['Add Barcode in Java', 'Apply Barcode to Images in Java', 'eSigning with Java', 'Generate Barcode in Java', 'Sign Documents in Java', 'Sign Documents with Barcode in Java', 'Sign Images with Barcode in Java']
 categories: ['GroupDocs.Signature Product Family']
 ---

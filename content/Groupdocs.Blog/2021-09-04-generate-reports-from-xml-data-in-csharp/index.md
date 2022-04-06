@@ -4,13 +4,7 @@ date: Sat, 04 Sep 2021 17:18:55 +0000
 draft: false
 url: /2021/09/04/generate-reports-from-xml-data-in-csharp/
 author: 'Shoaib Khan'
-summary: '**XML** is a W3C Recommended, self-descriptive language that is designed to store and transport data. A developer can change the XML format into any other better human-readable format like PDF or MS Word document within the .NET application. This article will discuss how to convert XML data into PDF and MS Word reports using C# using simple templates.
-
-The following topics are discussed in this article:
-
-*   .NET API for Generating Reports
-*   Generate PDF Report from XML Data using C#
-*   Generate MS Word DOC/DOCX Report from XML Data using C#'
+summary: '**XML** is a W3C Recommended, self-descriptive language that is designed to store and transport data. A developer can change the XML format into any other better human-readable format like PDF or MS Word document within the .NET application. This article will discuss how to convert XML data into PDF and MS Word reports using C# using simple templates.'
 tags: ['Convert XML to DOCX in CSharp', 'Convert XML to PDF in CSharp', 'Generate PDF Report from XML', 'generate reports in csharp', 'XML to DOCX in CSharp', 'XML to PDF in CSharp']
 categories: ['GroupDocs.Assembly Product Family']
 ---

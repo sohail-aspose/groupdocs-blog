@@ -4,13 +4,7 @@ date: Fri, 18 Jun 2021 12:25:49 +0000
 draft: false
 url: /2021/06/18/convert-json-and-csv-in-csharp/
 author: 'Shoaib Khan'
-summary: '**JSON** (JavaScript Object Notation) is a human-readable structured data format. It is widely used in APIs, applications, and configurations for storing and passing the data. **CSV** contains the comma-separated values, normally used to store tabular data that can be perfectly displayed using spreadsheet applications like MS Excel. To transfer the tabular data or store the received structured data into tabular form, requires converting formats into one another. This article discusses the conversion of **JSON to CSV** format and **CSV to JSON** format programmatically **using C#** for your .NET applications.
-
-The following topics are covered in this article:
-
-*   .NET API for JSON and CSV Conversion
-*   JSON to CSV Conversion
-*   CSV to JSON Conversion'
+summary: '**JSON** (JavaScript Object Notation) is a human-readable structured data format. It is widely used in APIs, applications, and configurations for storing and passing the data. **CSV** contains the comma-separated values, normally used to store tabular data that can be perfectly displayed using spreadsheet applications like MS Excel. To transfer the tabular data or store the received structured data into tabular form, requires converting formats into one another. This article discusses the conversion of **JSON to CSV** format and **CSV to JSON** format programmatically **using C#** for your .NET applications.'
 tags: ['Convert CSV in CSharp', 'Convert JSON in CSharp', 'CSV to JSON in CSharp', 'JSON to CSV in CSharp']
 categories: ['GroupDocs.Conversion Product Family']
 ---

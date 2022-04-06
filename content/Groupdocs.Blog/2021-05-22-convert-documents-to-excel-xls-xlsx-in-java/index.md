@@ -4,16 +4,7 @@ date: Sat, 22 May 2021 18:39:23 +0000
 draft: false
 url: /2021/05/22/convert-documents-to-excel-xls-xlsx-in-java/
 author: 'Shoaib Khan'
-summary: 'For the data in tabular form of your PDF and Word documents, you sometimes need to convert it to Excel spreadsheets. We need to automate this conversion of as many documents to spreadsheets or multiple workbooks. This article will discuss how to programmatically convert Word documents to Excel and also how to convert PDF files to Excel spreadsheets in Java.
-
-The following are the topics discussed briefly in this article:
-
-*   Java API - Documents to Spreadsheets Conversion
-*   Convert PDF to Excel Spreadsheet
-*   Convert Word to Excel Spreadsheet
-*   PDF or Word to Spreadsheet conversion with more options
-
-[Continue Reading ...](https://blog.groupdocs.com/2021/05/22/convert-documents-to-excel-xls-xlsx-in-java)'
+summary: 'For the data in tabular form of your PDF and Word documents, you sometimes need to convert it to Excel spreadsheets. We need to automate this conversion of as many documents to spreadsheets or multiple workbooks. This article will discuss how to programmatically convert Word documents to Excel and also how to convert PDF files to Excel spreadsheets in Java.'
 tags: ['Convert to Excel in Java', 'DOC to XLS in Java', 'DOCX to XLSX in Java', 'PDF to Excel in Java', 'Word to Excel in Java']
 categories: ['GroupDocs.Conversion Product Family']
 ---

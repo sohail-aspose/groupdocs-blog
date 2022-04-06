@@ -4,14 +4,7 @@ date: Sat, 27 Nov 2021 04:30:16 +0000
 draft: false
 url: /2021/11/27/password-protect-word-documents-using-csharp/
 author: 'Shoaib Khan'
-summary: 'Let us discuss how we can restrict the access to the Word documents by making them password protected. We have already learned to lock and unlock PDF, and PowerPoint files. In this article, we will see **how to password protect a Word document using C#**. Further, we will learn to **remove the password to unlock Word documents**, and lastly, **how to change the existing password of DOC & DOCX files** within the .NET applications.
-
-The following topics are discussed in this article:
-
-*   .NET API to Password Protect Word Documents
-*   Add Password to Word Document
-*   Change Password of Word Document
-*   How to Remove Password from Word Document'
+summary: 'Let us discuss how we can restrict the access to the Word documents by making them password protected. We have already learned to lock and unlock PDF, and PowerPoint files. In this article, we will see **how to password protect a Word document using C#**. Further, we will learn to **remove the password to unlock Word documents**, and lastly, **how to change the existing password of DOC & DOCX files** within the .NET applications.'
 tags: ['add password in csharp', 'Change Doc Password in C#', 'Lock Files in CSharp', 'Lock Word Files in CSharp', 'Remove Password in CSharp', 'Unlock Files in CSharp']
 categories: ['GroupDocs.Merger Product Family']
 ---

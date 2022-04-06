@@ -4,16 +4,7 @@ date: Tue, 13 Apr 2021 23:17:00 +0000
 draft: false
 url: /2021/04/13/convert-document-to-excel-xls-xlsx-in-csharp/
 author: 'Shoaib Khan'
-summary: 'If you have tabular data in PDF or Word documents format, you definitely need to convert it to Excel spreadsheets. This scenario becomes complex when there are many spreadsheets or multiple workbooks. You surely need to automate this procedure. In this article, we will see how to convert PDF to Excel and also how to convert Word documents to Excel spreadsheet programmatically in C# using .NET API.
-
-The following are the topics discussed briefly in this article:
-
-*   .NET API – Convert documents to spreadsheets
-*   Convert PDF to Excel
-*   Convert Word to Excel
-*   PDF or Word to Spreadsheet conversion with more options
-
-[Continue Reading ...](https://blog.groupdocs.com/2021/04/13/convert-document-to-excel-xls-xlsx-in-csharp/)'
+summary: 'If you have tabular data in PDF or Word documents format, you definitely need to convert it to Excel spreadsheets. This scenario becomes complex when there are many spreadsheets or multiple workbooks. You surely need to automate this procedure. In this article, we will see how to convert PDF to Excel and also how to convert Word documents to Excel spreadsheet programmatically in C# using .NET API.'
 tags: ['convert PDF to Excel in csharp', 'Convert Word to Excel in CSharp', 'document conversion', 'PDF to Excel in C#', 'Word to Excel in C#']
 categories: ['GroupDocs.Conversion Product Family']
 ---

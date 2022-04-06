@@ -4,15 +4,7 @@ date: Tue, 19 Oct 2021 14:41:58 +0000
 draft: false
 url: /2021/10/19/split-pdf-files-in-java/
 author: 'Shoaib Khan'
-summary: 'PDF is among the most famous file formats that support textual, graphical, and many other elements. One of the reasons for its popularity is its portability. In certain cases, you may need to split a large PDF file into multiple files. To address this programmatically, this article discusses different ways of **how to split PDF files in Java**.
-
-The following topics are covered in this article:
-
-*   Java API to Split PDF Files
-*   Split PDF into Multi-Page Files
-*   Split PDF into Multiple Single Pages Files
-*   Extract Pages from PDF Files by Range in Java
-*   Extract Pages from PDF Files using Even or Odd Filter in Java'
+summary: 'PDF is among the most famous file formats that support textual, graphical, and many other elements. One of the reasons for its popularity is its portability. In certain cases, you may need to split a large PDF file into multiple files. To address this programmatically, this article discusses different ways of **how to split PDF files in Java**.'
 tags: ['PDF Separator', 'Separate PDF', 'Split API', 'Split PDF', 'Split PDF Files', 'Split PDF in Java']
 categories: ['GroupDocs.Merger Product Family']
 ---

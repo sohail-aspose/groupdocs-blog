@@ -4,14 +4,7 @@ date: Fri, 26 Mar 2021 09:42:00 +0000
 draft: false
 url: /2021/03/26/edit-word-documents-in-csharp/
 author: 'Shoaib Khan'
-summary: 'The most common and widely used word-processing file formats that are supported by Microsoft Word and OpenOffice Writer are DOC, DOCX, and ODT. We normally use these formats for drafting the documents. Therefore, as a developer, we widely need to edit Word documents in our applications programmatically. In this article, we will discuss how to edit Word documents in C# using the .NET API for document editing.
-
-The following are the topics discussed briefly in this article:
-
-*   Word Documents Editing and Automation
-*   Edit Word Documents in C#
-
-[Continue Reading ...](https://blog.groupdocs.com/2021/03/26/edit-word-documents-in-csharp/)'
+summary: 'The most common and widely used word-processing file formats that are supported by Microsoft Word and OpenOffice Writer are DOC, DOCX, and ODT. We normally use these formats for drafting the documents. Therefore, as a developer, we widely need to edit Word documents in our applications programmatically. In this article, we will discuss how to edit Word documents in C# using the .NET API for document editing.'
 tags: ['Edit DOCX in CSharp', 'Edit in CSharp', 'Edit Word doc in CSharp', 'Word Editing .NET API']
 categories: ['GroupDocs.Editor Product Family']
 ---

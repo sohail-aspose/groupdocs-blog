@@ -4,13 +4,7 @@ date: Thu, 06 Jan 2022 05:27:00 +0000
 draft: false
 url: /2022/01/06/remove-mp3-tags-using-csharp/
 author: 'Shoaib Khan'
-summary: '[MP3](https://docs.fileformat.com/audio/mp3/) files could contain metadata of various standards. Sometimes you do not require certain metadata information. We can quickly remove these metadata MP3 tags programmatically. In this article, we will discuss **how to remove different MP3 tags using C#**. Precisely, we will learn to remove ID3v1, ID3v2, Lyrics, and APEv2 metadata tags from the mp3 files within the .NET application.
-
-The following topics are covered in this article:
-
-*   .NET API to Remove MP3 tags
-*   Remove MP3 ID3 Tags - ID3, Lyrics, APE
-*   C# Code Example'
+summary: '[MP3](https://docs.fileformat.com/audio/mp3/) files could contain metadata of various standards. Sometimes you do not require certain metadata information. We can quickly remove these metadata MP3 tags programmatically. In this article, we will discuss **how to remove different MP3 tags using C#**. Precisely, we will learn to remove ID3v1, ID3v2, Lyrics, and APEv2 metadata tags from the mp3 files within the .NET application.'
 tags: ['Remove APE', 'Remove Metadata in CSharp', 'Remove MP3 ID3', 'Remove MP3 Metadata', 'Remove MP3 Tags', 'Remove MP3 Tags in CSharp']
 categories: ['GroupDocs.Metadata Product Family']
 ---

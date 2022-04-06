@@ -4,13 +4,7 @@ date: Thu, 13 Jan 2022 06:28:19 +0000
 draft: false
 url: /2022/01/13/find-homophones-in-multiple-files-using-java/
 author: 'Shoaib Khan'
-summary: '**Synonyms** are words with similar meaning, and **Homophones** sounds the same but are different in meanings or spellings. We learned to [find synonyms in multiple documents using Java](https://blog.groupdocs.com/2021/10/03/find-synonyms-in-multiple-files-using-java/). Today, in this article, we will see **how to search homophones within multiple documents using Java**.
-
-The following topics are covered in this article:
-
-*   Java API - Homophone Search
-*   Find homophones in documents using Java
-*   Play with Homophone Search Result'
+summary: '**Synonyms** are words with similar meaning, and **Homophones** sounds the same but are different in meanings or spellings. We learned to [find synonyms in multiple documents using Java](https://blog.groupdocs.com/2021/10/03/find-synonyms-in-multiple-files-using-java/). Today, in this article, we will see **how to search homophones within multiple documents using Java**.'
 tags: ['Find Homophone in Java', 'Find Homophones', 'Find Homophones in Files', 'Homophones']
 categories: ['GroupDocs.Search Product Family']
 ---

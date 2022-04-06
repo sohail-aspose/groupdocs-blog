@@ -4,12 +4,7 @@ date: Wed, 08 Sep 2021 13:14:00 +0000
 draft: false
 url: /2021/09/08/extract-zip-files-data-in-java/
 author: 'Shoaib Khan'
-summary: 'ZIP Archives are one of the most popular and commonly used compressed file formats. The main reason for using ZIP files is to reduce the total file size and to send multiple files as a single archive. As a developer, you can extract the text, images, and even metadata from the files that are compressed within ZIP archives. In this article, we will discuss **how to extract the ZIP archives data in Java**.
-
-The following topics are covered in this article:
-
-*   Java API for ZIP files data extraction.
-*   How to extract ZIP files data using Java.'
+summary: 'ZIP Archives are one of the most popular and commonly used compressed file formats. The main reason for using ZIP files is to reduce the total file size and to send multiple files as a single archive. As a developer, you can extract the text, images, and even metadata from the files that are compressed within ZIP archives. In this article, we will discuss **how to extract the ZIP archives data in Java**.'
 tags: ['Extract Archives in Java', 'Extract from ZIP', 'Extract from ZIP in Java', 'unzip data in Java']
 categories: ['GroupDocs.Parser Product Family']
 ---

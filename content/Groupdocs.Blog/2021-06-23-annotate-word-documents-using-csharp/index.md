@@ -4,17 +4,7 @@ date: Wed, 23 Jun 2021 11:23:00 +0000
 draft: false
 url: /2021/06/23/annotate-word-documents-using-csharp/
 author: 'Shoaib Khan'
-summary: 'Forget to discuss documents content and feedbacks in long email threads. Simply use annotations to markup documents with messages and replies. In this article, you will learn how to programmatically add and remove annotations to markup Word documents in C# with your .NET applications.
-
-The following topics are discussed in this article:
-
-*   .NET API for Word DOC/DOCX Annotations
-*   Add Annotations to Word
-    *   Arrow annotations
-    *   Rectangle annotations
-    *   Ellipse or Oval annotations
-    *   Distance annotations
-*   Remove Annotations from Word Files'
+summary: 'Forget to discuss documents content and feedbacks in long email threads. Simply use annotations to markup documents with messages and replies. In this article, you will learn how to programmatically add and remove annotations to markup Word documents in C# with your .NET applications.'
 tags: ['Add Annotations in Word using CSharp', 'Annotate Word in CSharp', 'Remove Annotations from Word in C#']
 categories: ['GroupDocs.Annotation Product Family']
 ---

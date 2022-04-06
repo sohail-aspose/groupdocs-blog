@@ -4,14 +4,7 @@ date: Thu, 16 Dec 2021 16:44:27 +0000
 draft: false
 url: /2021/12/16/convert-source-code-to-pdf-in-java/
 author: 'Shoaib Khan'
-summary: 'If you want to share your code snippets, you can convert them into PDF format. In this article, we will discuss **how to convert Java, Python, C++, PHP source code to PDF** format within Java application. Additionally, we will also learn to password-protect the converted PDF files.
-
-The following topics are discussed in this article:
-
-*   Source Code Conversion Java API
-*   Java to PDF using Java
-*   Python to PDF using Java
-*   PHP to PDF - Protect the PDF file'
+summary: 'If you want to share your code snippets, you can convert them into PDF format. In this article, we will discuss **how to convert Java, Python, C++, PHP source code to PDF** format within Java application. Additionally, we will also learn to password-protect the converted PDF files.'
 tags: ['Convert Source Code to PDF in Java', 'Java to PDF', 'PHP to PDF', 'Python Code to PDF', 'Source Code to PDF']
 categories: ['GroupDocs.Viewer Product Family']
 ---

@@ -4,16 +4,7 @@ date: Sun, 20 Dec 2020 11:03:00 +0000
 draft: false
 url: /2020/12/20/add-watermark-to-images-using-csharp-dotnet/
 author: 'Shoaib Khan'
-summary: '
-
-{{< figure align=center src="images/text-watermark-on-png-using-java.png" alt="Add Text Watermark to PNG image using Java and .NET">}}
-
-
-Let us see today, how to add watermarks to images. This helps you branding your official photography, and protects your pictures from any unauthorized use. This article will guide you to **programmatically add text and images watermarks to your image files using C#**. In an earlier post, we have seen the same to [add text and image based watermarks to images using Java](https://blog.groupdocs.com/2020/09/15/add-watermark-to-images-in-java/). After reading this article, it will not be difficult for you to add watermarks to **JPG/JPEG, PNG, WebP, GIF, TIFF, JP2, BMP** images using C# within your .NET application.
-
-Let us now separately see, how we can easily add text and image-based watermarks on your pictures, photos, or image files in C# using the [.NET Watermarking API for documents and images](https://products.groupdocs.com/watermark/net).
-
-[Continue Reading ...](https://blog.groupdocs.com/2020/12/20/add-watermark-to-images-using-csharp-dotnet/)'
+summary: 'Let us see today, how to add watermarks to images. This helps you branding your official photography, and protects your pictures from any unauthorized use. This article will guide you to **programmatically add text and images watermarks to your image files using C#**. In an earlier post, we have seen the same to [add text and image based watermarks to images using Java](https://blog.groupdocs.com/2020/09/15/add-watermark-to-images-in-java/). After reading this article, it will not be difficult for you to add watermarks to **JPG/JPEG, PNG, WebP, GIF, TIFF, JP2, BMP** images using C# within your .NET application.'
 tags: ['add watermark in csharp', 'how to add watermark in csharp', 'watermark dotnet api', 'watermark images in csharp']
 categories: ['GroupDocs.Watermark Product Family']
 ---

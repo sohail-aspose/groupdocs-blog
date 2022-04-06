@@ -4,13 +4,7 @@ date: Wed, 18 Aug 2021 03:39:00 +0000
 draft: false
 url: /2021/08/18/convert-excel-xls-xlsx-and-csv-in-csharp/
 author: 'Shoaib Khan'
-summary: 'XLS and XLSX are the most used and well-known formats of MS Excel spreadsheets. You must be well aware of the enhanced capabilities and countless formatting options of Microsoft Office for these formats during this century. On the other hand, **CSV** files are the comma-separated-values, normally used to store tabular data without formatting. These files can be viewed in any text editor and also in MS Excel for tabular format. This article discusses the conversion of the Excel spreadsheets of **XLS/XLSX format into CSV** format and **CSV to XLS/XLSX **format programmatically **using C#**.
-
-The following topics are covered in this article:
-
-*   .NET API for XLS/XLSX and CSV Conversion
-*   Excel to CSV Conversion
-*   CSV to Excel Conversion'
+summary: 'XLS and XLSX are the most used and well-known formats of MS Excel spreadsheets. You must be well aware of the enhanced capabilities and countless formatting options of Microsoft Office for these formats during this century. On the other hand, **CSV** files are the comma-separated-values, normally used to store tabular data without formatting. These files can be viewed in any text editor and also in MS Excel for tabular format. This article discusses the conversion of the Excel spreadsheets of **XLS/XLSX format into CSV** format and **CSV to XLS/XLSX **format programmatically **using C#**.'
 tags: ['Convert XLS and CSV in C#', 'CSV to Excel', 'CSV to Excel in C#', 'CSV to XLSX in C#', 'Excel to CSV', 'Excel to CSV in C#', 'XLSX to CSV in C#']
 categories: ['GroupDocs.Conversion Product Family']
 ---

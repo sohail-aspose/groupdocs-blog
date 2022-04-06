@@ -4,15 +4,7 @@ date: Mon, 15 Mar 2021 15:01:00 +0000
 draft: false
 url: /2021/03/15/extract-images-from-ebooks-in-java/
 author: 'Shoaib Khan'
-summary: '**eBooks** of various formats are very common in everyday use. The eBook can contain text as well as images. If you want to use the images of any eBook elsewhere, you can get these easily extracted programmatically within your Java application. In this article, you will learn to automate, **how to extract images from eBook** files such as **EPUB, PDF, FB2, CHM** in **Java**.
-
-The following topics will be covered below:
-
-*   Java API - Image Extraction from eBooks
-*   Extract Images from EPUB eBook in Java
-*   Extract Images from PDF, FB2, CHM eBooks in Java
-
-[Continue Reading ...](https://blog.groupdocs.com/2021/03/15/extract-images-from-ebooks-in-java/)'
+summary: '**eBooks** of various formats are very common in everyday use. The eBook can contain text as well as images. If you want to use the images of any eBook elsewhere, you can get these easily extracted programmatically within your Java application. In this article, you will learn to automate, **how to extract images from eBook** files such as **EPUB, PDF, FB2, CHM** in **Java**.'
 tags: ['Extract Images from CHM in Java', 'Extract Images from eBooks in Java', 'Extract Images from FB2 in Java', 'extract images in Java', 'Parse eBooks in Java', 'Parse eBooks to Extract Images in Java']
 categories: ['GroupDocs.Parser Product Family']
 ---

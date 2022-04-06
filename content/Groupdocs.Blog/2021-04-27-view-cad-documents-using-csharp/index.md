@@ -4,17 +4,7 @@ date: Tue, 27 Apr 2021 20:23:00 +0000
 draft: false
 url: /2021/04/27/view-cad-documents-using-csharp/
 author: 'Shoaib Khan'
-summary: '**CAD** (**C**omputer-**A**ided **D**esign) drawings are normally used to create architectural plans and models using CAD software programs. Some of the well-known AutoCAD file formats are **DWG, DXF, DGN, DWF**. We discussed [viewing the CAD drawings using Java](https://blog.groupdocs.com/2021/04/05/viewing-cad-documents-using-java/) in a separate article. Today, in this article, we will discuss how to programmatically view CAD files using C# within .NET applications.
-
-The following topics are covered briefly in this article:
-
-*   .NET API to render CAD files.
-*   Convert CAD files to render as HTML, JPG, PNG, or PDF.
-*   Get layouts and layers of DWG.
-*   Render CAD layers of DWG drawings.
-*   Render CAD layouts of DWG drawings.
-
-[Continue Reading ...](https://blog.groupdocs.com/2021/04/27/view-cad-documents-using-charp/)'
+summary: '**CAD** (**C**omputer-**A**ided **D**esign) drawings are normally used to create architectural plans and models using CAD software programs. Some of the well-known AutoCAD file formats are **DWG, DXF, DGN, DWF**. We discussed [viewing the CAD drawings using Java](https://blog.groupdocs.com/2021/04/05/viewing-cad-documents-using-java/) in a separate article. Today, in this article, we will discuss how to programmatically view CAD files using C# within .NET applications.'
 tags: ['CAD Viewer in CSharp', 'Convert DWG to HTML in CSharp', 'Convert DWG to JPG in CSharp', 'DWG Viewer using CSharp', ]
 categories: ['GroupDocs.Viewer Product Family']
 ---

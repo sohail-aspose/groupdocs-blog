@@ -4,14 +4,7 @@ date: Fri, 17 Sep 2021 10:57:00 +0000
 draft: false
 url: /2021/09/17/find-synonyms-in-multiple-files-using-csharp/
 author: 'Shoaib Khan'
-summary: 'In an other article we have seen that what are synonyms, and how to get all the synonyms of any word. What about find these synonyms with in different documents. This article will guide you about how to search the synonyms of any specific query (word) in multiple files using C#.
-
-The following topics will be covered in this article:
-
-*   .NET API - Synonym Search
-*   Find synonyms in documents using C#
-*   Present synonym search results using C#
-*   Complete code - Search & print synonyms search results'
+summary: 'In an other article we have seen that what are synonyms, and how to get all the synonyms of any word. What about find these synonyms with in different documents. This article will guide you about how to search the synonyms of any specific query (word) in multiple files using C#.'
 tags: ['Find Synonyms', 'Find Synonyms in CSharp', 'Search Synonyms', 'Search Synonyms in CSharp', 'Search Synonyms in Files']
 categories: ['GroupDocs.Search Product Family']
 ---

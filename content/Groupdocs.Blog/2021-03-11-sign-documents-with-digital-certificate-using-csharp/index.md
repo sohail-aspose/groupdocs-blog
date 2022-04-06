@@ -4,9 +4,7 @@ date: Thu, 11 Mar 2021 07:36:00 +0000
 draft: false
 url: /2021/03/11/sign-documents-with-digital-certificate-using-csharp/
 author: 'Shoaib Khan'
-summary: 'The **digital signature** is a trustworthy scheme for verifying the authenticity of your documents. Digital signatures are often used to implement electronic signatures. In this article, you will learn how to electronically sign PDF and Word documents with digital certificates using C#.
-
-[Continue Reading ...](https://blog.groupdocs.com/2021/03/11/sign-documents-with-digital-certificate-using-csharp/)'
+summary: 'The **digital signature** is a trustworthy scheme for verifying the authenticity of your documents. Digital signatures are often used to implement electronic signatures. In this article, you will learn how to electronically sign PDF and Word documents with digital certificates using C#.'
 tags: ['Digital Certificate in CSharp', 'Digital Signature in CSharp', 'Sign PDF in CSharp', 'Sign with Digital Certificate in CSharp', 'Sign Word in CSharp']
 categories: ['GroupDocs.Signature Product Family']
 ---

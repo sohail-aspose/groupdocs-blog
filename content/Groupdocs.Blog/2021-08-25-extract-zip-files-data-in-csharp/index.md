@@ -4,12 +4,7 @@ date: Wed, 25 Aug 2021 12:43:51 +0000
 draft: false
 url: /2021/08/25/extract-zip-files-data-in-csharp/
 author: 'Shoaib Khan'
-summary: 'Archives like **ZIP, RAR, TAR, GZIP, BZIP2** are commonly used to store more than one file and folder in a single container. Another main reason for archive files is to reduce the total file size using compression algorithms. Just like parsing and extracting data from documents of various file formats, you can treat the archive files in the same way. You can extract the text, images, and even metadata from the files that are compressed within the archives. In this article, we will discuss **how to extract the ZIP archives data using C#** with your .NET applications.
-
-The following topics are covered in this article:
-
-*   .NET API for ZIP files data extraction
-*   How to extract ZIP files data'
+summary: 'Archives like **ZIP, RAR, TAR, GZIP, BZIP2** are commonly used to store more than one file and folder in a single container. Another main reason for archive files is to reduce the total file size using compression algorithms. Just like parsing and extracting data from documents of various file formats, you can treat the archive files in the same way. You can extract the text, images, and even metadata from the files that are compressed within the archives. In this article, we will discuss **how to extract the ZIP archives data using C#** with your .NET applications.'
 tags: ['Extract Archives in CSharp', 'Extract from ZIP in C#', 'unzip data in C#']
 categories: ['GroupDocs.Parser Product Family']
 ---

@@ -4,16 +4,7 @@ date: Wed, 19 May 2021 13:43:15 +0000
 draft: false
 url: /2021/05/19/convert-images-to-pdf-in-csharp/
 author: 'Shoaib Khan'
-summary: 'An Image can be converted to PDF to assure that the image will display correctly across devices without being altered. PDF images are ideal for printing and for storing images online when intended to be downloaded. PDF can hold as many images in one document so can be printed easily or saved as a catalog. This article will guide you to programmatically convert images like JPG, GIF, WebP, PNG to PDF in C# using .NET API for document and image conversion.
-
-The following topics are covered briefly in this article:
-
-*   Image Conversion .NET API
-*   Convert JPG images to PDF
-*   Convert PNG, GIF, BMP images to PDF
-*   Image to PDF conversion with advance options
-
-[Continue Reading ...](https://blog.groupdocs.com/2021/05/19/convert-images-to-pdf-in-csharp/)'
+summary: 'An Image can be converted to PDF to assure that the image will display correctly across devices without being altered. PDF images are ideal for printing and for storing images online when intended to be downloaded. PDF can hold as many images in one document so can be printed easily or saved as a catalog. This article will guide you to programmatically convert images like JPG, GIF, WebP, PNG to PDF in C# using .NET API for document and image conversion.'
 tags: ['Convert Images to PDF in CSharp', 'Convert JPG to PDF in CSharp', 'CSharp Image Conversion', 'JPG to PDF in CSharp', 'PNG to PDF in CSharp']
 categories: ['GroupDocs.Conversion Product Family']
 ---

@@ -4,7 +4,7 @@ date: Thu, 30 Apr 2020 14:41:00 +0000
 draft: false
 url: /2020/04/30/groupdocs-comparison-for-net-c-sharp-diff-library-for-comparing-text-files/
 author: 'Muhammad Sohail'
-summary: ''
+summary: 'The [GroupDocs.Comparison for .NET](https://products.groupdocs.com/comparison/net) is a C# library which allows you to compare documents and find differences. Compare and merge Microsoft Word, Excel, PowerPoint, OpenDocument, PDF, Text, HTML and [many other documents](https://docs.groupdocs.com/comparison/net), retrieve a list of changes between source and target document(s), apply or reject changes and save results with GroupDocs.Comparison API. In addition to this, GroupDocs.Comparison can identify styling and formatting changes - like bold, italic, underlines, strikethroughs, font types, etc.'
 tags: ['compare text files', 'diff view library', 'GroupDocs Comparison', ]
 categories: ['GroupDocs.Comparison Product Family']
 ---

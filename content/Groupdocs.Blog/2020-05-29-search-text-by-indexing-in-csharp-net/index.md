@@ -4,7 +4,7 @@ date: Fri, 29 May 2020 07:30:00 +0000
 draft: false
 url: /2020/05/29/search-text-by-indexing-in-csharp-net/
 author: 'Shoaib Khan'
-summary: ''
+summary: 'Using the .NET API, you can perform searching by parts and specify the number of search threads in C#. This feature will be more beneficial when you search text in large indexes that contain thousands of documents. Furthermore, you can now get the start & end time, and the total search time to get the search results.'
 tags: ['search in chunk', 'search text in csharp', 'search text in folders in csharp', 'search text in parts', 'text searching using csharp']
 categories: ['GroupDocs.Search Product Family']
 ---

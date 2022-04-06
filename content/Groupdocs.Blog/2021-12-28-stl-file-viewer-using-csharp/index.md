@@ -4,13 +4,7 @@ date: Tue, 28 Dec 2021 11:00:00 +0000
 draft: false
 url: /2021/12/28/stl-file-viewer-using-csharp/
 author: 'Shoaib Khan'
-summary: 'STL (STereoLithography) file format is used for 3D CAD drawings and 3D printing. There are several requirements when the developers are required to programmatically render STL files into various other formats. One of the reasons for conversion is better portability. In this article, you will learn how to render the STL files into PDF format using C#. Additionally, we will convert the STL files to HTML, JPG, and PNG format within .NET application using examples.
-
-The following topics are discussed in this article:
-
-*   STL Viewer .NET API
-*   View STL as PDF
-*   View STL as HTML, JPG, PNG'
+summary: 'STL (STereoLithography) file format is used for 3D CAD drawings and 3D printing. There are several requirements when the developers are required to programmatically render STL files into various other formats. One of the reasons for conversion is better portability. In this article, you will learn how to render the STL files into PDF format using C#. Additionally, we will convert the STL files to HTML, JPG, and PNG format within .NET application using examples.'
 tags: ['STL as HTML', 'STL as JPG', 'STL as PNG', 'STL Viewer', 'STL Viewer using C#', 'View STL', 'View STL as PDF']
 categories: ['GroupDocs.Viewer Product Family']
 ---

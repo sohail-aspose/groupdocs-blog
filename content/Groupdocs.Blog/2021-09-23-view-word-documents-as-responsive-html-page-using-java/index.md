@@ -4,12 +4,7 @@ date: Thu, 23 Sep 2021 10:31:47 +0000
 draft: false
 url: /2021/09/23/view-word-documents-as-responsive-html-page-using-java/
 author: 'Shoaib Khan'
-summary: 'Responsive HTML web pages are the ones that look good on different devices by adjusting themselves according to the different screen sizes. This article will guide you about **how to programmatically convert word documents as responsive HTML pages** within the **Java** applications using GroupDocs.Viewer.
-
-The following topics will be covered in this article:
-
-*   Java API for Word and Responsive HTML viewer
-*   View Word Documents as Responsive HTML in Java'
+summary: 'Responsive HTML web pages are the ones that look good on different devices by adjusting themselves according to the different screen sizes. This article will guide you about **how to programmatically convert word documents as responsive HTML pages** within the **Java** applications using GroupDocs.Viewer.'
 tags: ['convert docx to html', 'Convert Word to HTML', 'Convert Word to Responsive HTML', 'view word as html responsive', 'Word to HTML in Java']
 categories: ['GroupDocs.Viewer Product Family']
 ---

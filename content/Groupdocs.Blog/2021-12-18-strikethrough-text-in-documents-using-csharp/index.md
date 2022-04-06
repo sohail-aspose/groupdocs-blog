@@ -4,12 +4,7 @@ date: Sat, 18 Dec 2021 19:10:44 +0000
 draft: false
 url: /2021/12/18/strikethrough-text-in-documents-using-csharp/
 author: 'Shoaib Khan'
-summary: 'There are cases where you need to point out the content that has mistakes or it is no more valid. Crossed out is one of the ways to mark the invalid content within the documents. In order to automate the striking out within .NET applications, this article shows **how to strikethrough text in documents using C#**.
-
-The following topics are discussed in this article.
-
-*   .NET API for Strikethrough Annotations
-*   How to Strikeout Text in Documents'
+summary: 'There are cases where you need to point out the content that has mistakes or it is no more valid. Crossed out is one of the ways to mark the invalid content within the documents. In order to automate the striking out within .NET applications, this article shows **how to strikethrough text in documents using C#**.'
 tags: ['Cross out Text', 'Cross out Text in CSharp', 'Strikeout Text', 'Strikethrough Text', 'Strikethrough Text in CSharp']
 categories: ['GroupDocs.Annotation Product Family']
 ---

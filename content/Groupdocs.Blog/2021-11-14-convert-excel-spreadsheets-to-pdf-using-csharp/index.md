@@ -4,15 +4,7 @@ date: Sun, 14 Nov 2021 17:48:00 +0000
 draft: false
 url: /2021/11/14/convert-excel-spreadsheets-to-pdf-using-csharp/
 author: 'Shoaib Khan'
-summary: 'Excel (XLS, XLSX) and PDF files are among those document formats that are widely used in almost every business. For such commonly used files there are many scenarios in which we need to convert one file into another format. In this article, we will learn different ways for how to convert Excel spreadsheets into PDF format using C# with .NET applications.
-
-The following topics are covered in this article:
-
-*   .NET API for Excel Files to PDF Conversion
-*   Excel Sheets to PDF Conversion
-*   Sequence of Excel Sheets to PDF Conversion
-*   Specific List of Excel Sheets to PDF Conversion
-*   Convert Selected Cell Range from Excel Sheet to PDF'
+summary: 'Excel (XLS, XLSX) and PDF files are among those document formats that are widely used in almost every business. For such commonly used files there are many scenarios in which we need to convert one file into another format. In this article, we will learn different ways for how to convert Excel spreadsheets into PDF format using C# with .NET applications.'
 tags: ['Convert Excel in CSharp', 'Convert Excel to PDF', 'Convert Excel to PDF in CSharp', 'Convert to PDF in CSharp', 'Excel to PDF', 'Excel to PDF in CSharp', ]
 categories: ['GroupDocs.Conversion Product Family']
 ---

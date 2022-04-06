@@ -4,15 +4,7 @@ date: Tue, 04 May 2021 20:10:39 +0000
 draft: false
 url: /2021/05/04/merge-multiple-file-types-using-csharp/
 author: 'Shoaib Khan'
-summary: 'To combine the data that is present in multiple documents, and sometimes in documents of different file types, there comes the need to merge all your documents or the portion of the documents into one. In this article, you will learn, how to merge multiple documents of either the same or different file types in one file using C#.
-
-The following are the topics covered in this article:
-
-*   .NET API - Merge Multiple Document Types
-*   Merge PDF, Word, Excel files into one PDF
-*   Merge Selective Pages of Multiple files into One File
-
-[Continue Reading ...](https://blog.groupdocs.com/2021/05/04/merge-multiple-file-types-using-csharp/)'
+summary: 'To combine the data that is present in multiple documents, and sometimes in documents of different file types, there comes the need to merge all your documents or the portion of the documents into one. In this article, you will learn, how to merge multiple documents of either the same or different file types in one file using C#.'
 tags: ['Merge Documents in CSharp', 'Merge Files in CSharp', 'Merge multiple file types in CSharp', 'merge two or more files']
 categories: ['GroupDocs.Merger Product Family']
 ---

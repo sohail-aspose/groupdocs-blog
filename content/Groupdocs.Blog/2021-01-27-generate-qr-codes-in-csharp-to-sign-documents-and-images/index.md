@@ -4,9 +4,7 @@ date: Wed, 27 Jan 2021 22:39:00 +0000
 draft: false
 url: /2021/01/27/generate-qr-codes-in-csharp-to-sign-documents-and-images/
 author: 'Shoaib Khan'
-summary: 'In this article, we will see **how to programmatically add QR codes to electronically sign documents and images using C#**. GroupDocs.Signature for .NET is the API to add QR codes in PDF files, word processing documents, spreadsheets, presentations, and images.
-
-It supports various electronic signatures for a large list of supported file formats. Among the QR codes, it supports Aztec Code, DataMatrix Code, GS1 DataMatrix, GS1 QR, QR types. The API allows us to add QR codes to JPG/JPEG, PNG, WebP, BMP, GIF, SVG, CMX, and TIFF images and some more image file formats as well.'
+summary: 'In this article, we will see **how to programmatically add QR codes to electronically sign documents and images using C#**. GroupDocs.Signature for .NET is the API to add QR codes in PDF files, word processing documents, spreadsheets, presentations, and images.'
 tags: ['Add QR code in CSharp', 'Attach QR code with Images in CSharp', 'eSign in CSharp', 'generate qr code in csharp', 'Sign documents with QR code in CSharp']
 categories: ['GroupDocs.Signature Product Family']
 ---

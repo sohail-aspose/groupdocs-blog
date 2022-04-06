@@ -4,12 +4,7 @@ date: Sat, 28 Aug 2021 12:35:45 +0000
 draft: false
 url: /2021/08/28/view-word-documents-as-html-responsive-page-using-csharp/
 author: 'Shoaib Khan'
-summary: 'HTML Responsive web pages are meant to look good on different devices. These pages automatically adjust according to different screen sizes. This article will guide you to automate the conversion and view your Word documents as responsive HTML pages within your .NET applications using C#.
-
-The following topics will be covered in this article:
-
-*   .NET API for Word and Responsive HTML viewer
-*   View Word Documents as Responsive HTML using C#'
+summary: 'HTML Responsive web pages are meant to look good on different devices. These pages automatically adjust according to different screen sizes. This article will guide you to automate the conversion and view your Word documents as responsive HTML pages within your .NET applications using C#.'
 tags: ['convert docx to html in csharp', 'docx to html responsive', 'view word as html responsive', 'Word to HTML in CSharp']
 categories: ['GroupDocs.Viewer Product Family']
 ---

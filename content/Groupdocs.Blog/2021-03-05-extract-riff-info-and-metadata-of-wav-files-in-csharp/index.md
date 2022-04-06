@@ -4,15 +4,7 @@ date: Fri, 05 Mar 2021 17:58:00 +0000
 draft: false
 url: /2021/03/05/extract-riff-info-and-metadata-of-wav-files-in-csharp/
 author: 'Shoaib Khan'
-summary: '**RIFF** (Resource Interchange File Format) is a file container format for storing data as tagged chunks. It is mainly used to store multimedia like video and audio. The chunk may include information such as the artist, the creation date, and copyright information, etc. This article will be guiding developers to **extract metadata and RIFF INFO from the WAV audio files in C#**.
-
-The following topics will be covered in the article in brief:
-
-*   .NET API for Managing Metadata
-*   Extract Metadata of WAV Files in C#
-*   Extract RIFF INFO of WAV Files in C#
-
-[Continue Reading ...](https://blog.groupdocs.com/2021/03/05/extract-riff-info-and-metadata-of-wav-files-in-csharp)'
+summary: '**RIFF** (Resource Interchange File Format) is a file container format for storing data as tagged chunks. It is mainly used to store multimedia like video and audio. The chunk may include information such as the artist, the creation date, and copyright information, etc. This article will be guiding developers to **extract metadata and RIFF INFO from the WAV audio files in C#**.'
 tags: ['Extract Metadata in CSharp', 'Extract Metadata of WAV file in CSharp', 'Extract RIFF INFO of WAV in CSharp', ]
 categories: ['GroupDocs.Metadata Product Family']
 ---

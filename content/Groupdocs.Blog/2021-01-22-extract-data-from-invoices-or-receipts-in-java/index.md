@@ -4,9 +4,7 @@ date: Fri, 22 Jan 2021 16:48:00 +0000
 draft: false
 url: /2021/01/22/extract-data-from-invoices-or-receipts-in-java/
 author: 'Shoaib Khan'
-summary: 'In the era of online businesses, the use of digital invoices and receipts has largely increased. Similarly, the efficient data extraction from these digital invoices is also demanding. In this article, you will be knowing **how to extract data from PDF invoices or receipts programmatically in Java**.
-
-[Continue Reading...](https://blog.groupdocs.com/2021/01/22/extract-data-from-invoices-or-receipts-in-java/)'
+summary: 'In the era of online businesses, the use of digital invoices and receipts has largely increased. Similarly, the efficient data extraction from these digital invoices is also demanding. In this article, you will be knowing **how to extract data from PDF invoices or receipts programmatically in Java**.'
 tags: ['data extraction from PDF invoices in Java', 'extract data from invoices in Java', 'extract data from PDF in Java', 'extract invoice data in Java', ]
 categories: ['GroupDocs.Parser Product Family']
 ---

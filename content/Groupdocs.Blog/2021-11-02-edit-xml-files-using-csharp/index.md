@@ -4,10 +4,7 @@ date: Tue, 02 Nov 2021 13:18:00 +0000
 draft: false
 url: /2021/11/02/edit-xml-files-using-csharp/
 author: 'Shoaib Khan'
-summary: 'XML is among the W3C recommended, structured formats, commonly used to store and transmit data. It is vastly required by developers to edit the stored XML data with the applications. To ease the requirement of editing, this article guides on **how to edit the XML file data using C#**.
-
-*   XML Editing .NET API
-*   How to Edit XML Files using C#'
+summary: 'XML is among the W3C recommended, structured formats, commonly used to store and transmit data. It is vastly required by developers to edit the stored XML data with the applications. To ease the requirement of editing, this article guides on **how to edit the XML file data using C#**.'
 tags: ['Edit XML File using C#', 'Edit XML in CSharp', 'How to Edit XML']
 categories: ['GroupDocs.Editor Product Family']
 ---

@@ -4,7 +4,7 @@ date: Wed, 13 May 2020 21:06:49 +0000
 draft: false
 url: /2020/05/13/manage-exif-data-in-csharp-net-for-jpeg-png-tiff-webp-images/
 author: 'Shoaib Khan'
-summary: ''
+summary: "In the [previous post](https://blog.groupdocs.com/2020/05/12/handle-exif-data-of-jpg-png-webp-images-in-java/), we discussed how to deal with EXIF data of images in Java. Here, today we will look into achieving the same but in C#. If you haven't visited the last post, but you want to **extract, update, add or remove EXIF data of your images programmatically in C#**, then this article will guide you through this."
 tags: ['change exif data of images', 'extract exif data', 'extract exif data in csharp', 'extract metadata from images', 'remove exif data from images']
 categories: ['GroupDocs.Metadata Product Family']
 ---

@@ -4,19 +4,7 @@ date: Sun, 18 Apr 2021 05:20:00 +0000
 draft: false
 url: /2021/04/18/annotate-pdf-files-using-java/
 author: 'Shoaib Khan'
-summary: 'There was a time when we used to discuss document content and feedback in long email threads with multiple attachments and different file versions. Now we can simply use annotations to markup the document with messages and replies and send it. In this article, you will learn how to programmatically annotate PDF documents in Java with your application.
-
-The following are the topics discussed briefly in this article:
-
-*   Java API to Work with Annotations in PDF
-*   Add Annotations to PDF in Java
-    *   Arrow annotation to PDF
-    *   Rectangle annotation of PDF
-    *   Ellipse or Oval annotation to PDF
-    *   Distance annotation to PDF
-*   Remove Annotations from PDF in Java
-
-[Continue Reading ...](https://blog.groupdocs.com/2021/04/18/annotate-pdf-files-using-java/)'
+summary: 'There was a time when we used to discuss document content and feedback in long email threads with multiple attachments and different file versions. Now we can simply use annotations to markup the document with messages and replies and send it. In this article, you will learn how to programmatically annotate PDF documents in Java with your application.'
 tags: ['add annotations in PDF using Java', 'Annotate PDF in Java', 'Remove annotations from PDF in Java']
 categories: ['GroupDocs.Annotation Product Family']
 ---

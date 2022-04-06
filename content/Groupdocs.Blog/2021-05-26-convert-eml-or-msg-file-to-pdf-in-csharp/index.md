@@ -4,15 +4,7 @@ date: Wed, 26 May 2021 12:50:00 +0000
 draft: false
 url: /2021/05/26/convert-eml-or-msg-file-to-pdf-in-csharp/
 author: 'Shoaib Khan'
-summary: 'For sharing and referencing the email content, you may need to convert your email message to PDF format. In this article, you will learn the **conversion of email message files like EML and MSG into PDF using C#**. In one of the other blog posts, we have already discussed the [conversion of emails to PDF using Java](https://blog.groupdocs.com/2020/09/02/convert-msg-and-eml-files-to-pdf-in-java/). This will help to automate the email conversions within your desktop or web-based applications.
-
-The following topics are covered in this article:
-
-*   Email Conversion Library for .NET
-*   Conversion of MSG to PDF
-*   Conversion of EML to PDF
-
-[Continue Reading ...](https://blog.groupdocs.com/2021/05/26/convert-eml-or-msg-file-to-pdf-in-csharp/)'
+summary: 'For sharing and referencing the email content, you may need to convert your email message to PDF format. In this article, you will learn the **conversion of email message files like EML and MSG into PDF using C#**. In one of the other blog posts, we have already discussed the [conversion of emails to PDF using Java](https://blog.groupdocs.com/2020/09/02/convert-msg-and-eml-files-to-pdf-in-java/). This will help to automate the email conversions within your desktop or web-based applications.'
 tags: ['document conversion', 'email to pdf', 'eml to pdf in csharp', 'msg to pdf in csharp']
 categories: ['GroupDocs.Conversion Product Family']
 ---

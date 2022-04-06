@@ -4,12 +4,7 @@ date: Sat, 25 Sep 2021 09:31:01 +0000
 draft: false
 url: /2021/09/25/redact-text-and-scanned-images-using-csharp/
 author: 'Shoaib Khan'
-summary: 'We often need to hide the confidential and sensitive information within the documents. In other articles, we have discussed the different strategies to search words and even search synonyms within multiple documents. This article guides you about **how to redact PDF text and text in images within a document using C#**.
-
-The following topics will be covered in this article:
-
-*   Text and image redaction - .NET API
-*   Redact PDF text and scanned Information using C#'
+summary: 'We often need to hide the confidential and sensitive information within the documents. In other articles, we have discussed the different strategies to search words and even search synonyms within multiple documents. This article guides you about **how to redact PDF text and text in images within a document using C#**.'
 tags: ['Blackout Text', 'Blackout Text in PDF', 'redact documents', 'Redact in CSharp', 'redact pdf', 'Redact PDF in CSharp', 'Redact Text in CSharp', 'Redact Text in Image', 'Redact Text in PDF']
 categories: ['GroupDocs.Redaction Product Family']
 ---

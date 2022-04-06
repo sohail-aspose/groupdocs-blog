@@ -4,14 +4,7 @@ date: Tue, 07 Dec 2021 07:36:00 +0000
 draft: false
 url: /2021/12/07/password-protect-pdf-files-in-java/
 author: 'Shoaib Khan'
-summary: 'There are different security levels that you can provide to your confidential documents. You can apply watermarks, encrypt files, or you can make your documents password-protected. In this article, we will see **how to programmatically add password protection to the PDF files within the Java applications**. Further, we will learn to **change the password** and also to **remove the passwords** to unlock PDF files.
-
-The following topics are discussed in this article:
-
-*   Java API for Password Protection of PDF Files
-*   Password Protect PDF Files in Java
-*   Change PDF Password in Java
-*   How to Remove PDF Password - Unlock PDF'
+summary: 'There are different security levels that you can provide to your confidential documents. You can apply watermarks, encrypt files, or you can make your documents password-protected. In this article, we will see **how to programmatically add password protection to the PDF files within the Java applications**. Further, we will learn to **change the password** and also to **remove the passwords** to unlock PDF files.'
 tags: ['Add Password to PDF in Java', 'Change PDF Password in Java', 'Lock PDF in Java', 'Password Protect Document', 'Remove Password in Java', 'Unlock PDF in Java']
 categories: ['GroupDocs.Merger Product Family']
 ---

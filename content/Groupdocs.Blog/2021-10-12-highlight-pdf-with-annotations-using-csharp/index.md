@@ -4,12 +4,7 @@ date: Tue, 12 Oct 2021 14:08:00 +0000
 draft: false
 url: /2021/10/12/highlight-pdf-with-annotations-using-csharp/
 author: 'Shoaib Khan'
-summary: 'While reviewing or to attract viewer to an important content, you may need to highlight some part of the document. As a developer, you can automate this feature by using highlight annotations within your applications. In this article, you will learn **how to highlight text and any area in PDF files using C#**.
-
-The following topics are covered in this article:
-
-*   .NET API to Highlight in PDF
-*   How to Programmatically Highlight in PDF'
+summary: 'While reviewing or to attract viewer to an important content, you may need to highlight some part of the document. As a developer, you can automate this feature by using highlight annotations within your applications. In this article, you will learn **how to highlight text and any area in PDF files using C#**.'
 tags: ['annotate PDF', 'Annotate PDF in CSharp', 'Highlight Annotation', 'Highlight PDF in CSharp', 'Highlight Text in PDF', 'Text Highlight']
 categories: ['GroupDocs.Annotation Product Family']
 ---

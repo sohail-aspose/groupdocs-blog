@@ -4,7 +4,7 @@ date: Wed, 29 Apr 2020 20:18:10 +0000
 draft: false
 url: /2020/04/29/convert-doc-docx-to-html-in-csharp-and-show-or-hide-page-borders/
 author: 'Shoaib Khan'
-summary: ''
+summary: 'Either you want to convert a document to HTML format to get the content for your website, or you have come across an online document submission website that requires documents to be submitted in HTML format. In either case, you need a **DOC to HTML converter**. However, if you need to convert your **documents to HTML programmatically**, then this article is for you only. This article will cover the following ways to convert documents to HTML in C#:'
 tags: ['convert document to html in csharp', 'convert docx to html', 'convert docx to html in csharp', 'convert to html', 'show or hide html page borders']
 categories: ['GroupDocs.Conversion Product Family']
 ---

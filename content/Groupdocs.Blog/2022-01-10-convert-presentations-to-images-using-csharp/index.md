@@ -4,13 +4,7 @@ date: Mon, 10 Jan 2022 04:03:00 +0000
 draft: false
 url: /2022/01/10/convert-presentations-to-images-using-csharp/
 author: 'Shoaib Khan'
-summary: 'Probably you want to use your presentation slides within web applications or you want to use its slides thumbnails. In such cases, you need to convert your PowerPoint presentation slides to images. In this article, you will learn **how to convert the PPT or PPTX presentations into JPG and PNG images** programmatically using C#.
-
-The following topics are discussed in this article:
-
-*   .NET API to Convert Presentations
-*   Convert PPT/PPTX to JPG Image
-*   Convert PPT/PPTX to PNG Image'
+summary: 'Probably you want to use your presentation slides within web applications or you want to use its slides thumbnails. In such cases, you need to convert your PowerPoint presentation slides to images. In this article, you will learn **how to convert the PPT or PPTX presentations into JPG and PNG images** programmatically using C#.'
 tags: ['Convert PPT', 'Convert PPT to JPG in CSharp', 'Convert PPT to PNG in CSharp', 'Convert PPTX', 'PPT to JPG in CSharp', 'PPT to PNG in CSharp']
 categories: ['GroupDocs.Conversion Product Family']
 ---

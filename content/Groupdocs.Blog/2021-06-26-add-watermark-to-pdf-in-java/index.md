@@ -4,15 +4,7 @@ date: Sat, 26 Jun 2021 09:48:16 +0000
 draft: false
 url: /2021/06/26/add-watermark-to-pdf-in-java/
 author: 'Shoaib Khan'
-summary: 'Whether you want to apply branding to your documents or you want to protect our files from any illegal use, the watermark does the job for you. In this article, you will learn to programmatically add the watermarks to your PDF files using Java.
-
-The following topics are covered in this article:
-
-*   Java Watermarking API
-*   Apply Text Watermark to PDF
-*   Apply Image Watermark to PDF
-
-[Continue Reading ...](https://blog.groupdocs.com/2021/06/26/add-watermark-to-pdf-in-java/)'
+summary: 'Whether you want to apply branding to your documents or you want to protect our files from any illegal use, the watermark does the job for you. In this article, you will learn to programmatically add the watermarks to your PDF files using Java.'
 tags: ['Image Watermark PDF in Java', 'Text Watermark PDF in Java', 'Watermark in Java', 'Watermark PDF in Java', 'Watermarking Java API']
 categories: ['GroupDocs.Watermark Product Family']
 ---

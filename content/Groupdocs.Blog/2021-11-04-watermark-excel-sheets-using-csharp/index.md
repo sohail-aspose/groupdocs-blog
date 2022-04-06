@@ -4,13 +4,7 @@ date: Thu, 04 Nov 2021 18:46:00 +0000
 draft: false
 url: /2021/11/04/watermark-excel-sheets-using-csharp/
 author: 'Shoaib Khan'
-summary: 'We have already discussed ways to watermark different [documents](https://blog.groupdocs.com/2021/07/27/watermark-pdf-files-using-csharp/), [images](https://blog.groupdocs.com/2020/12/20/add-watermark-to-images-using-csharp-dotnet/), and [presentations](https://blog.groupdocs.com/2021/05/01/add-watermark-to-presentations-using-csharp/). Today, we will be discussing how to add watermark to an Excel workbook in different ways using C# with the .NET application.
-
-The following topics are covered in this article:
-
-*   Add **Text Watermark** to Excel Sheet
-*   Apply Watermark to **Specific Excel Sheet**
-*   Add Watermark to Excel Sheet **as Background**'
+summary: 'We have already discussed ways to watermark different [documents](https://blog.groupdocs.com/2021/07/27/watermark-pdf-files-using-csharp/), [images](https://blog.groupdocs.com/2020/12/20/add-watermark-to-images-using-csharp-dotnet/), and [presentations](https://blog.groupdocs.com/2021/05/01/add-watermark-to-presentations-using-csharp/). Today, we will be discussing how to add watermark to an Excel workbook in different ways using C# with the .NET application.'
 tags: ['add watermark in csharp', 'how to add watermark in csharp', 'watermark dotnet api', 'watermark excel', 'watermark excel sheets in csharp']
 categories: ['GroupDocs.Watermark Product Family']
 ---

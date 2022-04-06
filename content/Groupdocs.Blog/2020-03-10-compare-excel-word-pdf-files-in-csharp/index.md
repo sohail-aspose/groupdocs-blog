@@ -4,7 +4,7 @@ date: Tue, 10 Mar 2020 22:25:55 +0000
 draft: false
 url: /2020/03/10/compare-excel-word-pdf-files-in-csharp/
 author: 'Shoaib Khan'
-summary: ''
+summary: "Document comparison is one of the most common requirements for today's programming world. Whether it is to compare word files, compare excel files, PDF documents or even compare text files or any other document format, accuracy is the key factor while comparing."
 tags: ['compare documents', 'compare excel files', 'compare PDF files', 'compare text files', 'compare two documents', 'compare two excel files', 'compare two files', 'compare two word documents', 'compare word documents', 'document comparison', 'file compare', ]
 categories: ['GroupDocs.Comparison Product Family']
 ---

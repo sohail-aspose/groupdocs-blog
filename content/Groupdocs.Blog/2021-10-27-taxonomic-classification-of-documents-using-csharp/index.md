@@ -4,14 +4,7 @@ date: Wed, 27 Oct 2021 12:24:00 +0000
 draft: false
 url: /2021/10/27/taxonomic-classification-of-documents-using-csharp/
 author: 'Shoaib Khan'
-summary: 'A classification is basically an approach in which text is systematically identified and then organized according to rules. Taxonomy defines the science of such classification. When you are dealing with a bunch of textual documents, it gets hard to find a topic of any document until the taxonomic classification of the content. In this article, you will learn **how to programmatically classify documents according to IAB-2 and document taxonomy using C#**.
-
-The following topics are covered in this article:
-
-*   .NET API for Taxonomic Classification
-*   Document Classifcation with IAB-2 Taxonomy
-*   Classify Documents with Document Taxonomy
-*   Classify Password Protected Documents'
+summary: 'A classification is basically an approach in which text is systematically identified and then organized according to rules. Taxonomy defines the science of such classification. When you are dealing with a bunch of textual documents, it gets hard to find a topic of any document until the taxonomic classification of the content. In this article, you will learn **how to programmatically classify documents according to IAB-2 and document taxonomy using C#**.'
 tags: ['Classify Documents using CSharp', 'Document Classification in CSharp', 'Document Taxonomy using CSharp', 'Taxonomic Classification using CSharp']
 categories: ['GroupDocs.Classification Product Family']
 ---

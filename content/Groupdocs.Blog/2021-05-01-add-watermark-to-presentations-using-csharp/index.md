@@ -4,14 +4,7 @@ date: Sat, 01 May 2021 04:00:00 +0000
 draft: false
 url: /2021/05/01/add-watermark-to-presentations-using-csharp/
 author: 'Shoaib Khan'
-summary: 'Watermarks are normally used to protect the documents from any unauthorized use. To protect your presentations and to claim ownership, today we will learn how to programmatically add text and image watermarks to the Microsoft PowerPoint presentations within .NET applications using C#. In a separate article, we have seen [applying watermarks to images in C#](https://blog.groupdocs.com/2020/12/20/add-watermark-to-images-using-csharp-dotnet/).
-
-The following topic are separately and briefly covered in this artile:
-
-*   Add text watermarks to presentation slides.
-*   Add image watermarks to presentation slides.
-
-[Continue Reading ...](https://blog.groupdocs.com/2021/05/01/add-watermark-to-presentations-using-csharp/)'
+summary: 'Watermarks are normally used to protect the documents from any unauthorized use. To protect your presentations and to claim ownership, today we will learn how to programmatically add text and image watermarks to the Microsoft PowerPoint presentations within .NET applications using C#. In a separate article, we have seen [applying watermarks to images in C#](https://blog.groupdocs.com/2020/12/20/add-watermark-to-images-using-csharp-dotnet/).'
 tags: ['add watermark in csharp', 'add watermark to presentations in csharp', 'how to add watermark in csharp']
 categories: ['GroupDocs.Watermark Product Family']
 ---

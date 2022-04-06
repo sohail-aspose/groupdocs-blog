@@ -4,13 +4,7 @@ date: Tue, 14 Sep 2021 13:40:00 +0000
 draft: false
 url: /2021/09/14/find-synonyms-of-words-using-csharp/
 author: 'Shoaib Khan'
-summary: 'A synonym is a word that exactly or nearly means the same as another word. We normally use synonyms to avoid using the same word repeatedly. As a developer, you may need to find out all words with the same meaning for your search purpose or document analysis. This article will guide you about **how to find out all the synonyms of any specific word in C# using .NET API**. Additionally, you can also get different groups of these synonyms that are arranged according to the different meanings of that same word.
-
-The following topics will be covered in this article:
-
-*   .NET API - Find Synonyms
-*   Get synonyms of any word in C#
-*   Get synonyms - Grouped by different meanings'
+summary: 'A synonym is a word that exactly or nearly means the same as another word. We normally use synonyms to avoid using the same word repeatedly. As a developer, you may need to find out all words with the same meaning for your search purpose or document analysis. This article will guide you about **how to find out all the synonyms of any specific word in C# using .NET API**. Additionally, you can also get different groups of these synonyms that are arranged according to the different meanings of that same word.'
 tags: ['Find Synonyms', 'Find Synonyms in CSharp', 'Search Synonyms', 'Search Synonyms in CSharp']
 categories: ['GroupDocs.Search Product Family']
 ---

@@ -4,7 +4,7 @@ date: Thu, 05 Mar 2020 21:59:00 +0000
 draft: false
 url: /2020/03/05/convert-presentations-pptx-ppt-to-pdf-in-csharp/
 author: 'Shoaib Khan'
-summary: ''
+summary: '[PDF](https://wiki.fileformat.com/view/pdf/) is no doubt the [Portable Document Format](https://en.wikipedia.org/wiki/PDF), which is one of the most commonly used file formats. [PPT](https://wiki.fileformat.com/presentation/ppt/) and [PPTX](https://wiki.fileformat.com/presentation/pptx/) formats of Microsoft PowerPoint share the popularity in business documents. Due to the popularity of both the document formats and the fixed layout nature of PDF format, there comes the requirement to **convert PPT/PPTX to PDF** format.'
 tags: ['Convert PPT to PDF in CSharp', 'Convert PPTX to PDF in CSharp', 'CSharp PPT to PDF', 'CSharp PPTX to PDF', ]
 categories: ['GroupDocs.Conversion Product Family']
 ---

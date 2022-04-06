@@ -4,15 +4,7 @@ date: Wed, 09 Jun 2021 17:36:49 +0000
 draft: false
 url: /2021/06/09/watermark-presentation-slides-using-java/
 author: 'Shoaib Khan'
-summary: 'For the protection of the documents and presentations from illegal use, we can use watermarking. In this article, we will learn to programmatically apply text and image-based watermarks to the presentations or specific slides of a presentation in Java. In another post, we have discussed [applying watermarks to presentations using C#](https://blog.groupdocs.com/2021/05/01/add-watermark-to-presentations-using-csharp/).
-
-The following topics will be covered in this article:
-
-*   Java Watermarking API
-*   Add text watermarks to presentation slides
-*   Add image watermarks to presentation slides
-
-[Continue Reading ...](https://blog.groupdocs.com/2021/06/09/watermark-presentation-slides-using-java/)'
+summary: 'For the protection of the documents and presentations from illegal use, we can use watermarking. In this article, we will learn to programmatically apply text and image-based watermarks to the presentations or specific slides of a presentation in Java. In another post, we have discussed [applying watermarks to presentations using C#](https://blog.groupdocs.com/2021/05/01/add-watermark-to-presentations-using-csharp/).'
 tags: ['Add Watermark to Presentation in Java', 'Image Watermark to PPT in Java', 'Text Watermark to PPT in Java', 'Watermark PPT in Java', 'Watermark PPTX in Java']
 categories: ['GroupDocs.Watermark Product Family']
 ---

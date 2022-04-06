@@ -4,7 +4,7 @@ date: Fri, 01 Jan 2021 00:00:00 +0000
 draft: false
 url: /2021/01/01/groupdocs-discount-offer-ends-soon/
 author: 'Shoaib Khan'
-summary: ''
+summary: '**[GroupDocs](https://www.groupdocs.com/)** offered **25% OFF** on [GroupDocs.Total](https://products.groupdocs.com/total) for .NET and Java. The offer remains valid till **31st January 2021**. Avail this offer before it ends.'
 tags: ['2021 discount', '2021 offer', 'groupdocs discount offer', ]
 categories: ['GroupDocs.Total Product Family']
 ---

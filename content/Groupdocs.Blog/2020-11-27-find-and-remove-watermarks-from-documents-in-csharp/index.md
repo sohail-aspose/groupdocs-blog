@@ -4,13 +4,7 @@ date: Fri, 27 Nov 2020 14:21:34 +0000
 draft: false
 url: /2020/11/27/find-and-remove-watermarks-from-documents-in-csharp/
 author: 'Shoaib Khan'
-summary: 'Today, we will have a look at **how to find and remove watermarks from documents in C#**. There can be text and image-based watermarks in a document. We can easily search and programmatically remove such watermarks from many PDF, Word, Excel, PowerPoint, and Visio supported documents.
-
-Following topics will be covered in this article:
-
-*   .NET API for removing watermarks
-*   Find watermarks in documents using C#
-*   Remove watermarks from documents in C#'
+summary: 'Today, we will have a look at **how to find and remove watermarks from documents in C#**. There can be text and image-based watermarks in a document. We can easily search and programmatically remove such watermarks from many PDF, Word, Excel, PowerPoint, and Visio supported documents.'
 tags: ['find and remove watermarks in csharp', 'find watermarks in csharp', 'remove watermarks in csharp', 'Watermarking API for .NET']
 categories: ['GroupDocs.Watermark Product Family']
 ---
