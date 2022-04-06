@@ -25,6 +25,56 @@ params:
   ShowFullTextinRSS: true
   disableSpecial1stPost: true
 
+languages:
+  en:
+    languageName: English
+    flag: flag-us
+    weight: 1
+  fr:
+    languageName: français
+    flag: flag-fr
+    weight: 2
+    menu:
+      main:
+      - identifier: search
+        name: Chercher
+        url: /chercher/
+        weight: 10
+      - identifier: categories
+        name: Catégories
+        url: /categories/
+        weight: 20
+      - identifier: archive
+        name: Archiver
+        url: /les-archives/
+        weight: 30
+      - identifier: tags
+        name: "Mots clés"
+        url: /tags/
+        weight: 40
+  zh:
+    languageName: 中国人
+    flag: flag-cn
+    weight: 3
+    menu:
+      main:
+      - identifier: search
+        name: 搜索
+        url: /搜索/
+        weight: 10
+      - identifier: categories
+        name: 类别
+        url: /categories/
+        weight: 20
+      - identifier: archive
+        name: 档案
+        url: /档案/
+        weight: 30
+      - identifier: tags
+        name: 标签
+        url: /tags/
+        weight: 40
+
 menu:
   main:
     - identifier: search
