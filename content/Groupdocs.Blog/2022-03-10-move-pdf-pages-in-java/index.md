@@ -9,12 +9,9 @@ tags: ['Change Page Sequence in Java', 'Move Pages in Java', 'Rearrange Document
 categories: ['GroupDocs.Merger Product Family']
 ---
 
-PDF is among one of the most in-use portable file formats. For large documents, it is always challenging to change the order of pages without losing the formatting. This article discusses, **how to rearrange PDF pages programmatically in Java**.
-
-
-
 {{< figure align=center src="images/rearrange-pdf-pages-in-java.jpg" alt="Rearrange PDF Pages in Java">}}
 
+PDF is among one of the most in-use portable file formats. For large documents, it is always challenging to change the order of pages without losing the formatting. This article discusses, **how to rearrange PDF pages programmatically in Java**.
 
 ## Java API to Rearrange PDF Pages & Merge Documents
 

@@ -9,10 +9,7 @@ tags: ['Edit Excel Files', 'Edit Excel Files in Java', 'Excel Editing in Java', 
 categories: ['GroupDocs.Editor Product Family']
 ---
 
-
-
 {{< figure align=center src="images/edit-excel-sheets-in-java.jpg" alt="Edit Excel Sheets in Java">}}
-
 
 **XLS**, **XLSX**, and **ODS** are among the most common and widely in-use spreadsheet file formats. We normally maintain various accounts and different spreadsheets using famous Microsoft Excel and OpenOffice Calc which support these formats. Therefore, as a developer, we widely require programmatically editing Excel files within our applications. In this article, we will discuss **how to edit Excel files in Java**.
 

@@ -4,14 +4,7 @@ date: Thu, 27 Jan 2022 14:29:00 +0000
 draft: false
 url: /2022/01/27/remove-annotations-from-pdf-or-word-documents-using-csharp/
 author: 'Shoaib Khan'
-summary: 'Annotations are commonly used in documents for pointing out different observations and providing feedbacks for discussion. We discussed in a separate articles, [how to add different annotations to PDF](https://blog.groupdocs.com/2022/01/25/annotate-pdf-files-using-csharp) and [Word documents](https://blog.groupdocs.com/2021/06/23/annotate-word-documents-using-csharp/) using C#. Today, this article discuss **how to remove annotations from documents like PDF and Word DOC/DOCX files using C#**.
-
-The following topics are discussed in this article:
-
-*   Annotation .NET API
-*   Remove All Annotations
-*   Remove Annotations by IDs
-*   Eliminate Annotations by Annotation Object'
+summary: 'Annotations are commonly used in documents for pointing out different observations and providing feedbacks for discussion. We discussed in a separate articles, [how to add different annotations to PDF](https://blog.groupdocs.com/2022/01/25/annotate-pdf-files-using-csharp) and [Word documents](https://blog.groupdocs.com/2021/06/23/annotate-word-documents-using-csharp/) using C#. Today, this article discuss **how to remove annotations from documents like PDF and Word DOC/DOCX files using C#**.'
 tags: ['Remove Annotation from PDF in CSharp', 'Remove Annotation in CSharp', 'Remove Annotations', 'Remove Annotations from Word in C#']
 categories: ['GroupDocs.Annotation Product Family']
 ---
