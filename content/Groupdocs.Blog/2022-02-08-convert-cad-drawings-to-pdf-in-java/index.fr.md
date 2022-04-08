@@ -16,7 +16,7 @@ categories: ['GroupDocs.Conversion Product Family']
 {{< figure align=center src="images/convert-cad-drawings-to-pdf-using-java.png" alt="Convertir des dessins CAO en PDF en Java">}}
 
 
-Les sujets suivants sont traités ci-dessous :
+Les sujets suivants sont traités ci-dessous:
 
 * [Bibliothèque Java de conversion de dessins CAO](#cad-conversion-java-lib)
 * [Convertir DWG en PDF](#dwg-to-pdf)
@@ -50,10 +50,10 @@ Dans les exemples ci-dessous, j'utiliserai cette API pour la **conversion de des
 Passons à convertir rapidement le dessin. Ces étapes vous permettent de convertir facilement les dessins AutoCAD DWG en un fichier PDF en Java avec de nombreuses options de personnalisation.
 
 * Définissez les **options de chargement** à l'aide de la classe [CadLoadOptions](https://apireference.groupdocs.com/java/conversion/com.groupdocs.conversion.options.load/CadLoadOptions).
-* Spécifiez les **mises en page** à l'aide de [setLayoutNames()](https://apireference.groupdocs.com/conversion/java/com.groupdocs.conversion.options.load/CadLoadOptions#setLayoutNames(java.lang.String%5B% 5D)).
+* Spécifiez les mises en page à l'aide de la méthode [setLayoutNames()](https://apireference.groupdocs.com/conversion/java/com.groupdocs.conversion.options.load/CadLoadOptions#setLayoutNames(java.lang.String%5B%5D)).
 * **Chargez** le dessin DWG à l'aide de la classe [Conveter](https://apireference.groupdocs.com/java/conversion/com.groupdocs.conversion.options.load/CadLoadOptions).
 * Spécifiez les **options de conversion** telles que **largeur**, **hauteur** et **format**.
-* **Convertir** en PDF en utilisant le [convert()](https://apireference.groupdocs.com/conversion/java/com.groupdocs.conversion/Converter#convert(java.lang.String,%20com. groupdocs.conversion.options.convert.ConvertOptions)).
+* **Convertir** en PDF en utilisant le [convert()](https://apireference.groupdocs.com/conversion/java/com.groupdocs.conversion/Converter#convert(java.lang.String,%20com.groupdocs.conversion.options.convert.ConvertOptions)).
 
 Voici le code Java complet qui illustre les étapes ci-dessus et convertit un fichier DWG au format PDF.
 

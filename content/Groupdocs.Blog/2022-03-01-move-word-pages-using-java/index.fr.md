@@ -18,7 +18,7 @@ Les documents de traitement de texte sont l'un des formats de fichiers les plus 
 
 ## API Java pour déplacer des pages de documents Word
 
-**[GroupDocs.Merger](https://products.groupdocs.com/merger/)** fournit l'[API Java pour gérer les documents et leurs pages](https://products.groupdocs.com/merger/java /). Il permet de déplacer, de supprimer, de diviser des documents et d'extraire des pages, de modifier l'orientation des pages et de faire pivoter les pages de documents dans les applications Java. J'utiliserai cette API pour déplacer des pages de fichiers DOC/DOCX. Pour les détails et autres fonctionnalités de l'API, vous pouvez consulter la [documentation](https://docs.groupdocs.com/merger/).
+**[GroupDocs.Merger](https://products.groupdocs.com/merger/)** fournit l'[API Java pour gérer les documents et leurs pages](https://products.groupdocs.com/merger/java/). Il permet de déplacer, de supprimer, de diviser des documents et d'extraire des pages, de modifier l'orientation des pages et de faire pivoter les pages de documents dans les applications Java. J'utiliserai cette API pour déplacer des pages de fichiers DOC/DOCX. Pour les détails et autres fonctionnalités de l'API, vous pouvez consulter la [documentation](https://docs.groupdocs.com/merger/).
 
 ### Télécharger et configurer
 

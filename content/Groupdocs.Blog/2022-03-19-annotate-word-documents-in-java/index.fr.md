@@ -46,19 +46,12 @@ Téléchargez le fichier **JAR** à partir de la [section des téléchargements]
 
 Ajoutons différents types d'annotations aux documents Word. Les annotations sont de plusieurs types, nous n'en couvrirons donc que quelques-unes ici.
 
-
-
 {{< figure align=center src="images/add-annotations-to-doc-docx-using-groupdocs-dotnet-java-api-1024x624.png" alt="Ajouter des annotations à DOC DOCX à l'aide de l'API GroupDocs">}}
 
 
 ## Ajouter une annotation de flèche à Word en Java {#add-arrow-annotation}
 
 Voici les étapes pour ajouter une annotation de flèche à un document Word en Java.
-
-
-
-{{< figure align=center src="images/arrow-annotation.jpg" alt="Ajouter une annotation de flèche par programmation dans Java et .NET">}}
-
 
 * Chargez le document à l'aide de la classe [Annotator](https://apireference.groupdocs.com/annotation/java/com.groupdocs.annotation/Annotator).
 * Initialiser l'annotation de flèche avec la classe [ArrowAnnotation](https://apireference.groupdocs.com/annotation/java/com.groupdocs.annotation.models.annotationmodels/ArrowAnnotation).
@@ -83,6 +76,8 @@ annotator.add(arrow);
 annotator.save("path/annotatedDoc.docx");
 ```
 
+{{< figure align=center src="images/arrow-annotation.jpg" alt="Ajouter une annotation de flèche par programmation dans Java et .NET">}}
+
 ## Insérer un rectangle ou une annotation de zone dans Word en Java {#add-area-annotation}
 
 Voici les étapes pour ajouter une annotation de rectangle ou de zone à un document DOC/DOCX avec quelques personnalisations. C'est similaire à l'ajout d'annotations Flèche mais il utilise **AreaAnnotation**.
@@ -93,10 +88,6 @@ Voici les étapes pour ajouter une annotation de rectangle ou de zone à un docu
 * Définissez d'autres propriétés telles que **numéro de page, arrière-plan, opacité, style, largeur du stylo**, **messages** et **heure**.
 * Ajoutez l'annotation rectangulaire créée à l'annotateur.
 * Enregistrez le document Word annoté dans le chemin en utilisant la méthode save().
-
-
-
-{{< figure align=center src="images/rectangle-area-annotation.jpg" alt="Ajouter un rectangle ou une annotation de zone par programmation dans .NET et Java">}}
 
 
 L'exemple de code Java suivant montre comment ajouter une annotation rectangle/zone à un document Word.
@@ -121,14 +112,11 @@ annotator.add(area);
 annotator.save("path/annotatedDoc.docx");
 ```
 
+{{< figure align=center src="images/rectangle-area-annotation.jpg" alt="Ajouter un rectangle ou une annotation de zone par programmation dans .NET et Java">}}
+
 ## Ajouter une annotation ovale ou ellipse à Word en Java {#add-ellipse-annotation}
 
 Voici les étapes pour ajouter une annotation ovale/ellipse à un document en Java.
-
-
-
-{{< figure align=center src="images/ellipses-annotation.jpg" alt="Ajouter des ellipses ou des annotations ovales par programmation dans C# .NET et Java">}}
-
 
 * Chargez le document DOC/DOCX à l'aide de la classe [Annotator](https://apireference.groupdocs.com/annotation/java/com.groupdocs.annotation/Annotator).
 * Initialiser l'annotation d'ellipse à l'aide de la classe [EllipseAnnotation](https://apireference.groupdocs.com/annotation/java/com.groupdocs.annotation.models.annotationmodels/EllipseAnnotation).
@@ -157,14 +145,11 @@ annotator.add(ellipse);
 annotator.save("path/annotatedDoc.docx");
 ```
 
+{{< figure align=center src="images/ellipses-annotation.jpg" alt="Ajouter des ellipses ou des annotations ovales par programmation dans C# .NET et Java">}}
+
 ## Insérer une annotation de distance dans Word en Java {#add-distance-annotation}
 
 De même, vous pouvez mentionner la distance entre deux points en utilisant l'annotation de distance. Voici les étapes pour ajouter une annotation de distance au document en Java.
-
-
-
-{{< figure align=center src="images/distance-annotation.jpg" alt="Ajouter une annotation de distance par programmation dans C# .NET et Java">}}
-
 
 * Après avoir chargé le document Word, initialisez l'annotation de distance à l'aide de la classe [DistanceAnnotation](https://apireference.groupdocs.com/annotation/java/com.groupdocs.annotation.models.annotationmodels/DistanceAnnotation).
 * Définissez l'apparence de l'annotation.
@@ -190,6 +175,8 @@ distance.setReplies(replies);
 annotator.add(distance);
 annotator.save("path/annotatedDoc.docx");
 ```
+
+{{< figure align=center src="images/distance-annotation.jpg" alt="Ajouter une annotation de distance par programmation dans C# .NET et Java">}}
 
 ## Supprimer les annotations des fichiers Word DOC/DOCX en Java {#remove-annotations}
 

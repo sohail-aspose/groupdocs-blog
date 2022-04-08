@@ -23,7 +23,7 @@ categories: ['GroupDocs.Redaction Product Family']
 
 GroupDocs 展示了用于 .NET 的 GroupDocs.Redaction，该 API 用于编辑、隐藏或删除 .NET 应用程序中的文档、演示文稿、电子表格、PDF 文件和图像的内容甚至元数据。有关 API 的更多详细信息，请访问其文档。
 
-您可以从 [下载部分](https://downloads.groupdocs.com/redaction) 下载 **DLLs** 或 **MSI** 安装程序，或通过 [NuGet](https) 在您的 .NET 应用程序中安装 API ://www.nuget.org/packages/groupdocs.redaction）。
+您可以从 [下载部分](https://downloads.groupdocs.com/redaction) 下载 **DLLs** 或 **MSI** 安装程序，或通过 [NuGet](https://www.nuget.org/packages/groupdocs.redaction）。
 
 ```
 PM> Install-Package GroupDocs.Redaction
@@ -41,7 +41,7 @@ PM> Install-Package GroupDocs.Redaction
 您可以使用此功能隐藏任何机密数据，还可以从模板创建新的自定义文档。以下步骤说明了如何在 C# 应用程序中查找包含其他文本的 PDF 文档中的任何单词/短语。
 
 * **使用 [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) 类加载** PDF 文件。
-* **查找确切的短语或单词**，使用 [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction) 和 [ReplacementOptions](https://apireference .groupdocs.com/redaction/net/groupdocs.redaction.redactions/replacementoptions）。
+* 使用 [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction) 和 [ReplacementOptions](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/replacementoptions) 查找确切的短语或单词。
 * **使用 [Apply()](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) 方法应用编辑**。
 * **保存**使用 [Save()](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/save/index) 方法更改的新文档。
 
@@ -88,7 +88,7 @@ using (Redactor redactor = new Redactor(@"path/document.pdf"))
 您还可以使用正则表达式替换任何特定的文本模式。以下步骤允许您在 .NET 应用程序中使用正则表达式 (RegEx) 搜索后编辑 PDF。
 
 * **使用 [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) 类加载** PDF 文档。
-* **使用 [RegexRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/regexredaction) 类和 [ReplacementOptions](https://apireference.groupdocs) 查找正则表达式匹配.com/redaction/net/groupdocs.redaction.redactions/replacementoptions）。
+* 使用带有 [ReplacementOptions](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/replacementoptions) 的 [RegexRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/regexredaction) 类查找正则表达式匹配。
 * 使用 [Apply()](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) 方法对文档进行更改。
 * **保存**使用适当的 [Save()](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/save/index) 方法编辑的文档。
 

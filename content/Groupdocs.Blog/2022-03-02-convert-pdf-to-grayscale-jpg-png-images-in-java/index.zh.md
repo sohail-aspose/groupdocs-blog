@@ -18,7 +18,7 @@ categories: ['GroupDocs.Conversion Product Family']
 
 ## 将文档转换为灰度的 Java API
 
-[GroupDocs.Conversion](https://products.groupdocs.com/conversion/net/) 提供 Java API 用于在多种[支持的文件格式和图像类型](https://docs.groupdocs.com/转换/网络/支持的文档格式/）。可以使用多个高级选项自定义转换结果。我将使用这个 [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) API 将 PDF 文档转换为灰度 JPG 和 PNG 图像。
+[GroupDocs.Conversion](https://products.groupdocs.com/conversion/net/) 提供 Java API，用于在多种[支持的文件格式和图像类型](https://docs.groupdocs.com/conversion/net/supported-document-formats/)之间转换文档。 可以使用多个高级选项自定义转换结果。 我将使用这个 [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) API 将 PDF 文档转换为灰度 JPG 和 PNG 图像。
 
 ### 下载或配置
 
@@ -42,7 +42,7 @@ categories: ['GroupDocs.Conversion Product Family']
 从转换彩色 PDF 文档并将其转换为图像格式开始。以下步骤展示了如何在 Java 中将 PDF 转换为灰度 JPG。
 
 * 使用 [Converter](https://apireference.groupdocs.com/conversion/java/com.groupdocs.conversion/Converter) 类加载 PDF 文档。
-* 准备【图片转换选项】(https://apireference.groupdocs.com/conversion/java/com.groupdocs.conversion.options.convert/ImageConvertOptions)。
+* 准备[图片转换选项](https://apireference.groupdocs.com/conversion/java/com.groupdocs.conversion.options.convert/ImageConvertOptions)。
 * 设置转换文件格式为**JPG**。
 * 将灰度选项设置为 true。
 * 使用带有选项的适当 **convert()** 方法转换为图像。

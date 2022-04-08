@@ -52,7 +52,7 @@ GroupDocs 提供用于应用各种类型的编辑的 Java API。它允许编辑�
 您可以使用此功能隐藏任何私人数据，也可以从任何模板创建新的自定义文档。以下步骤说明了如何在 PDF 文档中查找任何单词/短语并将其替换为 Java 应用程序中的一些其他文本。
 
 * **使用 [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) 类加载** PDF 文件。
-* **使用 [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction) 和 [ReplacementOptions](https:// /apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ReplacementOptions）。
+* 使用 [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction) 和 [ReplacementOptions](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ReplacementOptions) 查找确切的短语或单词。
 * **使用 apply() 方法应用编辑**。
 * **保存**使用 save() 方法更改的新文档。
 
@@ -99,7 +99,7 @@ redactor.save();
 同样，您可以使用正则表达式替换任何特定的文本模式。以下步骤允许您在 Java 应用程序中使用正则表达式 (RegEx) 搜索后编辑 PDF。
 
 * **使用 [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) 类加载** PDF 文档。
-* **使用带有 [ReplacementOptions](https://apireference) 的 [RegexRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/RegexRedaction) 类查找正则表达式匹配.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ReplacementOptions）。
+* 使用带有 [ReplacementOptions](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ReplacementOptions) 的 [RegexRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/RegexRedaction) 类查找正则表达式匹配。
 * 使用 apply() 方法将更改应用于文档。
 * **保存**使用适当的 save() 方法编辑的文档。
 

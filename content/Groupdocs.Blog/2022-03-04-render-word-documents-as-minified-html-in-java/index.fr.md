@@ -20,7 +20,7 @@ La minification HTML améliore les performances des applications Web avec un tem
 
 [GroupDocs.Viewer](https://products.groupdocs.com/viewer/) présente une [API de visualisation de documents](https://products.groupdocs.com/viewer/java/) qui permet de rendre différents types de documents dans Formats HTML, PDF et image dans les applications Java. J'utiliserai cette API dans l'exemple pour convertir le fichier Microsoft Word DOCX en un fichier HTML propre.
 
-Vous pouvez télécharger le fichier **JAR** à partir de la [section téléchargements](https://downloads.groupdocs.com/viewer/java) ou utiliser le dernier référentiel et dépendance [Maven](https://repository.groupdocs. com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs) configurations dans vos applications Java.
+Vous pouvez télécharger le fichier **JAR** à partir de la [section téléchargements](https://downloads.groupdocs.com/viewer/java) ou utiliser le dernier référentiel et dépendance [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs) configurations dans vos applications Java.
 
 ```
 <repository>

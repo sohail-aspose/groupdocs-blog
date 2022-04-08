@@ -51,7 +51,7 @@ categories: ['GroupDocs.Editor Product Family']
 * 获取加载的 DOC/DOCX 文档的嵌入 HTML。
 * 以编程方式或使用任何所见即所得编辑器编辑内容。
 * 将编辑后的内容转换回可编辑文档。
-* 使用适当的 [save()](https://apireference.groupdocs.com/editor/java/com.groupdocs.editor/Editor#save(com.groupdocs.editor.EditableDocument,%20java.lang) 保存更新的文档.String,%20com.groupdocs.editor.options.ISaveOptions)) 方法。
+* 使用适当的 [save()](https://apireference.groupdocs.com/editor/java/com.groupdocs.editor/Editor#save(com.groupdocs.editor.EditableDocument,%20java.lang.String,%20com.groupdocs.editor.options.ISaveOptions)) 方法保存更新的文档。
 
 以下 Java 代码允许在应用程序中编辑 Word 文档。
 
@@ -73,11 +73,11 @@ WordProcessingSaveOptions saveOptions = new WordProcessingSaveOptions(WordProces
 editor.save(editedDoc, "path/edited-document.docx", saveOptions);
 ```
 
-**加载：**您可以在加载 Word 文档时应用其他选项；就像在文档受到保护时提供密码一样。
+**加载** 您可以在加载 Word 文档时应用其他选项；就像在文档受到保护时提供密码一样。
 
-**编辑：**加载后，您可以根据需要编辑加载的文档。上面的示例将 Word 文档中所有出现的单词“document”替换为“edited document”。
+**编辑** 加载后，您可以根据需要编辑加载的文档。上面的示例将 Word 文档中所有出现的单词“document”替换为“edited document”。
 
-**保存：** 保存编辑后的文档时，您可以设置不同的选项。这些选项包括：分页、设置密码、内存优化设置等。
+**保存** 保存编辑后的文档时，您可以设置不同的选项。这些选项包括：分页、设置密码、内存优化设置等。
 
 以下是上述代码的输出。
 

@@ -18,11 +18,11 @@ Presque tous les documents ou formats d'image (y compris les images) peuvent êt
 
 ## API Java pour convertir des documents en niveaux de gris
 
-[GroupDocs.Conversion](https://products.groupdocs.com/conversion/net/) fournit une API Java pour convertir des documents entre une multitude de [formats de fichiers et types d'images pris en charge](https://docs.groupdocs.com/ conversion/net/supported-document-formats/). Les résultats de conversion peuvent être personnalisés à l'aide de plusieurs options avancées. J'utiliserai cette API [GroupDocs.Conversion pour Java](https://products.groupdocs.com/conversion/java/) pour convertir les documents PDF en images JPG et PNG en niveaux de gris.
+[GroupDocs.Conversion](https://products.groupdocs.com/conversion/net/) fournit une API Java pour convertir des documents entre une multitude de [formats de fichiers et types d'images pris en charge](https://docs.groupdocs.com/conversion/net/supported-document-formats/). Les résultats de conversion peuvent être personnalisés à l'aide de plusieurs options avancées. J'utiliserai cette API [GroupDocs.Conversion pour Java](https://products.groupdocs.com/conversion/java/) pour convertir les documents PDF en images JPG et PNG en niveaux de gris.
 
 ### Télécharger ou configurer
 
-Vous pouvez télécharger le fichier **JAR** à partir de la [section des téléchargements](https://downloads.groupdocs.com/conversion), ou simplement obtenir les configurations du référentiel et des dépendances pour le pox.xml de votre **Maven-based ** Applications Java.
+Vous pouvez télécharger le fichier **JAR** à partir de la [section des téléchargements](https://downloads.groupdocs.com/conversion), ou simplement obtenir les configurations du référentiel et des dépendances pour le pox.xml de votre **Maven-based** Applications Java.
 
 ```
 <repository>

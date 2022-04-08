@@ -24,7 +24,7 @@ categories: ['GroupDocs.Metadata Product Family']
 
 ### 下载并配置
 
-从 [下载](https://downloads.groupdocs.com/metadata/java) 部分获取元数据库。对于基于 Maven 的 Java 应用程序，只需添加以下 pom.xml 配置。在此之后，您可以尝试本文的示例以及 [GitHub](https://github.com/groupdocs-metadata) 上提供的更多示例。详情可访问【API 参考】(https://apireference.groupdocs.com/metadata/java)。
+从 [下载](https://downloads.groupdocs.com/metadata/java) 部分获取元数据库。对于基于 Maven 的 Java 应用程序，只需添加以下 pom.xml 配置。在此之后，您可以尝试本文的示例以及 [GitHub](https://github.com/groupdocs-metadata) 上提供的更多示例。详情可访问 [API 参考](https://apireference.groupdocs.com/metadata/java)。
 
 ```
 <repository>
@@ -70,7 +70,7 @@ try (Metadata metadata = new Metadata("path/audio-ID3V1.mp3")) {
 * 使用 [Metadata](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata/Metadata) 类加载 MP3 文件。
 * 获取[根包](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MP3RootPackage)。
 * 从根目录，您可以轻松检索所有 ID3v2 标签，如艺术家、作曲家、出版商、标题等。
-* 附加图片的详细信息可以从[附加图片框架]（https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ID3V2AttachedPictureFrame）的属性中检索。
+* 附加图片的详细信息可以从 [附加图片框架](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ID3V2AttachedPictureFrame) 的属性中检索。
 
 以下 Java 源代码示例读取 MP3 文件的一些 MP3 ID3v2 标签和附加图片详细信息。
 

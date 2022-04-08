@@ -46,19 +46,12 @@ categories: ['GroupDocs.Annotation Product Family']
 
 让我们为 Word 文档添加不同类型的注释。注释有多种类型，因此我们将在这里仅介绍几种。
 
-
-
 {{< figure align=center src="images/add-annotations-to-doc-docx-using-groupdocs-dotnet-java-api-1024x624.png" alt="使用 GroupDocs API 向 DOC DOCX 添加注释">}}
 
 
 ## 在 Java 中为 Word 添加箭头注释 {#add-arrow-annotation}
 
 以下是在 Java 中为 Word 文档添加箭头注释的步骤。
-
-
-
-{{< figure align=center src="images/arrow-annotation.jpg" alt="在 Java 和 .NET 中以编程方式添加箭头注释">}}
-
 
 * 使用 [Annotator](https://apireference.groupdocs.com/annotation/java/com.groupdocs.annotation/Annotator) 类加载文档。
 * 使用 [ArrowAnnotation](https://apireference.groupdocs.com/annotation/java/com.groupdocs.annotation.models.annotationmodels/ArrowAnnotation) 类初始化箭头注释。
@@ -83,6 +76,8 @@ annotator.add(arrow);
 annotator.save("path/annotatedDoc.docx");
 ```
 
+{{< figure align=center src="images/arrow-annotation.jpg" alt="在 Java 和 .NET 中以编程方式添加箭头注释">}}
+
 ## 在 Java 中向 Word 中插入矩形或区域注释 {#add-area-annotation}
 
 以下是通过一些自定义将矩形或区域注释添加到 DOC/DOCX 文档的步骤。它类似于添加箭头注释，但它使用**AreaAnnotation**。
@@ -93,11 +88,6 @@ annotator.save("path/annotatedDoc.docx");
 * 设置其他属性，如**页码、背景、不透明度、样式、笔宽**、**消息**和**时间**。
 * 将创建的矩形注解添加到注解器中。
 * 使用 save() 方法将带注释的 Word 文档保存到路径中。
-
-
-
-{{< figure align=center src="images/rectangle-area-annotation.jpg" alt="在 .NET 和 Java 中以编程方式添加矩形或区域注释">}}
-
 
 以下 Java 代码示例展示了如何向 Word 文档添加矩形/区域注释。
 
@@ -121,14 +111,11 @@ annotator.add(area);
 annotator.save("path/annotatedDoc.docx");
 ```
 
+{{< figure align=center src="images/rectangle-area-annotation.jpg" alt="在 .NET 和 Java 中以编程方式添加矩形或区域注释">}}
+
 ## 在 Java 中为 Word 添加椭圆或椭圆注释 {#add-ellipse-annotation}
 
 以下是在 Java 中为文档添加椭圆/椭圆注释的步骤。
-
-
-
-{{< figure align=center src="images/ellipses-annotation.jpg" alt="在 C# .NET 和 Java 中以编程方式添加椭圆或椭圆注释">}}
-
 
 * 使用 [Annotator](https://apireference.groupdocs.com/annotation/java/com.groupdocs.annotation/Annotator) 类加载 DOC/DOCX 文档。
 * 使用 [EllipseAnnotation](https://apireference.groupdocs.com/annotation/java/com.groupdocs.annotation.models.annotationmodels/EllipseAnnotation) 类初始化椭圆注释。
@@ -157,14 +144,11 @@ annotator.add(ellipse);
 annotator.save("path/annotatedDoc.docx");
 ```
 
+{{< figure align=center src="images/ellipses-annotation.jpg" alt="在 C# .NET 和 Java 中以编程方式添加椭圆或椭圆注释">}}
+
 ## 在 Java 中向 Word 中插入距离注释 {#add-distance-annotation}
 
 同样，您可以使用距离注释来提及两点之间的距离。以下是在 Java 中为文档添加距离注释的步骤。
-
-
-
-{{< figure align=center src="images/distance-annotation.jpg" alt="在 C# .NET 和 Java 中以编程方式添加距离注释">}}
-
 
 * 加载 Word 文档后，使用 [DistanceAnnotation](https://apireference.groupdocs.com/annotation/java/com.groupdocs.annotation.models.annotationmodels/DistanceAnnotation) 类初始化距离标注。
 * 设置注释的外观。
@@ -190,6 +174,8 @@ distance.setReplies(replies);
 annotator.add(distance);
 annotator.save("path/annotatedDoc.docx");
 ```
+
+{{< figure align=center src="images/distance-annotation.jpg" alt="在 C# .NET 和 Java 中以编程方式添加距离注释">}}
 
 ## 从 Java 中的 Word DOC/DOCX 文件中删除注释 {#remove-annotations}
 

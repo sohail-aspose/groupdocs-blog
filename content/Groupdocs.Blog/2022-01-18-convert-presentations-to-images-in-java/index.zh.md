@@ -55,7 +55,7 @@ categories: ['GroupDocs.Conversion Product Family']
 让我们通过将演示文稿转换为 JPG 图像格式来实现目标。以下步骤指导如何将 Powerpoint PPT/PPTX 转换为 Java 中的 JPG 图像格式。
 
 * 使用 [Converter](https://apireference.groupdocs.com/conversion/java/com.groupdocs.conversion/Converter) 类加载演示文稿。
-* 准备【图片转换选项】(https://apireference.groupdocs.com/conversion/java/com.groupdocs.conversion.options.convert/ImageConvertOptions)。
+* 准备 [图片转换选项](https://apireference.groupdocs.com/conversion/java/com.groupdocs.conversion.options.convert/ImageConvertOptions)。
 * 定义转换文件格式为**JPG**。
 * 提供要转换的幻灯片编号。
 * 使用 **convert()** 方法将演示幻灯片转换为 JPG 图像。
@@ -78,9 +78,9 @@ converter.convert("path/ppt-to-image.jpg", options);
 同样，您可以转换为其他流行的图像格式，例如 PNG。让我们将演示文稿的任何幻灯片转换为 PNG。以下步骤展示了如何在 Java 中将 PPT/PPTX 演示幻灯片转换为 PNG 图像格式。
 
 * 使用 [Converter](https://apireference.groupdocs.com/conversion/java/com.groupdocs.conversion/Converter) 类加载演示文件。
-* 准备【图片转换选项】(https://apireference.groupdocs.com/conversion/java/com.groupdocs.conversion.options.convert/ImageConvertOptions)。
+* 准备 [图片转换选项](https://apireference.groupdocs.com/conversion/java/com.groupdocs.conversion.options.convert/ImageConvertOptions)。
 * 将转换文件格式设置为**PNG**。
-*定义要转换的选定幻灯片编号。
+* 定义要转换的选定幻灯片编号。
 * 使用 **convert()** 方法将幻灯片转换为 PNG 图像。
 
 以下 Java 源代码示例将 PowerPoint 演示文稿转换为 PNG 格式。

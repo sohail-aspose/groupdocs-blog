@@ -35,7 +35,7 @@ categories: ['GroupDocs.Annotation Product Family']
 
 [GroupDocs.Annotation](https://products.groupdocs.com/annotation/) 有它的 .NET API 来处理文档和图像中的注释。它允许您从 PDF 和 Word 文档、电子表格和演示文稿中添加、删除和提取注释。此外，它还支持图像、网页、电子邮件、Visio 绘图等等。您可以查看文档以获取 [支持的注释文档格式](https://docs.groupdocs.com/annotation/net/supported-document-formats/) 的完整列表。
 
-从 [下载部分](https://downloads.groupdocs.com/annotation) 下载其 **DLLs** 或 **MSI** 安装程序，或通过 [NuGet](https:// /www.nuget.org/packages/groupdocs.annotation）。您也可以使用包管理器中的以下命令。
+从 [下载部分](https://downloads.groupdocs.com/annotation) 下载其 **DLLs** 或 **MSI** 安装程序，或通过 [NuGet](https://www.nuget.org/packages/groupdocs.annotation)。您也可以使用包管理器中的以下命令。
 
 ```
 PM> Install-Package GroupDocs.Annotation
@@ -177,7 +177,7 @@ using (Annotator annotator = new Annotator("path/document.pdf"))
 {{< figure align=center src="images/distance-annotation.jpg" alt="在 C# .NET 和 Java 中以编程方式添加距离注释">}}
 
 
-* 使用 [Annotator](https://apireference.groupdocs.com/annotation/net/groupdocs.annotation/annotator) 类加载 PDF 文档后，使用 [DistanceAnnotation](https://apireference.groupdocs. com/annotation/net/groupdocs.annotation.models.annotationmodels/distanceannotation) 类。
+* 使用 [Annotator](https://apireference.groupdocs.com/annotation/net/groupdocs.annotation/annotator) 类加载 PDF 文档后，使用 [DistanceAnnotation](https://apireference.groupdocs.com/annotation/net/groupdocs.annotation.models.annotationmodels/distanceannotation) 类。
 * 设置外观、线条颜色、粗细、样式等。
 * 将距离注释添加到注释器中。
 * 使用适当的 [Save()](https://apireference.groupdocs.com/annotation/net/groupdocs.annotation/annotator/methods/save/index) 方法保存带有注释的 PDF 文件。
@@ -226,15 +226,10 @@ using (Annotator annotator = new Annotator("path/document.pdf"))
 
 最后，您学习了如何使用 C# 在 .NET 应用程序中向 PDF 文档添加不同的注释。更准确地说，我们添加了箭头、椭圆、面积和距离注释。此外，您还看到了从任何 PDF 文件中删除所有注释的方法之一。
 
-您可以考虑构建自己的文档注释器 .NET 应用程序。有关 **GroupDocs.Annotation for .NET** 的更多信息，请访问 [文档](https://docs.groupdocs.com/annotation/net/) 和 [GitHub](https://github.com/ groupdocs-annotation) 存储库。如需进一步查询，请联系 [论坛](https://forum.groupdocs.com/) 上的支持人员。
+您可以考虑构建自己的文档注释器 .NET 应用程序。有关 **GroupDocs.Annotation for .NET** 的更多信息，请访问 [文档](https://docs.groupdocs.com/annotation/net/) 和 [GitHub](https://github.com/groupdocs-annotation) 存储库。如需进一步查询，请联系 [论坛](https://forum.groupdocs.com/) 上的支持人员。
 
 ## 也可以看看
 
 * [使用 C# 中的注释在 PDF 中创建超链接](https://blog.groupdocs.com/2021/10/16/create-hyperlinks-in-pdf-using-annotations-in-csharp/)
 * [在 C# 中使用注释突出显示 PDF](https://blog.groupdocs.com/2021/10/12/highlight-pdf-with-annotations-using-csharp/)
 * [使用 C# 添加或删除注释或标记 Word 文件](https://blog.groupdocs.com/2021/06/23/annotate-word-documents-using-csharp/)
-
-
-
-
-

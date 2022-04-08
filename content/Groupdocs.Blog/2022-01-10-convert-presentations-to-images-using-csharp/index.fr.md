@@ -6,7 +6,7 @@ url: /fr/2022/01/10/convert-presentations-to-images-using-csharp/
 author: 'Shoaib Khan'
 summary: "Vous souhaitez probablement utiliser vos diapositives de présentation dans des applications Web ou vous souhaitez utiliser ses vignettes de diapositives. Dans de tels cas, vous devez convertir vos diapositives de présentation PowerPoint en images. Dans cet article, vous apprendrez **comment convertir les présentations PPT ou PPTX en images JPG et PNG** par programmation à l'aide de C#.
 
-Les sujets suivants sont abordés dans cet article :
+Les sujets suivants sont abordés dans cet article:
 
 * API .NET pour convertir des présentations
 * Convertir PPT/PPTX en image JPG
@@ -17,12 +17,9 @@ categories: ['GroupDocs.Conversion Product Family']
 
 Vous souhaitez probablement utiliser vos diapositives de présentation dans des applications Web ou vous souhaitez utiliser ses vignettes de diapositives. Dans de tels cas, vous devez convertir vos diapositives de présentation PowerPoint en images. Dans cet article, vous apprendrez **comment convertir les présentations PPT ou PPTX en fichiers image JPG et PNG** par programmation à l'aide de C#.
 
-
-
 {{< figure align=center src="images/convert-ppt-to-jpg-png-image-using-dotnet.jpg" alt="Convertir PPT en JPG ou PNG Image en utilisant .NET">}}
 
-
-Les sujets suivants sont abordés ici :
+Les sujets suivants sont abordés ici:
 
 * [API .NET pour convertir des présentations](#ppt-convert-dotnet-api)
 * [Convertir PPT/PPTX en image JPG](#ppt-to-jpg)
@@ -30,9 +27,9 @@ Les sujets suivants sont abordés ici :
 
 ## API .NET pour convertir des présentations {#ppt-convert-dotnet-api}
 
-[GroupDocs.Conversion](https://products.groupdocs.com/conversion/) présente l'API .NET qui permet la conversion de fichiers de présentation en images dans les applications .NET. Dans cet article, nous utiliserons son [GroupDocs.Conversion pour .NET](https://products.groupdocs.com/conversion/net/) pour convertir les présentations PPT/PPTX en formats d'images. De plus, l'API prend en charge la conversion de nombreux autres formats de fichiers tels que les documents de traitement de texte, les feuilles de calcul, les présentations, les livres électroniques, les images et bien d'autres qui sont mentionnés dans la [documentation](https://docs.groupdocs.com/conversion/ net/supported-document-formats/).
+[GroupDocs.Conversion](https://products.groupdocs.com/conversion/) présente l'API .NET qui permet la conversion de fichiers de présentation en images dans les applications .NET. Dans cet article, nous utiliserons son [GroupDocs.Conversion pour .NET](https://products.groupdocs.com/conversion/net/) pour convertir les présentations PPT/PPTX en formats d'images. De plus, l'API prend en charge la conversion de nombreux autres formats de fichiers tels que les documents de traitement de texte, les feuilles de calcul, les présentations, les livres électroniques, les images et bien d'autres qui sont mentionnés dans la [documentation](https://docs.groupdocs.com/conversion/net/supported-document-formats/).
 
-Vous pouvez télécharger le programme d'installation **DLLs** ou **MSI** à partir de la [section téléchargements](https://downloads.groupdocs.com/conversion) ou installer l'API dans votre application .NET via [NuGet](https ://www.nuget.org/packages/groupdocs.conversion).
+Vous pouvez télécharger le programme d'installation **DLLs** ou **MSI** à partir de la [section téléchargements](https://downloads.groupdocs.com/conversion) ou installer l'API dans votre application .NET via [NuGet](https://www.nuget.org/packages/groupdocs.conversion).
 
 ```
 PM> Install-Package GroupDocs.Conversion

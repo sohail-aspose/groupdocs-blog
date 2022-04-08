@@ -20,7 +20,7 @@ En cette ère numérique, le PDF est l'un des formats de fichiers les plus utili
 
 Afin de réorganiser les pages dans les documents, GroupDocs fournit [GroupDocs.Merger pour .NET](https://products.groupdocs.com/merger/net/). L'API permet de supprimer, de fractionner et d'extraire des pages, de modifier l'orientation des pages et de faire pivoter les pages de document dans les applications .NET. Pour les détails et autres fonctionnalités de l'API, vous pouvez consulter la [documentation](https://docs.groupdocs.com/merger/net/).
 
-Vous pouvez télécharger le programme d'installation **DLLs** ou **MSI** à partir de la [section téléchargements](https://downloads.groupdocs.com/merger) ou installer l'API dans votre application .NET via [NuGet](https ://www.nuget.org/packages/groupdocs.merger).
+Vous pouvez télécharger le programme d'installation **DLLs** ou **MSI** à partir de la [section téléchargements](https://downloads.groupdocs.com/merger) ou installer l'API dans votre application .NET via [NuGet](https://www.nuget.org/packages/groupdocs.merger).
 
 ```
 PM> Install-Package GroupDocs.Merger

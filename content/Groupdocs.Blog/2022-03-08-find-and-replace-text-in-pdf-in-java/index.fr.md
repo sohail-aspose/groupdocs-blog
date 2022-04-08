@@ -14,8 +14,8 @@ Les modèles sont largement utilisés pour générer des documents personnalisé
 Les sujets suivants seront abordés ci-dessous :
 
 * [API Java pour remplacer du texte](#java-redaction-api)
-* [Rechercher et remplacer des mots ou une expression](#replace-word-or-phrase)
-* [Recherche et remplacement de mots sensibles à la casse](#case-sensitive-text-redaction)
+* [Rechercher et remplacer des mots ou une expression](#replace-word-or-phrase)
+* [Recherche et remplacement de mots sensibles à la casse](#case-sensitive-text-redaction)
 * [Remplacer par des expressions régulières (RegEx)](#replace-text-using-regex)
 * [Masquer le texte avec une boîte de couleur](#hide-text-with-colored-box)
 
@@ -52,7 +52,7 @@ L'une des bonnes choses est qu'il n'est pas nécessaire d'installer un éditeur 
 Vous pouvez utiliser cette fonctionnalité pour masquer toutes les données privées et également pour créer un nouveau document personnalisé à partir de n'importe quel modèle. L'étape suivante explique comment rechercher un mot/phrase dans un document PDF et le remplacer par un autre texte dans l'application Java.
 
 * **Chargez** le fichier PDF à l'aide de la classe [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor).
-* **Trouvez la phrase ou le mot exact**, en utilisant [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction) et [ReplacementOptions](https:/ /apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ReplacementOptions).
+* **Trouvez la phrase ou le mot exact**, en utilisant [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction) et [ReplacementOptions](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ReplacementOptions).
 * **Appliquez la rédaction** en utilisant la méthode apply().
 * **Enregistrer** le nouveau document avec les modifications à l'aide de la méthode save().
 
@@ -99,7 +99,7 @@ La sortie du code est la suivante.
 De même, vous pouvez remplacer n'importe quel modèle de texte spécifique à l'aide d'expressions régulières. Les étapes suivantes vous permettent de biffer un PDF après une recherche à l'aide d'une expression régulière (RegEx) dans vos applications Java.
 
 * **Chargez** le document PDF à l'aide de la classe [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor).
-* **Trouvez la correspondance de regex** en utilisant la classe [RegexRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/RegexRedaction) avec [ReplacementOptions](https://apireference .groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ReplacementOptions).
+* **Trouvez la correspondance de regex** en utilisant la classe [RegexRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/RegexRedaction) avec [ReplacementOptions](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ReplacementOptions).
 * Appliquez les modifications au document à l'aide de la méthode apply().
 * **Enregistrer** le document expurgé en utilisant la méthode save() appropriée.
 

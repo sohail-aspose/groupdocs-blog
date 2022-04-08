@@ -9,7 +9,7 @@ tags: ['Add Password to PPT in Java', 'Change PPT Password in Java', 'Lock PPT i
 categories: ['GroupDocs.Merger Product Family']
 ---
 
-La protection est importante pour les documents confidentiels et privés. Dans cet article, nous verrons **comment verrouiller les **fichiers de présentation PowerPoint** avec un mot de passe en Java**. De plus, nous apprendrons à déverrouiller les fichiers de présentation en ** supprimant leur mot de passe ** et aussi ** comment changer le mot de passe existant ** des fichiers PPT & PPTX.
+La protection est importante pour les documents confidentiels et privés. Dans cet article, nous verrons **comment verrouiller les **fichiers de présentation PowerPoint** avec un mot de passe en Java**. De plus, nous apprendrons à déverrouiller les fichiers de présentation en **supprimant leur mot de passe** et aussi **comment changer le mot de passe existant** des fichiers PPT & PPTX.
 
 
 
@@ -85,7 +85,7 @@ Si vous doutez que votre mot de passe soit lu par quelqu'un. Vous pouvez le chan
 * Préparez les [options de chargement](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger.domain.options/LoadOptions) en utilisant le mot de passe **actuel**.
 * Définissez les [options de mise à jour](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger.domain.options/UpdatePasswordOptions) à l'aide du **nouveau** mot de passe.
 * Chargez la présentation à l'aide de la classe [Merger](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger).
-* Maintenant, changez le mot de passe en utilisant [updatePassword()](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#updatePassword(com.groupdocs.merger.domain.options.interfaces. IUpdatePasswordOptions)).
+* 现在，使用 [updatePassword()](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#updatePassword(com.groupdocs.merger.domain.options.interfaces.IUpdatePasswordOptions)) 方法更改密码。
 * Enfin, appelez la méthode [save()](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#save(java.lang.String)) pour enregistrer le fichier verrouillé.
 
 Voici l'extrait de code Java qui change le mot de passe existant avec un nouveau d'une présentation PowerPoint PPT/PPTX.

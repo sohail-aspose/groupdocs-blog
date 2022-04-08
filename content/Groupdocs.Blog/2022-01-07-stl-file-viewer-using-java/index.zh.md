@@ -27,7 +27,7 @@ STL (**ST**ereo**L**ithography) 文件格式广泛用于 3D CAD 绘图和打印�
 
 [GroupDocs.Viewer](https://products.groupdocs.com/viewer/) 展示了 [document viewer Java API](https://products.groupdocs.com/viewer/net/)，允许将文档呈现为 PDF， HTML 和 Java 应用程序中的图像。在本文中，我们将在示例中使用此 API 将 STL 文件转换为其他不同的文件格式。
 
-您可以从 [下载部分](https://downloads.groupdocs.com/viewer/java) 下载 **JAR** 文件，或使用最新的存储库和依赖项 [Maven](https://repository.groupdocs. com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs) 配置。
+您可以从 [下载部分](https://downloads.groupdocs.com/viewer/java) 下载 **JAR** 文件，或使用最新的存储库和依赖项 [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs) 配置。
 
 ```
 <repository>
@@ -66,10 +66,10 @@ try (Viewer viewer = new Viewer("path/input.stl")) {
 
 * 使用 [Viewer](https://apireference.groupdocs.com/viewer/java/com.groupdocs.viewer/Viewer) 类加载 **STL** 文件。
 * 根据预期的输出格式准备渲染选项：
-    * **HTML** 渲染需要 [](https://apireference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions)[HtmlViewOptions](https://apireference.groupdocs.com/viewer/java /com.groupdocs.viewer.options/HtmlViewOptions) 类。 （您可以使用嵌入式或外部资源）
+    * **HTML** 渲染需要 [](https://apireference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions)[HtmlViewOptions](https://apireference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/HtmlViewOptions) 类。 （您可以使用嵌入式或外部资源）
     * **JPG** 渲染使用 [JpgViewOptions](https://apireference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/JpgViewOptions) 类。
     * **PNG** 渲染需要 [PngViewOptions](https://apireference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/PngViewOptions) 类。
-* 使用 [view()](https://apireference.groupdocs.com/viewer/java/com.groupdocs.viewer/Viewer#view(com.groupdocs.viewer. options.ViewOptions)) 方法。
+* 使用 [view()](https://apireference.groupdocs.com/viewer/java/com.groupdocs.viewer/Viewer#view(com.groupdocs.viewer.options.ViewOptions)) 方法。
 
 以下是使用上述相应格式选项将 STL 文件独立呈现为每种格式的 Java 源代码示例。
 
@@ -124,8 +124,3 @@ try (Viewer viewer = new Viewer("path/input.stl")) {
 * [Java 中的源代码文件到 PDF](https://blog.groupdocs.com/2021/12/16/convert-source-code-to-pdf-in-java/)
 * [使用 Java 查看 CAD 文件](https://blog.groupdocs.com/2021/04/05/viewing-cad-documents-using-java/)
 * [使用 Java 将 Word 文档作为 HTML 响应页面](https://blog.groupdocs.com/2021/09/23/view-word-documents-as-responsive-html-page-using-java/)
-
-
-
-
-

@@ -20,7 +20,7 @@ categories: ['GroupDocs.Merger Product Family']
 
 **GroupDocs.Merger** 提供了 .NET API，它可以在 .NET 应用程序中移动、删除、拆分文档和提取页面、更改页面方向以及旋转文档页面。今天，我们将使用这个 API 来使用 C# 移动 DOC/DOCX 文件的页面。有关 API 的详细信息和其他功能，您可以访问[文档](https://docs.groupdocs.com/merger/)。
 
-您可以从 [下载部分](https://downloads.groupdocs.com/merger) 下载 **DLLs** 或 **MSI** 安装程序，或通过 [NuGet](https://downloads.groupdocs.com/merger) 在您的 .NET 应用程序中安装 API ://www.nuget.org/packages/groupdocs.merger）。
+您可以从[下载部分](https://downloads.groupdocs.com/merger)下载 **DLLs** 或 **MSI** 安装程序，或通过 [NuGet](https://www.nuget.org/packages/groupdocs.merger) 在您的 .NET 应用程序中安装 API。
 
 ```
 PM> Install-Package GroupDocs.Merger

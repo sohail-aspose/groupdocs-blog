@@ -20,7 +20,7 @@ HTML 的清理和缩小可以提高网页的加载时间和带宽使用率。据
 
 [GroupDocs.Viewer](https://products.groupdocs.com/viewer/) 提供了一个[文档查看 API](https://products.groupdocs.com/viewer/net/)，允许将各种文档呈现为 HTML， .NET 应用程序中的 PDF 和图像格式。我将在示例中使用此 API 将 DOCX 文件转换为干净的 HTML 文件。
 
-您可以从 [下载部分](https://downloads.groupdocs.com/viewer/net) 下载 DLL 或 MSI 安装程序，或通过 [NuGet](https://www.nuget) 在您的 .NET 应用程序中安装 API .org/packages/groupdocs.viewer）。
+您可以从 [下载部分](https://downloads.groupdocs.com/viewer/net) 下载 DLL 或 MSI 安装程序，或通过 [NuGet](https://www.nuget.org/packages/groupdocs.viewer)。
 
 ```
 PM> Install-Package GroupDocs.Viewer

@@ -27,7 +27,7 @@ categories: ['GroupDocs.Metadata Product Family']
 
 [GroupDocs.Metadata](https://products.groupdocs.com/metadata) 展示了[元数据管理 .NET API](https://products.groupdocs.com/metadata/net/) 以处理 . NET 应用程序。 API 允许读取、更新、添加、清理和完全删除许多文件格式的元数据。我们将使用此 API 删除 MP3 文件的元数据标签。
 
-您可以从 [下载部分](https://downloads.groupdocs.com/metadata) 下载 **DLLs** 或 **MSI** 安装程序，或通过 [NuGet](https) 在您的 .NET 应用程序中安装 API ://www.nuget.org/packages/groupdocs.metadata）。
+您可以从 [下载部分](https://downloads.groupdocs.com/metadata)下载 **DLL** 或 **MSI** 安装程序，或通过 [NuGet](https://www.nuget.org/packages/groupdocs.metadata) 在您的 .NET 应用程序中安装 API。
 
 ```
 PM> Install-Package GroupDocs.Metadata
@@ -42,7 +42,7 @@ PM> Install-Package GroupDocs.Metadata
 3. **删除**相关的 MP3 标签。
 4. **保存**更新的 MP3 文件。
 
-### 1\。 **加载 MP3**
+### 1。 **加载 MP3**
 
 选择 MP3 文件并使用 [Metadata](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata/metadata) 类加载它。
 
@@ -50,15 +50,15 @@ PM> Install-Package GroupDocs.Metadata
 Metadata metadata = new Metadata("path/mp3File.mp3");
 ```
 
-### 2\。获取 MP3 根包
+### 2。获取 MP3 根包
 
-使用[GetRootPackage()](https://apireference. groupdocs.com/metadata/net/groupdocs.metadata/metadata/methods/getrootpackage/index) 方法。
+使用[GetRootPackage()](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata/metadata/methods/getrootpackage/index) 方法。
 
 ```
 var root = metadata.GetRootPackage();
 ```
 
-### 3\。删除 MP3 标签
+### 3。删除 MP3 标签
 
 从以下删除不同元数据标签的方法中，您可以使用相关的删除策略。
 
@@ -86,7 +86,7 @@ root.ID3V2 = null;
 root.Lyrics3V2 = null;
 ```
 
-＃＃＃＃ ****猿****
+#### ****猿****
 
 使用根包的[RemoveApeV2()](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.audio/mp3rootpackage/methods/removeapev2)方法去除**APEv2**标签。
 
@@ -94,7 +94,7 @@ root.Lyrics3V2 = null;
 root.RemoveApeV2();
 ```
 
-### 4\。保存文件
+### 4。保存文件
 
 最后，使用 [Save()](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata/metadata/methods/save/index) 方法**保存**更新的 MP3 文件。
 
@@ -133,9 +133,4 @@ using (Metadata metadata = new Metadata("path/mp3File.mp3"))
 
 * [使用 C# 读取 MP3 标签 – (ID3, Lyrics, APE)](https://blog.groupdocs.com/2022/01/22/read-mp3-tags-using-csharp/)
 * [在 C# 中提取 WAV 文件的 RIFF INFO 和元数据](https://blog.groupdocs.com/2021/03/05/extract-riff-info-and-metadata-of-wav-files-in-csharp/ )
-* [使用 C# 管理 HEIF/HEIC 图像的 XMP 和 EXIF 数据](https://blog.groupdocs.com/2021/07/17/manage-xmp-and-exif-data-of-heif-heic-images-使用-csharp/)
-
-
-
-
-
+* [使用 C# 管理 HEIF/HEIC 图像的 XMP 和 EXIF 数据](https://blog.groupdocs.com/2021/07/17/manage-xmp-and-exif-data-of-heif-heic-images-using-csharp/)

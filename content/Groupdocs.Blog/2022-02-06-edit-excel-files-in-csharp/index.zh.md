@@ -20,7 +20,7 @@ categories: ['GroupDocs.Editor Product Family']
 
 GroupDocs 展示了用于电子表格编辑的 .NET API。我将在本文的 C# 示例中使用它。它是文档编辑 API，允许开发人员使用 WYSIWYG HTML 编辑器加载、编辑和保存各种文档格式。除了 XLS、XLSX 和 ODS 电子表格格式之外，API 还支持编辑各种其他 [电子表格和 MS Excel 支持的格式](https://docs.groupdocs.com/editor/net/supported-document-formats/)例如 CSV、TSV、DSV、XLT、XLTX、XLTM、XLSM、XLSB、XLAM、SXC、SpreadsheetML、FODS、DIF。
 
-从 [下载部分](https://downloads.groupdocs.com/editor/net) 下载 **DLLs** 或 **MSI** 安装程序，或通过 [NuGet](https) 在您的 .NET 应用程序中安装 API ://www.nuget.org/packages/groupdocs.editor）。
+从 [下载部分](https://downloads.groupdocs.com/editor/net) 下载 **DLL** 或 **MSI** 安装程序，或通过 [NuGet](https://www.nuget.org/packages/groupdocs.editor) 在您的 .NET 应用程序中安装 API。
 
 ```
 PM> Install-Package GroupDocs.Editor
@@ -51,11 +51,11 @@ Editor editor = new Editor("path/spreadsheet.xlsx", delegate { return loadOption
 
 加载后，您可以根据需要编辑加载的电子表格。现在我们将在电子表格的第一个选项卡中将所有出现的“旧公司名称”替换为“新公司名称”。以下步骤允许您在 C# 中相应地编辑 excel 文件。
 
-* 使用 [Editor](https://apireference.groupdocs.com/editor/net/groupdocs.editor/editor) 和 [loading options](https://apireference.groupdocs.com/editor/net/) 加载 Excel 文件groupdocs.editor.options/spreadsheetloadoptions）。
+* 使用 [Editor](https://apireference.groupdocs.com/editor/net/groupdocs.editor/editor) 和[加载选项](https://apireference.groupdocs.com/editor/net/groupdocs.editor.options/spreadsheetloadoptions)加载 Excel 文件。
 * 准备 [电子表格编辑选项](https://apireference.groupdocs.com/editor/net/groupdocs.editor.options/spreadsheeteditoptions) 以提取准确的表格/选项卡。
 * [提取](https://apireference.groupdocs.com/editor/net/groupdocs.editor/editabledocument/methods/index) 选项卡的内容。
 * 修改标签的内容。
-*您可以从选定的选项卡中提取图像和所有资源。
+* 您可以从选定的选项卡中提取图像和所有资源。
 * 使用修改后的内容创建新的 [EditableDocument](https://apireference.groupdocs.com/editor/net/groupdocs.editor/editabledocument)。
 * 使用适当的 [Save()](https://apireference.groupdocs.com/editor/net/groupdocs.editor/editor/methods/save/index) 方法保存编辑电子表格。
 

@@ -23,7 +23,7 @@ categories: ['GroupDocs.Metadata Product Family']
 
 Il existe différentes normes de métadonnées utilisées avec les fichiers MP3. Différents types de données peuvent être stockés en utilisant différentes normes. Dans cet article, nous expliquerons **comment lire différentes balises MP3 à l'aide de C#**. Plus précisément, nous apprendrons à extraire les balises de métadonnées ID3v1, ID3v2, Paroles et APEv2 des fichiers mp3 dans l'application .NET.
 
-Les sujets suivants sont traités ci-dessous :
+Les sujets suivants sont traités ci-dessous:
 
 * [API .NET pour gérer les balises MP3](#mp3-tags-dotnet-api)
 * [Lire les balises MP3 ID3 - ID3v1 et ID3v2](#read-mp3-id3-tags)
@@ -32,9 +32,9 @@ Les sujets suivants sont traités ci-dessous :
 
 ## API .NET pour l'éditeur de balises MP3 {#mp3-tags-dotnet-api}
 
-[GroupDocs.Metadata](https://products.groupdocs.com/metadata) fournit l'API .NET pour automatiser la gestion des métadonnées de [divers formats de fichiers](https://docs.groupdocs.com/metadata/net/supported-document -formats/) dans les applications .NET. L'API permet de lire, mettre à jour, ajouter, nettoyer et supprimer les métadonnées pour de nombreux formats de fichiers. Nous utiliserons cette API pour traiter les balises de métadonnées des fichiers MP3.
+[GroupDocs.Metadata](https://products.groupdocs.com/metadata) fournit l'API .NET pour automatiser la gestion des métadonnées de [divers formats de fichiers](https://docs.groupdocs.com/metadata/net/supported-document-formats/) dans les applications .NET. L'API permet de lire, mettre à jour, ajouter, nettoyer et supprimer les métadonnées pour de nombreux formats de fichiers. Nous utiliserons cette API pour traiter les balises de métadonnées des fichiers MP3.
 
-Vous pouvez télécharger le programme d'installation **DLLs** ou **MSI** à partir de la [section téléchargements](https://downloads.groupdocs.com/metadata) ou installer l'API dans votre application .NET via [NuGet](https ://www.nuget.org/packages/groupdocs.metadata).
+Vous pouvez télécharger le programme d'installation **DLLs** ou **MSI** à partir de la [section téléchargements](https://downloads.groupdocs.com/metadata) ou installer l'API dans votre application .NET via [NuGet](https://www.nuget.org/packages/groupdocs.metadata).
 
 ```
 PM> Install-Package GroupDocs.Metadata
@@ -178,12 +178,7 @@ Pour conclure, nous avons appris à extraire les balises de métadonnées des fi
 
 ## Voir également
 
-* [Suppression de métadonnées pour les documents et les images à l'aide de C #](https://blog.groupdocs.com/2020/12/29/remove-metadata-of-documents-and-images-using-csharp/)
-* [Extraire les informations RIFF et les métadonnées des fichiers WAV en C #](https://blog.groupdocs.com/2021/03/05/extract-riff-info-and-metadata-of-wav-files-in-csharp/ )
-* [Gérer les données XMP et EXIF des images HEIF/HEIC à l'aide de C#](https://blog.groupdocs.com/2021/07/17/manage-xmp-and-exif-data-of-heif-heic-images- using-csharp/)
-* [Gérer les données EXIF des images en C# .NET](https://blog.groupdocs.com/2020/05/13/manage-exif-data-in-csharp-net-for-jpeg-png-tiff-webp -images/)
-
-
-
-
-
+* [Suppression de métadonnées pour les documents et les images à l'aide de C#](https://blog.groupdocs.com/2020/12/29/remove-metadata-of-documents-and-images-using-csharp/)
+* [Extraire les informations RIFF et les métadonnées des fichiers WAV en C#](https://blog.groupdocs.com/2021/03/05/extract-riff-info-and-metadata-of-wav-files-in-csharp/)
+* [Gérer les données XMP et EXIF des images HEIF/HEIC à l'aide de C#](https://blog.groupdocs.com/2021/07/17/manage-xmp-and-exif-data-of-heif-heic-images-using-csharp/)
+* [Gérer les données EXIF des images en C# .NET](https://blog.groupdocs.com/2020/05/13/manage-exif-data-in-csharp-net-for-jpeg-png-tiff-webp-images/)

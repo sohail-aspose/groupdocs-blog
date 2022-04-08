@@ -108,9 +108,4 @@ Le meilleur moyen est de découvrir les exemples disponibles sur [GitHub](https:
 
 * [Convertir des images en PDF en C#](https://blog.groupdocs.com/2021/05/19/convert-images-to-pdf-in-csharp/)
 * [Transformer des présentations en images à l'aide de C#](https://blog.groupdocs.com/2022/01/10/convert-presentations-to-images-using-csharp/)
-* [Convertir des images WebP en JPG, PNG, TIFF et PDF en C#](https://blog.groupdocs.com/2020/06/30/convert-webp-to-jpg-png-tiff-and-pdf- in-csharp/)
-
-
-
-
-
+* [Convertir des images WebP en JPG, PNG, TIFF et PDF en C#](https://blog.groupdocs.com/2020/06/30/convert-webp-to-jpg-png-tiff-and-pdf-in-csharp/)

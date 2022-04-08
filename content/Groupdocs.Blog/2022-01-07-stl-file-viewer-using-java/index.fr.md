@@ -27,7 +27,7 @@ Les sujets suivants sont abordés ci-dessous :
 
 [GroupDocs.Viewer](https://products.groupdocs.com/viewer/) présente [l'API Java de la visionneuse de documents](https://products.groupdocs.com/viewer/net/) qui permet de rendre les documents au format PDF, HTML et images dans l'application Java. Dans cet article, nous utiliserons cette API dans des exemples pour convertir les fichiers STL en différents autres formats de fichiers.
 
-Vous pouvez télécharger le fichier **JAR** à partir de la [section téléchargements](https://downloads.groupdocs.com/viewer/java) ou utiliser le dernier référentiel et dépendance [Maven](https://repository.groupdocs. com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs) configurations dans vos applications Java.
+Vous pouvez télécharger le fichier **JAR** à partir de la [section téléchargements](https://downloads.groupdocs.com/viewer/java) ou utiliser le dernier référentiel et dépendance [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs) configurations dans vos applications Java.
 
 ```
 <repository>
@@ -65,11 +65,11 @@ try (Viewer viewer = new Viewer("path/input.stl")) {
 De la même manière, vous pouvez également convertir les fichiers STL dans divers autres formats. Les étapes suivantes vous aident à rendre les fichiers STL aux formats HTML, JPG et PNG à l'aide de Java.
 
 * Chargez le fichier **STL** à l'aide de la classe [Viewer](https://apireference.groupdocs.com/viewer/java/com.groupdocs.viewer/Viewer).
-* Préparez les options de rendu en fonction du format de sortie prévu :
-    * Le rendu **HTML** nécessite [](https://apireference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions)[HtmlViewOptions](https://apireference.groupdocs.com/viewer/java /com.groupdocs.viewer.options/HtmlViewOptions). (Vous pouvez utiliser des ressources intégrées ou externes)
+* Préparez les options de rendu en fonction du format de sortie prévu:
+    * Le rendu **HTML** nécessite [](https://apireference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions)[HtmlViewOptions](https://apireference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/HtmlViewOptions). (Vous pouvez utiliser des ressources intégrées ou externes)
     * Le rendu **JPG** utilise la classe [JpgViewOptions](https://apireference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/JpgViewOptions).
     * Le rendu **PNG** nécessite la classe [PngViewOptions](https://apireference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/PngViewOptions).
-* Rendez le fichier STL au format HTML, JPG ou PNG à l'aide de [view()](https://apireference.groupdocs.com/viewer/java/com.groupdocs.viewer/Viewer#view(com.groupdocs.viewer. options.ViewOptions)).
+* Rendez le fichier STL au format HTML, JPG ou PNG à l'aide de [view()](https://apireference.groupdocs.com/viewer/java/com.groupdocs.viewer/Viewer#view(com.groupdocs.viewer.options.ViewOptions)).
 
 Vous trouverez ci-dessous les exemples de code source Java qui rendent indépendamment les fichiers STL dans chaque format en utilisant les options de format respectives mentionnées ci-dessus.
 

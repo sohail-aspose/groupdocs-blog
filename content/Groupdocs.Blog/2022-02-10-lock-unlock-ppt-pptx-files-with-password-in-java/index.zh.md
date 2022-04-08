@@ -9,7 +9,7 @@ tags: ['Add Password to PPT in Java', 'Change PPT Password in Java', 'Lock PPT i
 categories: ['GroupDocs.Merger Product Family']
 ---
 
-保护对于机密和私人文件很重要。在本文中，我们将了解**如何使用 Java 中的密码锁定 **PowerPoint 演示文件****。此外，我们将学习通过**删除密码**以及**如何更改PPT和PPTX文件的现有密码**来解锁演示文件。
+保护对于机密和私人文件很重要。在本文中，我们将了解**如何使用 Java 中的密码锁定 PowerPoint 演示文件**。此外，我们将学习通过**删除密码**以及**如何更改PPT和PPTX文件的现有密码**来解锁演示文件。
 
 
 
@@ -29,7 +29,7 @@ categories: ['GroupDocs.Merger Product Family']
 
 ### 下载并配置
 
-从 [下载](https://downloads.groupdocs.com/merger/) 部分获取库。对于基于 Maven 的 Java 应用程序，只需添加以下 pom.xml 配置。在此之后，您可以尝试本文的示例以及 [GitHub](https://github.com/groupdocs-merger) 上提供的更多示例。详情可访问【API 参考】(https://apireference.groupdocs.com/merger/java)。
+从 [下载](https://downloads.groupdocs.com/merger/) 部分获取库。对于基于 Maven 的 Java 应用程序，只需添加以下 pom.xml 配置。在此之后，您可以尝试本文的示例以及 [GitHub](https://github.com/groupdocs-merger) 上提供的更多示例。详情可访问[API 参考](https://apireference.groupdocs.com/merger/java)。
 
 ```
 <repository>
@@ -85,7 +85,7 @@ merger.save("path/protected-presentation.pptx");
 * 使用 **current** 密码准备 [加载选项](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger.domain.options/LoadOptions)。
 * 使用 **new** 密码设置 [更新选项](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger.domain.options/UpdatePasswordOptions)。
 * 使用 [Merger](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger) 类加载演示文稿。
-* 现在，使用 [updatePassword()](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#updatePassword(com.groupdocs.merger.domain.options.interfaces. IUpdatePasswordOptions)) 方法。
+* 现在，使用 [updatePassword()](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#updatePassword(com.groupdocs.merger.domain.options.interfaces.IUpdatePasswordOptions)) 方法。
 * 最后调用[save()](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#save(java.lang.String))方法保存锁定的文件。
 
 这是使用 PowerPoint PPT/PPTX 演示文稿中的新密码更改现有密码的 Java 代码片段。
@@ -111,7 +111,7 @@ merger.save("path/pwd-changed-presentation.pptx");
 
 让我们删除保护，让每个人都可以访问该文件。只需打开文件，然后删除其密码以供公众访问。以下步骤显示了如何通过删除 Java 中的密码来解锁 PPT 文件。
 
-* 使用最新密码准备【加载选项】(https://apireference.groupdocs.com/merger/java/com.groupdocs.merger.domain.options/LoadOptions)。
+* 使用最新密码准备[加载选项](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger.domain.options/LoadOptions)。
 * **使用 [Merger](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger) 类加载** PowerPoint PPT/PPTX 文件。
 * **使用 [removePassword()](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#removePassword()) 方法删除**密码。
 * **保存**使用 [save()](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#save(java.lang.String)) 方法解锁的文件。

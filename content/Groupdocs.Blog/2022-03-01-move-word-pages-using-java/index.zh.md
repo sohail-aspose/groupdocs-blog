@@ -18,11 +18,11 @@ categories: ['GroupDocs.Merger Product Family']
 
 ## 用于移动 Word 文档页面的 Java API
 
-**[GroupDocs.Merger](https://products.groupdocs.com/merger/)** 提供[Java API 处理文档及其页面](https://products.groupdocs.com/merger/java /)。它允许在 Java 应用程序中移动、删除、拆分文档和提取页面、更改页面方向以及旋转文档页面。我将使用这个 API 来移动 DOC/DOCX 文件的页面。有关 API 的详细信息和其他功能，您可以访问[文档](https://docs.groupdocs.com/merger/)。
+**[GroupDocs.Merger](https://products.groupdocs.com/merger/)** 提供[Java API 处理文档及其页面](https://products.groupdocs.com/merger/java/)。它允许在 Java 应用程序中移动、删除、拆分文档和提取页面、更改页面方向以及旋转文档页面。我将使用这个 API 来移动 DOC/DOCX 文件的页面。有关 API 的详细信息和其他功能，您可以访问[文档](https://docs.groupdocs.com/merger/)。
 
 ### 下载并配置
 
-从 [下载](https://downloads.groupdocs.com/merger/) 部分获取库。对于基于 Maven 的 Java 应用程序，只需添加以下 pom.xml 配置。在此之后，您可以尝试本文的示例以及 [GitHub](https://github.com/groupdocs-merger) 上提供的更多示例。详情可访问【API 参考】(https://apireference.groupdocs.com/merger/java)。
+从 [下载](https://downloads.groupdocs.com/merger/) 部分获取库。对于基于 Maven 的 Java 应用程序，只需添加以下 pom.xml 配置。在此之后，您可以尝试本文的示例以及 [GitHub](https://github.com/groupdocs-merger) 上提供的更多示例。详情可访问 [API 参考](https://apireference.groupdocs.com/merger/java)。
 
 ```
 <repository>

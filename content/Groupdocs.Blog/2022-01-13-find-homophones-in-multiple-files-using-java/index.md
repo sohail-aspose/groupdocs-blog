@@ -9,12 +9,9 @@ tags: ['Find Homophone in Java', 'Find Homophones', 'Find Homophones in Files', 
 categories: ['GroupDocs.Search Product Family']
 ---
 
-**Synonyms** are words with similar meaning, and **Homophones** sounds the same but are different in meanings or spellings. We learned to [find synonyms in multiple documents using Java](https://blog.groupdocs.com/2021/10/03/find-synonyms-in-multiple-files-using-java/). Today, in this article, we'll see **how to search homophones within multiple documents using Java**.
-
-
-
 {{< figure align=center src="images/Search-Homophones-in-Files.jpg" alt="Search Homophones in Files using GroupDocs">}}
 
+**Synonyms** are words with similar meaning, and **Homophones** sounds the same but are different in meanings or spellings. We learned to [find synonyms in multiple documents using Java](https://blog.groupdocs.com/2021/10/03/find-synonyms-in-multiple-files-using-java/). Today, in this article, we'll see **how to search homophones within multiple documents using Java**.
 
 The following topics will be covered below:
 
@@ -46,7 +43,9 @@ You can download the **JAR** file from the [downloads section](https://downlo
         <artifactId>groupdocs-search</artifactId>
         <version>21.8</version> 
 </dependency>
-``````
+```
+
+```
 PM> Install-Package GroupDocs.Search
 ```
 
@@ -68,7 +67,7 @@ The following Java source code finds all the homophones within files of the defi
 The output of the above code is as follows:
 
 ```
-Query: **right**
+Query: right
 Documents: 2
 Occurrences: 17
 ```
@@ -90,7 +89,7 @@ The following Java code example prints the homophone search results along with t
 The following is the output of the above code example.
 
 ```
-Query: **right**
+Query: right
 Documents: 2
 Total occurrences: 17
 

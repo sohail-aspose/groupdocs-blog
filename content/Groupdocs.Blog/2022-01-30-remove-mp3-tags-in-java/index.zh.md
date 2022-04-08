@@ -25,7 +25,7 @@ categories: ['GroupDocs.Metadata Product Family']
 
 ## 用于 MP3 标签删除的 Java API {#mp3-tags-java-api}
 
-[GroupDocs.Metadata](https://products.groupdocs.com/metadata) 提供[元数据管理Java API](https://products.groupdocs.com/metadata/java/) 来处理不同文件格式的元数据。 **GroupDocs.Metadata for Java** 允许读取、更新、添加、清理和完全删除[各种文件格式]的元数据(https://docs.groupdocs.com/metadata/java/supported-document-formats /)。我将使用这个 API 来删除 MP3 文件的元数据标签。
+[GroupDocs.Metadata](https://products.groupdocs.com/metadata) 提供[元数据管理Java API](https://products.groupdocs.com/metadata/java/) 来处理不同文件格式的元数据。 **GroupDocs.Metadata for Java** 允许读取、更新、添加、清理和完全删除[各种文件格式](https://docs.groupdocs.com/metadata/java/supported-document-formats/)的元数据。我将使用这个 API 来删除 MP3 文件的元数据标签。
 
 ### 下载或配置
 
@@ -53,7 +53,7 @@ categories: ['GroupDocs.Metadata Product Family']
 3. **删除**相关的 MP3 标签。
 4. **保存**更新的 MP3 文件。
 
-### 1\。 **加载 MP3**
+### 1。 **加载 MP3**
 
 选择 MP3 文件并使用 [Metadata](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata/Metadata) 类加载它。
 
@@ -61,15 +61,15 @@ categories: ['GroupDocs.Metadata Product Family']
 Metadata metadata = new Metadata("path/mp3File.mp3");
 ```
 
-### 2\。获取 MP3 根包
+### 2。获取 MP3 根包
 
-使用[getRootPackageGeneric()](https://apireference. groupdocs.com/metadata/java/com.groupdocs.metadata/Metadata#getRootPackageGeneric()) 方法。
+使用[getRootPackageGeneric()](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata/Metadata#getRootPackageGeneric()) 方法。
 
 ```
 MP3RootPackage root = metadata.getRootPackageGeneric();
 ```
 
-### 3\。删除 MP3 标签
+### 3。删除 MP3 标签
 
 以下是删除不同元数据标签的方法。您可以对 MP3 文件使用相关的删除方法。
 
@@ -97,7 +97,7 @@ root.setID3V2(null);
 root.setLyrics3V2(null);
 ```
 
-＃＃＃＃ ****猿****
+#### **猿**
 
 使用根包的[removeApeV2()](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MP3RootPackage#removeApeV2())方法去除**APEv2**标签。
 
@@ -105,7 +105,7 @@ root.setLyrics3V2(null);
 root.removeApeV2();
 ```
 
-### 4\。保存文件
+### 4。保存文件
 
 最后，使用 [save()](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata/Metadata#save()) 方法**保存**更新的 MP3 文件。
 
@@ -144,7 +144,7 @@ metadata.save("path/mp3TagsRemoved.mp3");
 
 * [使用 Java 的文档和图像元数据清理器](https://blog.groupdocs.com/2020/12/17/remove-metadata-from-documents-and-images-using-java/)
 * [用Java提取WAV文件的RIFF INFO和元数据](https://blog.groupdocs.com/2021/03/22/extract-riff-info-and-metadata-of-wav-files-in-java/ )
-* [使用 Java 管理 HEIF/HEIC 图像的 XMP 和 EXIF 数据](https://blog.groupdocs.com/2021/05/10/xmp-and-exif-data-of-heif-heic-images-using-爪哇/)
+* [使用 Java 管理 HEIF/HEIC 图像的 XMP 和 EXIF 数据](https://blog.groupdocs.com/2021/05/10/xmp-and-exif-data-of-heif-heic-images-using-java/)
 
 
 

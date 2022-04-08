@@ -34,7 +34,7 @@ MP3 文件使用不同的元数据标准。可以使用不同的标准存储各�
 
 [GroupDocs.Metadata](https://products.groupdocs.com/metadata) 提供 .NET API 来自动化 [各种文件格式](https://docs.groupdocs.com/metadata/net/supported-document) 的元数据管理-formats/) 在 .NET 应用程序中。 API 允许读取、更新、添加、清理和删除许多文件格式的元数据。我们将使用这个 API 来处理 MP3 文件的元数据标签。
 
-您可以从 [下载部分](https://downloads.groupdocs.com/metadata) 下载 **DLLs** 或 **MSI** 安装程序，或通过 [NuGet](https) 在您的 .NET 应用程序中安装 API ://www.nuget.org/packages/groupdocs.metadata）。
+您可以从 [下载部分](https://downloads.groupdocs.com/metadata) 下载 **DLLs** 或 **MSI** 安装程序，或通过 [NuGet](https://www.nuget.org/packages/groupdocs.metadata)。
 
 ```
 PM> Install-Package GroupDocs.Metadata
@@ -179,9 +179,9 @@ using (Metadata metadata = new Metadata(Constants.MP3WithApe))
 ## 也可以看看
 
 * [使用 C# 的文档和图像的元数据删除器](https://blog.groupdocs.com/2020/12/29/remove-metadata-of-documents-and-images-using-csharp/)
-* [在 C# 中提取 WAV 文件的 RIFF INFO 和元数据](https://blog.groupdocs.com/2021/03/05/extract-riff-info-and-metadata-of-wav-files-in-csharp/ )
-* [使用 C# 管理 HEIF/HEIC 图像的 XMP 和 EXIF 数据](https://blog.groupdocs.com/2021/07/17/manage-xmp-and-exif-data-of-heif-heic-images-使用-csharp/)
-* [在 C# .NET 中管理图像的 EXIF 数据](https://blog.groupdocs.com/2020/05/13/manage-exif-data-in-csharp-net-for-jpeg-png-tiff-webp -图片/）
+* [在 C# 中提取 WAV 文件的 RIFF INFO 和元数据](https://blog.groupdocs.com/2021/03/05/extract-riff-info-and-metadata-of-wav-files-in-csharp/)
+* [使用 C# 管理 HEIF/HEIC 图像的 XMP 和 EXIF 数据](https://blog.groupdocs.com/2021/07/17/manage-xmp-and-exif-data-of-heif-heic-images-using-csharp/)
+* [在 C# .NET 中管理图像的 EXIF 数据](https://blog.groupdocs.com/2020/05/13/manage-exif-data-in-csharp-net-for-jpeg-png-tiff-webp-images/)
 
 
 

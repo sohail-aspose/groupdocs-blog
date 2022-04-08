@@ -18,7 +18,7 @@ categories: ['GroupDocs.Annotation Product Family']
 
 Les annotations sont couramment utilisées dans les documents pour souligner différentes observations et fournir des commentaires pour la discussion. Nous avons discuté dans des articles séparés de la façon d'ajouter différentes annotations aux documents PDF et Word à l'aide de C#. Aujourd'hui, cet article explique **comment supprimer les annotations de documents tels que les fichiers PDF et Word DOC/DOCX à l'aide de C#**.
 
-Les sujets suivants sont abordés ci-dessous :
+Les sujets suivants sont abordés ci-dessous:
 
 * [API d'annotation .NET](#dotnet-annotation-api)
 * [Supprimer toutes les annotations](#remove-all-annotations)
@@ -29,7 +29,7 @@ Les sujets suivants sont abordés ci-dessous :
 
 [GroupDocs.Annotation](https://products.groupdocs.com/annotation/) fournit l'API .NET pour gérer les annotations dans divers documents et images. Il permet d'ajouter, de supprimer et d'extraire des annotations à partir de PDF, Word et de nombreux autres documents. Vous pouvez consulter la documentation pour la liste complète des [formats de document pris en charge pour l'annotation](https://docs.groupdocs.com/annotation/net/supported-document-formats/).
 
-Téléchargez son programme d'installation **DLLs** ou **MSI** à partir de la [section téléchargements](https://downloads.groupdocs.com/annotation) ou installez l'API dans votre application .NET via [NuGet](https:/ /www.nuget.org/packages/groupdocs.annotation). Vous pouvez également utiliser la commande suivante du gestionnaire de packages.
+Téléchargez son programme d'installation **DLLs** ou **MSI** à partir de la [section téléchargements](https://downloads.groupdocs.com/annotation) ou installez l'API dans votre application .NET via [NuGet](https://www.nuget.org/packages/groupdocs.annotation). Vous pouvez également utiliser la commande suivante du gestionnaire de packages.
 
 ```
 PM> Install-Package GroupDocs.Annotation

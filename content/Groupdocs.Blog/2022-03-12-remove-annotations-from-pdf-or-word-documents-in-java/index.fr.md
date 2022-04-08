@@ -15,7 +15,7 @@ Les sujets suivants sont abordés ci-dessous :
 
 * [API Java d'annotation](#java-annotation-api)
 * [Supprimer toutes les annotations](#remove-all-annotations)
-* [Supprimer les annotations par ID](#remove-annotation-by-id)
+* [Supprimer les annotations par ID](#remove-annotation-by-id)
 * [Éliminer les annotations par objet d'annotation](#remove-annotations-by-obj)
 
 ## API Java pour les annotations {#java-annotation-api}
@@ -24,7 +24,7 @@ GroupDocs dispose d'une API Java qui permet de traiter les annotations dans dive
 
 ### Télécharger ou configurer
 
-Téléchargez le fichier **JAR** à partir de la [section des téléchargements](https://downloads.groupdocs.com/annotation), ou obtenez simplement les dernières configurations de référentiel et de dépendance pour le pox.xml de votre **basé sur maven* * Applications Java.
+Téléchargez le fichier **JAR** à partir de la [section des téléchargements](https://downloads.groupdocs.com/annotation), ou obtenez simplement les dernières configurations de référentiel et de dépendance pour le pox.xml de votre **basé sur maven** Applications Java.
 
 ```
 <repository>

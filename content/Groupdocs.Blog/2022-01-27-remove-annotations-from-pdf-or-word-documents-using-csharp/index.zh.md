@@ -29,7 +29,7 @@ categories: ['GroupDocs.Annotation Product Family']
 
 [GroupDocs.Annotation](https://products.groupdocs.com/annotation/) 提供 .NET API 来处理各种文档和图像中的注释。它允许从 PDF、Word 和许多其他文档中添加、删除和提取注释。您可以查看文档以获取 [支持的注释文档格式](https://docs.groupdocs.com/annotation/net/supported-document-formats/) 的完整列表。
 
-从 [下载部分](https://downloads.groupdocs.com/annotation) 下载其 **DLLs** 或 **MSI** 安装程序，或通过 [NuGet](https:// /www.nuget.org/packages/groupdocs.annotation）。您也可以使用包管理器中的以下命令。
+从 [下载部分](https://downloads.groupdocs.com/annotation) 下载其 **DLLs** 或 **MSI** 安装程序，或通过 [NuGet](https://www.nuget.org/packages/groupdocs.annotation)。您也可以使用包管理器中的以下命令。
 
 ```
 PM> Install-Package GroupDocs.Annotation

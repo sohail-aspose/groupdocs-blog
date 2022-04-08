@@ -20,7 +20,7 @@ categories: ['GroupDocs.Merger Product Family']
 
 为了重新排列文档中的页面，GroupDocs 提供了 [GroupDocs.Merger for .NET](https://products.groupdocs.com/merger/net/)。该 API 支持在 .NET 应用程序中移除、拆分和提取页面、更改页面方向以及旋转文档页面。有关 API 的详细信息和其他功能，您可以访问[文档](https://docs.groupdocs.com/merger/net/)。
 
-您可以从 [下载部分](https://downloads.groupdocs.com/merger) 下载 **DLLs** 或 **MSI** 安装程序，或通过 [NuGet](https://downloads.groupdocs.com/merger) 在您的 .NET 应用程序中安装 API ://www.nuget.org/packages/groupdocs.merger）。
+您可以从[下载部分](https://downloads.groupdocs.com/merger)下载 DLL 或 MSI 安装程序，或通过 [NuGet](https://www.nuget.org/packages/groupdocs.merger) 在您的 .NET 应用程序中安装 API。
 
 ```
 PM> Install-Package GroupDocs.Merger

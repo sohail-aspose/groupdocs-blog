@@ -39,7 +39,7 @@ Les sujets suivants seront abordés ci-dessous :
 * Recherche d'expressions régulières
 * Recherche par joker
 
-Vous pouvez télécharger le programme d'installation **DLLs** ou **MSI** à partir de la [section téléchargements](https://downloads.groupdocs.com/search) ou installer l'API dans votre application .NET via [NuGet](https ://www.nuget.org/packages/groupdocs.search).
+Vous pouvez télécharger le programme d'installation **DLLs** ou **MSI** à partir de la [section téléchargements](https://downloads.groupdocs.com/search) ou installer l'API dans votre application .NET via [NuGet](https://www.nuget.org/packages/groupdocs.search).
 
 ```
 PM> Install-Package GroupDocs.Search
@@ -52,9 +52,9 @@ Les étapes suivantes expliquent comment nous pouvons rechercher des homophones 
 * Définissez la requête de recherche, un dossier d'indexation et le dossier contenant vos fichiers.
 * Créez [Index](https://apireference.groupdocs.com/search/net/groupdocs.search/index) avec le dossier d'index défini.
 * Ajouter le dossier du document à l'index créé.
-* Définissez les [SearchOptions](https://apireference.groupdocs.com/search/net/groupdocs.search.options/searchoptions) et définissez le [UseHomophoneSearch](https://apireference.groupdocs.com/search/net/ groupdocs.search.options/searchoptions/properties/usehomophonesearch) sur true.
+* Définissez les [SearchOptions](https://apireference.groupdocs.com/search/net/groupdocs.search.options/searchoptions) et définissez le [UseHomophoneSearch](https://apireference.groupdocs.com/search/net/groupdocs.search.options/searchoptions/properties/usehomophonesearch) sur true.
 * Recherchez tous les homophones en appelant la méthode [Search](https://apireference.groupdocs.com/search/net/groupdocs.search/index/methods/search/index) avec les options de requête et de recherche.
-* Utilisez le résumé en utilisant les propriétés du [SearchResult] récupéré (https://apireference.groupdocs.com/search/net/groupdocs.search.results/searchresult).
+* Utilisez le résumé en utilisant les propriétés du [SearchResult](https://apireference.groupdocs.com/search/net/groupdocs.search.results/searchresult) récupéré.
 
 Le code source C# suivant trouve tous les homophones dans tous les fichiers d'un dossier défini. De plus, vous pouvez [gérer votre dictionnaire d'homophones](https://docs.groupdocs.com/search/net/homophone-dictionary/).
 
@@ -85,7 +85,7 @@ Console.WriteLine("Occurrences: " + result.OccurrenceCount);
 La sortie du code ci-dessus est la suivante :
 
 ```
-Query: **right**
+Query: right
 Documents: 2
 Occurrences: 17
 ```
@@ -95,9 +95,9 @@ Occurrences: 17
 Suivez les étapes ci-dessous après avoir obtenu tous les homophones et leur nombre d'occurrences dans chaque document pour présenter les résultats de la recherche d'homophones.
 
 * Parcourez les résultats de recherche d'homophones qui sont récupérés plus tôt.
-* Obtenez chaque document en tant que [FoundDocument](https://apireference.groupdocs.com/search/net/groupdocs.search.results/founddocument) en utilisant [GetFoundDocument()](https://apireference.groupdocs.com/search /net/groupdocs.search.results/searchresult/methods/getfounddocument).
+* Obtenez chaque document en tant que [FoundDocument](https://apireference.groupdocs.com/search/net/groupdocs.search.results/founddocument) en utilisant [GetFoundDocument()](https://apireference.groupdocs.com/search/net/groupdocs.search.results/searchresult/methods/getfounddocument).
 * Utilisez les propriétés de chaque FoundDocument selon vos besoins.
-* Maintenant, parcourez les [FoundFields](https://apireference.groupdocs.com/search/net/groupdocs.search.results/founddocument/properties/foundfields) de FoundDocument pour obtenir [FoundDocumentField](https://apireference.groupdocs .com/search/net/groupdocs.search.results/founddocumentfield).
+* Maintenant, parcourez les [FoundFields](https://apireference.groupdocs.com/search/net/groupdocs.search.results/founddocument/properties/foundfields) de FoundDocument pour obtenir [FoundDocumentField](https://apireference.groupdocs.com/search/net/groupdocs.search.results/founddocumentfield).
 * Enfin, à partir de chaque FoundDocumentField, obtenez ses termes et leurs occurrences dans chaque document.
 
 Le code source C# suivant imprime les résultats de la recherche d'homophones avec le nombre d'occurrences de chaque terme recherché.
@@ -132,7 +132,7 @@ for (int i = 0; i < result.DocumentCount; i++)
 Voici la sortie de l'exemple de code ci-dessus.
 
 ```
-Query: **right**
+Query: right
 Documents: 2
 Total occurrences: 17
 
@@ -214,8 +214,3 @@ En savoir plus [sur l'API .NET Search Automation](https://docs.groupdocs.com/sea
 * [Rechercher des synonymes de mots à l'aide de C#](https://blog.groupdocs.com/2021/09/14/find-synonyms-of-words-using-csharp)
 * [Créez votre solution de recherche en texte intégral en C#](https://blog.groupdocs.com/2021/06/03/build-your-full-text-search-solution-in-csharp/)
 * [Indexation de texte et recherche dans vos répertoires à l'aide de C#](https://blog.groupdocs.com/2020/05/29/search-text-by-indexing-in-csharp-net/)
-
-
-
-
-

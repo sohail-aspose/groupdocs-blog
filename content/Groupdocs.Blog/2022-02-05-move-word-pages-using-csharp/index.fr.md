@@ -20,7 +20,7 @@ Dans le monde numérique, les documents de traitement de texte sont l'un des for
 
 **GroupDocs.Merger** fournit l'API .NET qui permet de déplacer, de supprimer, de diviser des documents et d'extraire des pages, de modifier l'orientation des pages et de faire pivoter les pages de document dans les applications .NET. Aujourd'hui, nous allons utiliser cette API pour déplacer des pages de fichiers DOC/DOCX à l'aide de C#. Pour les détails et autres fonctionnalités de l'API, vous pouvez consulter la [documentation](https://docs.groupdocs.com/merger/).
 
-Vous pouvez télécharger le programme d'installation **DLLs** ou **MSI** à partir de la [section téléchargements](https://downloads.groupdocs.com/merger) ou installer l'API dans votre application .NET via [NuGet](https ://www.nuget.org/packages/groupdocs.merger).
+Vous pouvez télécharger le programme d'installation **DLLs** ou **MSI** à partir de la [section téléchargements](https://downloads.groupdocs.com/merger) ou installer l'API dans votre application .NET via [NuGet](https://www.nuget.org/packages/groupdocs.merger).
 
 ```
 PM> Install-Package GroupDocs.Merger

@@ -20,7 +20,7 @@ categories: ['GroupDocs.Annotation Product Family']
 
 ## 用于注解的 Java API {#java-annotation-api}
 
-GroupDocs 具有允许处理各种文档和图像中的注释的 Java API。它允许从 PDF、Word 和许多其他类型的文档中添加、删除和提取注释。您可以访问文档以获取 [支持的注释文档格式] 的完整列表 (https://docs.groupdocs.com/annotation/java/supported-document-formats/)。
+GroupDocs 具有允许处理各种文档和图像中的注释的 Java API。 它允许从 PDF、Word 和许多其他类型的文档中添加、删除和提取注释。您可以访问文档以获取[支持的注释文档格式](https://docs.groupdocs.com/annotation/java/supported-document-formats/)的完整列表。
 
 ### 下载或配置
 
@@ -28,14 +28,14 @@ GroupDocs 具有允许处理各种文档和图像中的注释的 Java API。它�
 
 ```
 <repository>
-	<id>GroupDocsJavaAPI</id>
-	<name>GroupDocs Java API</name>
-	<url>http://repository.groupdocs.com/repo/</url>
+    <id>GroupDocsJavaAPI</id>
+    <name>GroupDocs Java API</name>
+    <url>http://repository.groupdocs.com/repo/</url>
 </repository>
 <dependency>
-        <groupId>com.groupdocs</groupId>
-        <artifactId>groupdocs-annotation</artifactId>
-        <version>21.7.2</version> 
+    <groupId>com.groupdocs</groupId>
+    <artifactId>groupdocs-annotation</artifactId>
+    <version>21.7.2</version> 
 </dependency>
 ```
 

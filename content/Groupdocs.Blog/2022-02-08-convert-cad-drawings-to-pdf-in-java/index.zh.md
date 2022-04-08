@@ -50,10 +50,10 @@ categories: ['GroupDocs.Conversion Product Family']
 让我们开始快速转换绘图。通过这些步骤，您可以轻松地将 AutoCAD DWG 工程图转换为 Java 中的 PDF 文件，其中包含许多自定义选项。
 
 * 使用 [CadLoadOptions](https://apireference.groupdocs.com/java/conversion/com.groupdocs.conversion.options.load/CadLoadOptions) 类设置**加载选项**。
-* 使用 [setLayoutNames()](https://apireference.groupdocs.com/conversion/java/com.groupdocs.conversion.options.load/CadLoadOptions#setLayoutNames(java.lang.String%5B%) 指定**布局** 5D)) 方法。
+* 使用 [setLayoutNames()](https://apireference.groupdocs.com/conversion/java/com.groupdocs.conversion.options.load/CadLoadOptions#setLayoutNames(java.lang.String%5B%5D)) 方法指定布局。
 * **使用 [Conveter](https://apireference.groupdocs.com/java/conversion/com.groupdocs.conversion.options.load/CadLoadOptions) 类加载** DWG 图形。
 * 指定**转换选项**，例如**宽度**、**高度**和**格式**。
-* **使用适当的 [convert()](https://apireference.groupdocs.com/conversion/java/com.groupdocs.conversion/Converter#convert(java.lang.String,%20com. groupdocs.conversion.options.convert.ConvertOptions)) 方法。
+* 使用适当的 [convert()](https://apireference.groupdocs.com/conversion/java/com.groupdocs.conversion/Converter#convert(java.lang.String,%20com.groupdocs.conversion.options.convert.ConvertOptions)) 方法转换为 PDF。
 
 这是演示上述步骤并将 DWG 文件转换为 PDF 格式的完整 Java 代码。
 

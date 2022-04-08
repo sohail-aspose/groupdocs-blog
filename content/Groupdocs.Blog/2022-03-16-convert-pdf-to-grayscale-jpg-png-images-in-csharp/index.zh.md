@@ -36,7 +36,7 @@ PM> Install-Package GroupDocs.Conversion
 让我们通过将彩色 PDF 文档转换为黑白图像格式来快速实现目标。以下步骤展示了如何使用 C# 将 PDF 转换为灰度 JPG。
 
 * 使用 [Converter](https://apireference.groupdocs.com/conversion/net/groupdocs.conversion/converter) 类加载 PDF 文档。
-* 准备【图片转换选项】（https://apireference.groupdocs.com/conversion/net/groupdocs.conversion.options.convert/imageconvertoptions）。
+* 准备[图像转换选项](https://apireference.groupdocs.com/conversion/net/groupdocs.conversion.options.convert/imageconvertoptions)。
 * 设置转换文件格式为JPG。
 * 将灰度选项设置为 true。
 * 使用 [Convert()](https://apireference.groupdocs.com/conversion/net/groupdocs.conversion/converter/methods/convert/index) 方法转换为图像。
@@ -74,7 +74,7 @@ using (Converter converter = new Converter("path/document.pdf"))
 同样，彩色 PDF 文档可以转换为其他灰度图像格式。以下步骤展示了如何使用 C# 将 PDF 转换为灰度 PNG。
 
 * 使用 [Converter](https://apireference.groupdocs.com/conversion/net/groupdocs.conversion/converter) 类加载 PDF 文档。
-* 准备【图片转换选项】（https://apireference.groupdocs.com/conversion/net/groupdocs.conversion.options.convert/imageconvertoptions）。
+* 准备[图像转换选项](https://apireference.groupdocs.com/conversion/net/groupdocs.conversion.options.convert/imageconvertoptions)。
 * 将转换文件格式设置为PNG。
 * 将灰度选项设置为 true。
 * 使用 [Convert()](https://apireference.groupdocs.com/conversion/net/groupdocs.conversion/converter/methods/convert/index) 方法转换为 PNG 图像。
@@ -108,7 +108,7 @@ using (Converter converter = new Converter("path/document.pdf"))
 
 * [在 C# 中将图像转换为 PDF](https://blog.groupdocs.com/2021/05/19/convert-images-to-pdf-in-csharp/)
 * [使用 C# 将演示文稿转换为图像](https://blog.groupdocs.com/2022/01/10/convert-presentations-to-images-using-csharp/)
-* [在 C# 中将 WebP 图像转换为 JPG、PNG、TIFF 和 PDF](https://blog.groupdocs.com/2020/06/30/convert-webp-to-jpg-png-tiff-and-pdf-在 csharp/)
+* [在 C# 中将 WebP 图像转换为 JPG、PNG、TIFF 和 PDF](https://blog.groupdocs.com/2020/06/30/convert-webp-to-jpg-png-tiff-and-pdf-in-csharp/)
 
 
 

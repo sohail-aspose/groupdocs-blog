@@ -15,12 +15,9 @@ tags: ['Find Homophone in Java', 'Find Homophones', 'Find Homophones in Files', 
 categories: ['GroupDocs.Search Product Family']
 ---
 
-Les **synonymes** sont des mots ayant une signification similaire, et les **homophones** se prononcent de la même manière mais ont des significations ou des orthographes différentes. Nous avons appris à [trouver des synonymes dans plusieurs documents en utilisant Java](https://blog.groupdocs.com/2021/10/03/find-synonyms-in-multiple-files-using-java/). Aujourd'hui, dans cet article, nous verrons **comment rechercher des homophones dans plusieurs documents en utilisant Java**.
-
-
-
 {{< figure align=center src="images/Search-Homophones-in-Files.jpg" alt="Rechercher des homophones dans des fichiers à l'aide de GroupDocs">}}
 
+Les **synonymes** sont des mots ayant une signification similaire, et les **homophones** se prononcent de la même manière mais ont des significations ou des orthographes différentes. Nous avons appris à [trouver des synonymes dans plusieurs documents en utilisant Java](https://blog.groupdocs.com/2021/10/03/find-synonyms-in-multiple-files-using-java/). Aujourd'hui, dans cet article, nous verrons **comment rechercher des homophones dans plusieurs documents en utilisant Java**.
 
 Les sujets suivants seront abordés ci-dessous :
 
@@ -39,7 +36,7 @@ Les sujets suivants seront abordés ci-dessous :
 * Recherche de synonymes
 * Recherche par joker
 
-Vous pouvez télécharger le fichier **JAR** à partir de la [section téléchargements](https://downloads.groupdocs.com/search) ou utiliser le dernier référentiel et dépendance [Maven](https://repository.groupdocs.com/ webapp/#/artifacts/browse/tree/General/repo/com/groupdocs) configurations dans vos applications Java.
+Vous pouvez télécharger le fichier **JAR** à partir de la [section téléchargements](https://downloads.groupdocs.com/search) ou utiliser le dernier référentiel et dépendance [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs) configurations dans vos applications Java.
 
 ```
 <repository>
@@ -52,89 +49,176 @@ Vous pouvez télécharger le fichier **JAR** à partir de la [section téléchar
         <artifactId>groupdocs-search</artifactId>
         <version>21.8</version> 
 </dependency>
-``````
+```
+
+```
 PM> Install-Package GroupDocs.Search
 ```
 
 ## Find Homophones in Multiple Files in Java {#homophone-in-different-files}
 
-The following steps guide how to search homophones in multiple files of a folder in Java.
+Les étapes suivantes expliquent comment rechercher des homophones dans plusieurs fichiers d'un dossier en Java.
 
-*   Define the search word query, indexing folder, and the container folder of your files.
-*   Create [Index](https://apireference.groupdocs.com/search/java/com.groupdocs.search/Index) with the defined index folder.
-*   Add the document's folder to the index.
-*   Define the [SearchOptions](https://apireference.groupdocs.com/search/java/com.groupdocs.search.options/SearchOptions) and enable the homophoneSearch using [setUseHomophoneSearch()](https://apireference.groupdocs.com/search/java/com.groupdocs.search.options/SearchOptions#setUseHomophoneSearch(boolean)).
-*   Perform the homophones search using [search()](https://apireference.groupdocs.com/search/java/com.groupdocs.search/Index#search(com.groupdocs.search.SearchQuery,%20com.groupdocs.search.options.SearchOptions)) method.
-*   Use the properties of the retrived [SearchResult](https://apireference.groupdocs.com/search/java/com.groupdocs.search.results/SearchResult) as needed.
+* Définissez la requête de mot de recherche, le dossier d'indexation et le dossier conteneur de vos fichiers.
+* Créez [Index](https://apireference.groupdocs.com/search/java/com.groupdocs.search/Index) avec le dossier d'index défini.
+* Ajouter le dossier du document à l'index.
+* Définissez les [SearchOptions](https://apireference.groupdocs.com/search/java/com.groupdocs.search.options/SearchOptions) et activez l'homophoneSearch en utilisant [setUseHomophoneSearch()](https://apireference.groupdocs.com/search/java/com.groupdocs.search.options/SearchOptions#setUseHomophoneSearch(booléen)).
+* Effectuez la recherche d'homophones en utilisant [search()](https://apireference.groupdocs.com/search/java/com.groupdocs.search/Index#search(com.groupdocs.search.SearchQuery,%20com.groupdocs.search.options.SearchOptions)).
+* Utilisez les propriétés du [SearchResult](https://apireference.groupdocs.com/search/java/com.groupdocs.search.results/SearchResult) récupéré selon vos besoins.
 
-The following Java source code finds all the homophones within files of the defined folder. Further, you can also [manage your homophone dictionary](https://docs.groupdocs.com/search/java/homophone-dictionary/).
-
-{{< gist GroupDocsGists e150579822915caefa017952b0f19b3d "SearchHomophonesInFilesAndFolders.java" >}}
-
-The output of the above code is as follows:
+Le code source Java suivant trouve tous les homophones dans les fichiers du dossier défini. De plus, vous pouvez également [gérer votre dictionnaire d'homophones](https://docs.groupdocs.com/search/java/homophone-dictionary/).
 
 ```
-Requête : **correct**
-Actes : 2
-Occurrences : 17
+// Rechercher des homophones dans plusieurs fichiers et dossiers à l'aide de Java
+String indexFolder = "path/indexFolder";
+String documentsFolder = "path/documentsFolder";
+String query = "right";
+
+// Création d'un index dans le dossier spécifié
+Index index = new Index(indexFolder);
+index.add(documentsFolder);
+
+// Création d'un objet d'options de recherche
+SearchOptions options = new SearchOptions();
+options.setUseHomophoneSearch(true); // Enable Homophone Search
+
+// Rechercher le mot "droit"
+// En plus du mot 'right', les homophones 'rite, write, wright, ...' seront également recherchés
+SearchResult result = index.search(query, options);
+
+System.out.println("Query: " + query);
+System.out.println("Documents: " + result.getDocumentCount());
+System.out.println("Word & Homophone Occurrences: " + result.getOccurrenceCount());
 ```
 
-## Printing Homophone Search Results in Java {#print-homophone-search}
-
-You can use the homophones search results by following the steps after getting the homophones and their occurrences from each document.
-
-*   Traverse the search results.
-*   Get each [FoundDocument](https://apireference.groupdocs.com/search/java/com.groupdocs.search.results/FoundDocument) using the [getFoundDocument()](https://apireference.groupdocs.com/search/java/com.groupdocs.search.results/SearchResult#getFoundDocument(int)) method.
-*   Use the properties of each FoundDocument as required.
-*   Now, traverse the fields of FoundDocument by getting [FoundDocumentField](https://apireference.groupdocs.com/search/java/com.groupdocs.search.results/FoundDocumentField).
-*   Later, from each FoundDocumentField, get all the terms and their occurrences within each document.
-
-The following Java code example prints the homophone search results along with the number of occurrences of each searched term.
-
-{{< gist GroupDocsGists e150579822915caefa017952b0f19b3d "PrintingHomophoneSearchResults.java" >}}
-
-The following is the output of the above code example.
+La sortie du code ci-dessus est la suivante :
 
 ```
-Requête : **correct**
-Actes : 2
-Nombre total d'occurrences : 17
-
-Document : C:/documents/sample.docx
-Occurrences : 11
-Champ : contenu
-    Occurrences : 11
-droite 3
-rite 4
-droitier 1
-écrire 3
-Document : C:/documents/sample.txt
-Occurrences : 6
-Champ : contenu
-    Occurrences : 6
-droite 4
-écrire 2
+Query: right
+Documents: 2
+Occurrences: 17
 ```
 
-## Search Homophones and Printing Results using Java - Complete Code {#search-and-print-synonyms-code}
+## Impression des résultats de la recherche d'homophones en Java {#print-homophone-search}
 
-The following Java code combines the above steps. Initially, it finds the homophones as per query, and then prints all the occurrences of homophones from each document within the provided folder.
+Vous pouvez utiliser les résultats de la recherche d'homophones en suivant les étapes après avoir obtenu les homophones et leurs occurrences à partir de chaque document.
 
-{{< gist GroupDocsGists e150579822915caefa017952b0f19b3d "SearchHomophonesAndPrintResults.java" >}}
+*   Parcourez les résultats de la recherche.
+*   Obtenez chaque [FoundDocument](https://apireference.groupdocs.com/search/java/com.groupdocs.search.results/FoundDocument) en utilisant [getFoundDocument()](https://apireference.groupdocs.com/search/java/com.groupdocs.search.results/SearchResult#getFoundDocument(int)).
+*   Utilisez les propriétés de chaque FoundDocument selon vos besoins.
+*   Maintenant, parcourez les champs de FoundDocument en obtenant [FoundDocumentField](https://apireference.groupdocs.com/search/java/com.groupdocs.search.results/FoundDocumentField).
+*   Plus tard, à partir de chaque FoundDocumentField, récupérez tous les termes et leurs occurrences dans chaque document.
+
+L'exemple de code Java suivant imprime les résultats de la recherche d'homophones avec le nombre d'occurrences de chaque terme recherché.
+
+```
+// Impression des résultats de la recherche d'homophones en Java
+System.out.println("Query: " + query);
+System.out.println("Documents: " + result.getDocumentCount());
+System.out.println("Word & Homophone Occurrences: " + result.getOccurrenceCount());
+
+// Parcourir les documents
+for (int i = 0; i < result.getDocumentCount(); i++) {
+    FoundDocument document = result.getFoundDocument(i);
+    System.out.println("Document: " + document.getDocumentInfo().getFilePath());
+    System.out.println("Occurrences: " + document.getOccurrenceCount());
+  
+  // Parcourir les champs trouvés
+  for (FoundDocumentField field : document.getFoundFields()) {
+        System.out.println("\tField: " + field.getFieldName());
+        System.out.println("\tOccurrences: " + document.getOccurrenceCount());
+  
+        // Impression des termes trouvés
+        if (field.getTerms() != null) {
+            for (int k = 0; k < field.getTerms().length; k++) {
+                System.out.println("\t\t" + field.getTerms()[k] + "\t - \t" + field.getTermsOccurrences()[k]);
+            }
+        }
+    }
+}
+```
+
+Voici la sortie de l'exemple de code ci-dessus.
+
+```
+Query: right
+Documents: 2
+Total occurrences: 17
+
+Document: C:/documents/sample.docx
+Occurrences: 11
+    Field: content
+    Occurrences: 11
+        right             3
+        rite               4
+        wright           1
+        write             3
+Document: C:/documents/sample.txt
+Occurrences: 6
+    Field: content
+    Occurrences: 6
+        right             4
+        write             2
+```
+
+## Rechercher des homophones et des résultats d'impression à l'aide de Java - Code complet {#search-and-print-synonyms-code}
+
+Le code Java suivant combine les étapes ci-dessus. Initialement, il trouve les homophones selon la requête, puis imprime toutes les occurrences d'homophones de chaque document dans le dossier fourni.
+
+```
+// Rechercher des homophones dans plusieurs fichiers et dossiers à l'aide de Java
+String indexFolder = "path/indexFolder";
+String documentsFolder = "path/documentsFolder";
+String query = "right";
+
+// Création d'un index dans le dossier spécifié
+Index index = new Index(indexFolder);
+index.add(documentsFolder);
+
+// Création d'un objet d'options de recherche
+SearchOptions options = new SearchOptions();
+options.setUseHomophoneSearch(true); // Enable Homophone Search
+
+// Rechercher le mot "droit"
+// En plus du mot 'right', les homophones 'rite, write, wright, ...' seront également recherchés
+SearchResult result = index.search(query, options);
+
+System.out.println("Query: " + query);
+System.out.println("Documents: " + result.getDocumentCount());
+System.out.println("Word & Homophone Occurrences: " + result.getOccurrenceCount());
+
+for (int i = 0; i < result.getDocumentCount(); i++) {
+    FoundDocument document = result.getFoundDocument(i);
+    System.out.println("Document: " + document.getDocumentInfo().getFilePath());
+    System.out.println("Occurrences: " + document.getOccurrenceCount());
+
+  for (FoundDocumentField field : document.getFoundFields()) {
+        System.out.println("\tField: " + field.getFieldName());
+        System.out.println("\tOccurrences: " + document.getOccurrenceCount());
+  
+        // Printing found terms
+        if (field.getTerms() != null) {
+            for (int k = 0; k < field.getTerms().length; k++) {
+                System.out.println("\t\t" + field.getTerms()[k] + "\t - \t" + field.getTermsOccurrences()[k]);
+            }
+        }
+    }
+}
+```
 
 ## Conclusion
 
-To conclude, you learned how to find the words and their homophones from multiple documents within a specified folder using Java. You can try developing your own Java application for searching homophones using **GroupDocs.Search for Java**.
+Pour conclure, vous avez appris à trouver les mots et leurs homophones à partir de plusieurs documents dans un dossier spécifié à l'aide de Java. Vous pouvez essayer de développer votre propre application Java pour rechercher des homophones à l'aide de **GroupDocs.Search for Java**.
 
-Learn more [about the Java Search Automation API](https://docs.groupdocs.com/search/java/) from the documentation. To experience its features, you can have a look at the available examples on the [GitHub](https://github.com/groupdocs-search) repository. Reach us for any query via the [forum](https://forum.groupdocs.com/).
+En savoir plus [sur l'API Java Search Automation](https://docs.groupdocs.com/search/java/) dans la documentation. Pour découvrir ses fonctionnalités, vous pouvez consulter les exemples disponibles sur le référentiel [GitHub](https://github.com/groupdocs-search). Contactez-nous pour toute question via le [forum](https://forum.groupdocs.com/).
 
 ## See Also
 
-*   [Search Homophones in Multiple Files in C#](https://blog.groupdocs.com/2022/01/04/find-homophones-in-multiple-files-using-csharp/)
-*   [Find Synonyms of Words using Java](https://blog.groupdocs.com/2021/09/30/find-synonyms-of-words-using-java/)
-*   [Build your Full Text Search Solution in Java](https://blog.groupdocs.com/2021/08/07/build-full-text-search-solution-in-java/)
-*   [Find and Replace Words in Documents using Java](https://blog.groupdocs.com/2021/09/01/find-and-replace-text-in-documents-using-java/)
-*   [Find and Remove Watermarks from Documents in Java](https://blog.groupdocs.com/2020/11/30/find-and-remove-watermarks-from-documents-in-java/)
+*   [Rechercher des homophones dans plusieurs fichiers en C#](https://blog.groupdocs.com/2022/01/04/find-homophones-in-multiple-files-using-csharp/)
+*   [Trouver des synonymes de mots en utilisant Java](https://blog.groupdocs.com/2021/09/30/find-synonyms-of-words-using-java/)
+*   [Construisez votre solution de recherche plein texte en Java](https://blog.groupdocs.com/2021/08/07/build-full-text-search-solution-in-java/)
+*   [Rechercher et remplacer des mots dans des documents à l'aide de Java](https://blog.groupdocs.com/2021/09/01/find-and-replace-text-in-documents-using-java/)
+*   [Rechercher et supprimer des filigranes de documents en Java](https://blog.groupdocs.com/2020/11/30/find-and-remove-watermarks-from-documents-in-java/)
 
 
 

@@ -27,7 +27,7 @@ Les sujets suivants sont traités dans cet article :
 
 ### Télécharger ou configurer
 
-Vous pouvez télécharger le fichier **JAR** à partir de la [section des téléchargements](https://downloads.groupdocs.com/editor), ou simplement obtenir les configurations du référentiel et des dépendances pour le pox.xml de votre **Maven-based ** Applications Java.
+Vous pouvez télécharger le fichier **JAR** à partir de la [section des téléchargements](https://downloads.groupdocs.com/editor), ou simplement obtenir les configurations du référentiel et des dépendances pour le pox.xml de votre **Maven-based** Applications Java.
 
 ```
 <repository>
@@ -47,11 +47,11 @@ Vous pouvez télécharger le fichier **JAR** à partir de la [section des télé
 Après avoir configuré l'API, vous pouvez rapidement passer à l'édition du document Word. Les étapes suivantes vous permettront d'éditer les documents de traitement de texte DOC/DOCX en Java.
 
 * Chargez le document Word à l'aide de [Editor](https://apireference.groupdocs.com/editor/java/com.groupdocs.editor/Editor).
-* Récupérez le [document modifiable](https://apireference.groupdocs.com/editor/java/com.groupdocs.editor/EditableDocument) en utilisant [edit()](https://apireference.groupdocs.com/editor/java /com.groupdocs.editor/Editor#edit()).
+* Récupérez le [document modifiable](https://apireference.groupdocs.com/editor/java/com.groupdocs.editor/EditableDocument) en utilisant [edit()](https://apireference.groupdocs.com/editor/java/com.groupdocs.editor/Editor#edit()).
 * Obtenez le code HTML intégré du document DOC/DOCX chargé.
 * Modifier le contenu par programme ou en utilisant n'importe quel éditeur WYSIWYG.
 * Convertissez le contenu modifié en un document modifiable.
-* Enregistrez le document mis à jour en utilisant [save()](https://apireference.groupdocs.com/editor/java/com.groupdocs.editor/Editor#save(com.groupdocs.editor.EditableDocument,%20java.lang) .String,%20com.groupdocs.editor.options.ISaveOptions)).
+* Enregistrez le document mis à jour en utilisant [save()](https://apireference.groupdocs.com/editor/java/com.groupdocs.editor/Editor#save(com.groupdocs.editor.EditableDocument,%20java.lang.String,%20com.groupdocs.editor.options.ISaveOptions)).
 
 Le code Java suivant permet d'éditer des documents Word dans l'application.
 

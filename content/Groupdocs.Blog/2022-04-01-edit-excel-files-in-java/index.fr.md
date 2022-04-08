@@ -27,7 +27,7 @@ Les sujets suivants sont traités dans cet article :
 
 ### Télécharger ou configurer
 
-Vous pouvez télécharger le fichier **JAR** à partir de la [section des téléchargements](https://downloads.groupdocs.com/editor), ou simplement obtenir les configurations du référentiel et des dépendances pour le pox.xml de votre **Maven-based ** Applications Java.
+Vous pouvez télécharger le fichier **JAR** à partir de la [section des téléchargements](https://downloads.groupdocs.com/editor), ou simplement obtenir les configurations du référentiel et des dépendances pour le pox.xml de votre **Maven-based** Applications Java.
 
 ```
 <repository>
@@ -48,11 +48,11 @@ Vous pouvez modifier les feuilles de calcul juste après avoir configuré l'API.
 
 * Préparez les options de chargement.
 * Chargez la feuille de calcul Excel XLS/XLSX à l'aide de [Editor](https://apireference.groupdocs.com/editor/java/com.groupdocs.editor/Editor).
-* Définissez l'index de l'onglet de la feuille de calcul et récupérez le [document modifiable](https://apireference.groupdocs.com/editor/java/com.groupdocs.editor/EditableDocument) à l'aide de [edit()](https://apireference.groupdocs .com/editor/java/com.groupdocs.editor/Editor#edit()).
+* Définissez l'index de l'onglet de la feuille de calcul et récupérez le [document modifiable](https://apireference.groupdocs.com/editor/java/com.groupdocs.editor/EditableDocument) à l'aide de [edit()](https://apireference.groupdocs.com/editor/java/com.groupdocs.editor/Editor#edit()).
 * Vous pouvez obtenir le contenu de l'onglet de feuille de calcul chargé en utilisant la méthode getter respective.
 * Modifier le contenu par programme ou en utilisant n'importe quel éditeur WYSIWYG.
 * Convertissez le contenu modifié en un document modifiable.
-* Enregistrez la feuille de calcul mise à jour avec [save()](https://apireference.groupdocs.com/editor/java/com.groupdocs.editor/Editor#save(com.groupdocs.editor.EditableDocument,%20java.lang) .String,%20com.groupdocs.editor.options.ISaveOptions)) à l'aide des options d'enregistrement pertinentes.
+* Enregistrez la feuille de calcul mise à jour avec [save()](https://apireference.groupdocs.com/editor/java/com.groupdocs.editor/Editor#save(com.groupdocs.editor.EditableDocument,%20java.lang.String,%20com.groupdocs.editor.options.ISaveOptions)) à l'aide des options d'enregistrement pertinentes.
 
 Le code Java suivant vous permet de modifier la feuille de calcul Excel dans l'application.
 

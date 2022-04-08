@@ -32,7 +32,7 @@ categories: ['GroupDocs.Conversion Product Family']
 
 [GroupDocs.Conversion](https://products.groupdocs.com/conversion/) 展示了允许在 .NET 应用程序中将演示文件转换为图像的 .NET API。在本文中，我们将使用其 [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) 将 PPT/PPTX 演示文稿转换为图像格式。此外，API 支持许多其他文件格式的转换，例如文字处理文档、电子表格、演示文稿、电子书、图像以及 [文档](https://docs.groupdocs.com/conversion/网络/支持的文档格式/）。
 
-您可以从 [下载部分](https://downloads.groupdocs.com/conversion) 下载 **DLLs** 或 **MSI** 安装程序，或通过 [NuGet](https) 在您的 .NET 应用程序中安装 API ://www.nuget.org/packages/groupdocs.conversion）。
+您可以从 [下载部分](https://downloads.groupdocs.com/conversion) 下载 **DLLs** 或 **MSI** 安装程序，或通过 [NuGet](https://www.nuget.org/packages/groupdocs.conversion) 在您的 .NET 应用程序中安装 API。
 
 ```
 PM> Install-Package GroupDocs.Conversion
@@ -68,7 +68,7 @@ using (Converter converter = new Converter("path/presentation.ppt"))
 最常用的图像格式之一是 PNG。让我们以类似的方式将幻灯片转换为 PNG。以下步骤指导如何在 C# 中将 Powerpoint PPT 或 PPTX 转换为 PNG 图像格式。
 
 * 使用 [Converter](https://apireference.groupdocs.com/conversion/net/groupdocs.conversion/converter) 类加载演示文稿 PPT/PPTX 文件。
-* 准备【图片转换选项】(https://apireference.groupdocs.com/conversion/net/groupdocs.conversion.options.convert/imageconvertoptions)。
+* 准备 [图片转换选项](https://apireference.groupdocs.com/conversion/net/groupdocs.conversion.options.convert/imageconvertoptions)。
 * 将转换文件格式设置为PNG。
 * 使用 [Convert()](https://apireference.groupdocs.com/conversion/net/groupdocs.conversion/converter/methods/convert/index) 方法将演示文稿转换为图像。
 
@@ -101,8 +101,3 @@ using (Converter converter = new Converter("path/presentation.ppt"))
 * [在 C# 中将演示文稿转换为 PDF](https://blog.groupdocs.com/2020/03/05/convert-presentations-pptx-ppt-to-pdf-in-csharp/)
 * [使用 C# 将 Excel 电子表格转换为 PDF](https://blog.groupdocs.com/2021/11/14/convert-excel-spreadsheets-to-pdf-using-csharp/)
 * [使用 C# 将 JSON 转换为 CSV 和 CSV 转换为 JSON](https://blog.groupdocs.com/2021/06/18/convert-json-and-csv-in-csharp/)
-
-
-
-
-

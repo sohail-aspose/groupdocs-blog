@@ -4,18 +4,18 @@ date: Fri, 04 Feb 2022 15:24:00 +0000
 draft: false
 url: /fr/2022/02/04/trouver-et-remplacer-texte-dans-word-documents-en-utilisant-java/
 author: 'Shoaib Khan'
-summary: "Dans l'un des articles, nous avons déjà discuté de [comment expurger des mots dans des documents en tant que développeur .NET](https://blog.groupdocs.com/2021/08/04/find-and-replace-text-in- documents-utilisant-csharp/). La stratégie est utilisée de plusieurs façons pour effacer le contenu sensible, masquer ou supprimer des informations privées telles que les adresses e-mail ou les numéros d'identification. Cet article explique ** comment effectuer une recherche de mots dans les documents Word DOC/DOCX en Java. ** Nous discuterons séparément de la façon de ** rechercher et remplacer le texte, les mots ou les phrases ** avec différentes techniques utilisant l'API Java pour la rédaction."
+summary: "Dans l'un des articles, nous avons déjà discuté de [comment expurger des mots dans des documents en tant que développeur .NET](https://blog.groupdocs.com/2022/02/15/find-and-replace-text-in-word-using-csharp/). La stratégie est utilisée de plusieurs façons pour effacer le contenu sensible, masquer ou supprimer des informations privées telles que les adresses e-mail ou les numéros d'identification. Cet article explique **comment effectuer une recherche de mots dans les documents Word DOC/DOCX en Java. **Nous discuterons séparément de la façon de** rechercher et remplacer le texte, les mots ou les phrases** avec différentes techniques utilisant l'API Java pour la rédaction."
 tags: ['how to redact in word', 'how to redact PDF in Java', 'how to redact Word in Java', 'Java Redaction API', 'Redact in Java']
 categories: ['GroupDocs.Redaction Product Family']
 ---
 
-Dans l'un des articles, nous avons déjà discuté de [comment expurger des mots dans des documents en tant que développeur .NET](https://blog.groupdocs.com/2021/08/04/find-and-replace-text-in- documents-utilisant-csharp/). La stratégie est utilisée de plusieurs façons pour effacer le contenu sensible, masquer ou supprimer des informations privées telles que les adresses e-mail ou les numéros d'identification. Cet article explique ** comment effectuer une recherche de mots dans les documents Word DOC/DOCX en Java. ** Nous discuterons séparément de la façon de ** rechercher et remplacer le texte, les mots ou les phrases ** avec différentes techniques utilisant l'API Java pour la rédaction.
+Dans l'un des articles, nous avons déjà discuté de [comment expurger des mots dans des documents en tant que développeur .NET](https://blog.groupdocs.com/2022/02/15/find-and-replace-text-in-word-using-csharp/). La stratégie est utilisée de plusieurs façons pour effacer le contenu sensible, masquer ou supprimer des informations privées telles que les adresses e-mail ou les numéros d'identification. Cet article explique **comment effectuer une recherche de mots dans les documents Word DOC/DOCX en Java.** Nous discuterons séparément de la façon de **rechercher et remplacer le texte, les mots ou les phrases** avec différentes techniques utilisant l'API Java pour la rédaction.
 
-Les sujets suivants seront abordés ci-dessous :
+Les sujets suivants seront abordés ci-dessous:
 
 * [API Java pour la recherche de mots et le remplacement de texte](#word-search-java-api)
-* [Rechercher et remplacer des mots ou une expression](#replace-word-or-phrase)
-* [Recherche de mots sensibles à la casse et remplacement de texte](#case-sensitive-text-redaction)
+* [Rechercher et remplacer des mots ou une expression](#replace-word-or-phrase)
+* [Recherche de mots sensibles à la casse et remplacement de texte](#case-sensitive-text-redaction)
 * [Remplacer le texte à l'aide d'expressions régulières (RegEx)](#replace-text-using-regex)
 * [Remplacer le texte par une boîte de couleur](#hide-text-with-colored-box)
 
@@ -33,107 +33,116 @@ Vous pouvez télécharger le fichier **JAR** à partir de la [section des télé
 	<name>GroupDocs Java API</name>
 	<url>https://repository.groupdocs.com/repo/</url>
 </repository>
-``````
+
 <dependency>
-<groupId>com.groupdocs</groupId>
-<artifactId>groupdocs-rédaction</artifactId>
-<version>21.12</version>
+	<groupId>com.groupdocs</groupId>
+	<artifactId>groupdocs-rédaction</artifactId>
+	<version>21.12</version>
 </dependency>
 ```
 
-MS Word or any other third-party software is not required for the redaction process. Let’s now start with different approaches to deal with search and replace text. The following is the screenshot of a Word document that is used in the below examples. You can use the same methods for other document formats as well with very little or no change in the source code.
-
-
+MS Word ou tout autre logiciel tiers n'est pas requis pour le processus de rédaction. Commençons maintenant par différentes approches pour gérer la recherche et le remplacement de texte. Voici la capture d'écran d'un document Word utilisé dans les exemples ci-dessous. Vous pouvez également utiliser les mêmes méthodes pour d'autres formats de document avec très peu ou pas de changement dans le code source.
 
 {{< figure align=center src="images/original-doc.png" alt="Document to redact text">}}
 
 
-## Find and Replace Words or Phrase using Java {#replace-word-or-phrase}
+## Rechercher et remplacer des mots ou des phrases à l'aide de Java {#replace-word-or-phrase}
 
-The following steps explain how to find and then replace the occurrences of a word/phrase in a Word document within the Java application.
+Les étapes suivantes expliquent comment rechercher puis remplacer les occurrences d'un mot/d'une phrase dans un document Word dans l'application Java.
 
-*   Load the DOC/DOCX file using [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) class.
-*   Find the exact phrase or word, using the [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction) and [ReplacementOptions](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ReplacementOptions) classes.
-*   Use apply method of Redactor to apply redaction.
-*   To save the file at different location after making changes, use the output stream.
-*   Save the redaction changes using the [save](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor#save(java.io.OutputStream,%20com.groupdocs.redaction.options.RasterizationOptions)) method.
+*   Chargez le fichier DOC/DOCX à l'aide de la classe [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor).
+*   Recherchez l'expression ou le mot exact à l'aide des classes [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ExactPhraseRedaction) et [ReplacementOptions](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ReplacementOptions).
+*   Utilisez la méthode d'application de Redactor pour appliquer la rédaction.
+*   Pour enregistrer le fichier à un emplacement différent après avoir apporté des modifications, utilisez le flux de sortie.
+*   Enregistrez les modifications de rédaction à l'aide de la méthode [save](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor#save(java.io.OutputStream,%20com.groupdocs.redaction.options.RasterizationOptions)).
 
-The following code finds and replaces the word "John Doe" in the above Word document using Java. It replaces all the occurrences of “John Doe” with the word “\[censored\]”.
+Le code suivant recherche et remplace le mot "John Doe" dans le document Word ci-dessus à l'aide de Java. Il remplace toutes les occurrences de "John Doe" par le mot "\[censored\]".
 
-{{< gist GroupDocsGists 567c29bb3a59ed182ff727aac4c24742 "ReplaceExactPhrase.java" >}}
+```
+// Trouver la phrase exacte et la remplacer par un autre texte en utilisant Java
+final Redactor redactor  = new Redactor("path/document.docx");
+redactor.apply(new ExactPhraseRedaction("John Doe", new ReplacementOptions("[censored]")));
+// Si vous souhaitez enregistrer le fichier expurgé à un emplacement différent avec un nom différent.
+FileOutputStream stream = new FileOutputStream("path/exactPhrase.docx");
+RasterizationOptions rasterOptions = new RasterizationOptions();
+rasterOptions.setEnabled(false);
+redactor.save(stream, rasterOptions);
+```
 
-The output of the code is as follows.
-
-
+La sortie du code est la suivante.
 
 {{< figure align=center src="images/Exact-Phrase-Replacement.png" alt="Redact using Exact Phrase">}}
 
 
-## Case-Sensitive Word Search and Replace Text in Java {#case-sensitive-text-redaction}
+## Recherche de mots sensibles à la casse et remplacement de texte en Java {#case-sensitive-text-redaction}
 
-You seem cautious about the exact letter case of the word and only want to replace the word that only matches your case-sensitive search. The following code replaces the existence of the exact case match of the word “John Doe” in Java.
-
-{{< gist GroupDocsGists 567c29bb3a59ed182ff727aac4c24742 "ReplaceExactPhraseCaseSensitive.java" >}}
-
-The output of the code is as follows.
+Vous semblez prudent quant à la casse exacte du mot et souhaitez uniquement remplacer le mot qui correspond uniquement à votre recherche sensible à la casse. Le code suivant remplace l'existence de la correspondance de casse exacte du mot "John Doe" en Java.
 
 
+```
+// Trouvez la phrase exacte (sensible à la casse) et remplacez-la par un autre texte en utilisant Java
+final Redactor redactor  = new Redactor("path/document.docx");
+redactor.apply(new ExactPhraseRedaction("John Doe", true /*isCaseSensitive*/, new ReplacementOptions("[censored]")));
+redactor.save();
+```
 
-{{< figure align=center src="images/Case-Sensitive-Exact-Phrase-Redaction.png" alt="Case sensitive redaction">}}
+La sortie du code est la suivante.
 
-
-## Replace Text using Regular Expressions (RegEx) in Java {#replace-text-using-regex}
-
-If you do not want to change the exact word but some pattern that exists in your document, you can use the Regular expressions. The following steps allow you to find and replace any pattern of text using regular expressions (RegEx) within your Java applications.
-
-*   Load the document using [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor) class.
-*   Create the RegEx using the [RegexRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/RegexRedaction).
-*   Provide the text using [ReplacementOptions](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ReplacementOptions) to replace the RegEx match.
-*   Use apply method replace all the regex matches.
-*   Use the save method to get the redacted document.
-
-The following code shows how to perform the word search in a Word file using RegEx and replace it with some other text using Java.
-
-{{< gist GroupDocsGists 567c29bb3a59ed182ff727aac4c24742 "ReplaceTextWithRegEx.java" >}}
-
-The following is the output of the above code:
+{{< figure align=center src="images/Case-Sensitive-Exact-Phrase-Redaction.png" alt="Caviardage sensible à la casse">}}
 
 
+## Remplacer du texte à l'aide d'expressions régulières (RegEx) en Java {#replace-text-using-regex}
+
+Si vous ne voulez pas changer le mot exact mais un modèle qui existe dans votre document, vous pouvez utiliser les expressions régulières. Les étapes suivantes vous permettent de rechercher et de remplacer n'importe quel modèle de texte à l'aide d'expressions régulières (RegEx) dans vos applications Java.
+
+*   Chargez le document à l'aide de la classe [Redactor](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction/Redactor).
+*   Créez le RegEx à l'aide de [RegexRedaction](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/RegexRedaction).
+*   Fournissez le texte à l'aide de [ReplacementOptions](https://apireference.groupdocs.com/redaction/java/com.groupdocs.redaction.redactions/ReplacementOptions) pour remplacer la correspondance RegEx.
+*   Utilisez la méthode apply pour remplacer toutes les correspondances d'expression régulière.
+*   Utilisez la méthode d'enregistrement pour obtenir le document expurgé.
+
+Le code suivant montre comment effectuer la recherche de mots dans un fichier Word à l'aide de RegEx et le remplacer par un autre texte à l'aide de Java.
+
+```
+// Rechercher du texte à l'aide d'une expression régulière et le remplacer par un autre texte à l'aide de Java
+final Redactor redactor  = new Redactor("path/document.docx");
+redactor.apply(new RegexRedaction("\\d{2}\\s*\\d{2}[^\\d]*\\d{6}", new ReplacementOptions("[censored]")));
+redactor.save();
+```
+
+Voici la sortie du code ci-dessus :
 
 {{< figure align=center src="images/Regex-Redaction.png" alt="RegEx Redaction">}}
 
+## Remplacer le texte par une boîte colorée en Java {#hide-text-with-colored-box}
 
-## Replace the Text with Colored Box in Java {#hide-text-with-colored-box}
+Si vous ne souhaitez pas remplacer votre contenu et souhaitez simplement le masquer, l'API vous permet de couvrir la correspondance du texte en traçant un cadre dessus. Le code Java suivant masque le texte avec le rectangle noir.
 
-If you do not want to replace your content and just want to hide it, the API allows you to cover to text match by drawing a box over it. The following Java code hides the text with the black rectangle box.
+```
+// Trouvez du texte et masquez-le en dessinant un rectangle dessus à l'aide de Java
+final Redactor redactor  = new Redactor("path/document.docx");
+redactor.apply(new ExactPhraseRedaction("John Doe", true, new ReplacementOptions(java.awt.Color.BLACK)));
+redactor.save();
+```
 
-{{< gist GroupDocsGists 567c29bb3a59ed182ff727aac4c24742 "FindTextAndHide.java" >}}
-
-The output of the above code is as follows.
-
-
+La sortie du code ci-dessus est la suivante.
 
 {{< figure align=center src="images/Colored-Box-Redaction.png" alt="Hide Text using Box">}}
 
 
-## Get a Free API License
+## Obtenez une licence API gratuite
 
-You can [get a free temporary license](https://purchase.groupdocs.com/temporary-license) in order to use the API without the evaluation limitations.
+Vous pouvez [obtenir une licence temporaire gratuite](https://purchase.groupdocs.com/temporary-license) pour utiliser l'API sans les limitations d'évaluation.
 
 ## Conclusion
 
-To sum up, you learned how to perform word search to find text in Word documents using exact text phrase search, case-sensitive search, search using regular expressions, and last but not least hiding the text instead of replacing it. You can use these different techniques to replace the findings in different ways within MS Word documents.
+Pour résumer, vous avez appris à effectuer une recherche de mots pour trouver du texte dans des documents Word à l'aide d'une recherche par expression de texte exacte, d'une recherche sensible à la casse, d'une recherche à l'aide d'expressions régulières et, enfin et surtout, du masquage du texte au lieu de le remplacer. Vous pouvez utiliser ces différentes techniques pour remplacer les résultats de différentes manières dans les documents MS Word.
 
-For more details and learning about the API, visit the [documentation](https://docs.groupdocs.com/redaction). For queries, contact us via the [forum](https://forum.groupdocs.com/).
+Pour plus de détails et en savoir plus sur l'API, consultez la [documentation](https://docs.groupdocs.com/redaction). Pour toute question, contactez-nous via le [forum](https://forum.groupdocs.com/).
 
 ## See Also
 
-*   [Build Full-Text Search Solution in Java](https://blog.groupdocs.com/2021/08/07/build-full-text-search-solution-in-java/)
-*   [Image Comparison in Java to Spot the Differences](https://blog.groupdocs.com/2021/06/16/compare-images-in-java/)
-*   [Rearrange Pages in Word using Java](https://blog.groupdocs.com/2022/03/01/move-word-pages-using-java/)
-*   [Find and Replace Text in PDF using C#](https://blog.groupdocs.com/2022/02/19/find-and-replace-text-in-pdf-using-csharp/)
-
-
-
-
-
+*   [Créer une solution de recherche en texte intégral en Java](https://blog.groupdocs.com/2021/08/07/build-full-text-search-solution-in-java/)
+*   [Comparaison d'images en Java pour repérer les différences](https://blog.groupdocs.com/2021/06/16/compare-images-in-java/)
+*   [Réorganiser les pages dans Word à l'aide de Java](https://blog.groupdocs.com/2022/03/01/move-word-pages-using-java/)
+*   [Rechercher et remplacer du texte dans un PDF à l'aide de C #](https://blog.groupdocs.com/2022/02/19/find-and-replace-text-in-pdf-using-csharp/)

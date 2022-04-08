@@ -20,7 +20,7 @@ Le nettoyage et la minification du HTML améliorent le temps de chargement et l'
 
 [GroupDocs.Viewer](https://products.groupdocs.com/viewer/) fournit une [API de visualisation de documents](https://products.groupdocs.com/viewer/net/) qui permet de rendre divers documents en HTML, PDF et formats d'image dans l'application .NET. J'utiliserai cette API dans les exemples pour convertir le fichier DOCX en un fichier HTML propre.
 
-Vous pouvez télécharger les DLL ou le programme d'installation MSI à partir de la [section des téléchargements](https://downloads.groupdocs.com/viewer/net) ou installer l'API dans votre application .NET via [NuGet](https://www.nuget .org/packages/groupdocs.viewer).
+Vous pouvez télécharger les DLL ou le programme d'installation MSI à partir de la [section des téléchargements](https://downloads.groupdocs.com/viewer/net) ou installer l'API dans votre application .NET via [NuGet](https://www.nuget.org/packages/groupdocs.viewer).
 
 ```
 PM> Install-Package GroupDocs.Viewer

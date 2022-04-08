@@ -9,9 +9,9 @@ tags: ['Change Page Sequence in Java', 'Move Pages in Java', 'Rearrange Document
 categories: ['GroupDocs.Merger Product Family']
 ---
 
-{{< figure align=center src="images/rearrange-pdf-pages-in-java.jpg" alt="Rearrange PDF Pages in Java">}}
-
 PDF is among one of the most in-use portable file formats. For large documents, it is always challenging to change the order of pages without losing the formatting. This article discusses, **how to rearrange PDF pages programmatically in Java**.
+
+{{< figure align=center src="images/rearrange-pdf-pages-in-java.jpg" alt="Rearrange PDF Pages in Java">}}
 
 ## Java API to Rearrange PDF Pages & Merge Documents
 
@@ -23,14 +23,14 @@ Get the library from the [downloads](https://downloads.groupdocs.com/merger/)�
 
 ```
 <repository>
-	<id>GroupDocsJavaAPI</id>
-	<name>GroupDocs Java API</name>
-	<url>http://repository.groupdocs.com/repo/</url>
+    <id>GroupDocsJavaAPI</id>
+    <name>GroupDocs Java API</name>
+    <url>http://repository.groupdocs.com/repo/</url>
 </repository>
 <dependency>
-        <groupId>com.groupdocs</groupId>
-        <artifactId>groupdocs-merger</artifactId>
-        <version>22.2</version> 
+    <groupId>com.groupdocs</groupId>
+    <artifactId>groupdocs-merger</artifactId>
+    <version>22.2</version> 
 </dependency>
 ```
 
@@ -66,7 +66,7 @@ For more details about the API, visit the [documentation](https://docs.groupdoc
 
 ## See Also
 
-*   [](https://blog.groupdocs.com/2022/02/10/lock-unlock-ppt-pptx-files-with-password-in-java/)[Password Protection of PDF Files in Java](https://blog.groupdocs.com/2021/12/07/password-protect-pdf-files-in-java/)
+*   [Password Protection of PDF Files in Java](https://blog.groupdocs.com/2021/12/07/password-protect-pdf-files-in-java/)
 *   [Ways to Split PDF Files in Java](https://blog.groupdocs.com/2021/10/19/split-pdf-files-in-java/)
 *   [Merge Multiple File Types into One using Java](https://blog.groupdocs.com/2021/06/13/merge-multiple-file-types-using-java/)
 

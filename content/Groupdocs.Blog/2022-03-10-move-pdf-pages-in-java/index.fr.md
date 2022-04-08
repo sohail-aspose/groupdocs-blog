@@ -79,11 +79,6 @@ Pour plus de détails sur l'API, consultez la [documentation](https://docs.group
 
 ## Voir également
 
-* [](https://blog.groupdocs.com/2022/02/10/lock-unlock-ppt-pptx-files-with-password-in-java/)[Protection par mot de passe des fichiers PDF en Java](https ://blog.groupdocs.com/2021/12/07/password-protect-pdf-files-in-java/)
+* [Protection par mot de passe des fichiers PDF en Java](https://blog.groupdocs.com/2021/12/07/password-protect-pdf-files-in-java/)
 * [Façons de diviser des fichiers PDF en Java](https://blog.groupdocs.com/2021/10/19/split-pdf-files-in-java/)
 * [Fusionner plusieurs types de fichiers en un seul à l'aide de Java](https://blog.groupdocs.com/2021/06/13/merge-multiple-file-types-using-java/)
-
-
-
-
-

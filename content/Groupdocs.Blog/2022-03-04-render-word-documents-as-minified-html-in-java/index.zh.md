@@ -20,7 +20,7 @@ HTML 缩小通过有效的加载时间和带宽使用提高了 Web 应用程序�
 
 [GroupDocs.Viewer](https://products.groupdocs.com/viewer/) 展示了一个 [文档查看 API](https://products.groupdocs.com/viewer/java/)，它允许将各种类型的文档呈现到Java 应用程序中的 HTML、PDF 和图像格式。我将在示例中使用此 API 将 Microsoft Word DOCX 文件转换为干净的 HTML 文件。
 
-您可以从 [下载部分](https://downloads.groupdocs.com/viewer/java) 下载 **JAR** 文件，或使用最新的存储库和依赖项 [Maven](https://repository.groupdocs. com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs) 配置。
+您可以从 [下载部分](https://downloads.groupdocs.com/viewer/java) 下载 **JAR** 文件，或使用最新的存储库和依赖项 [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs) 配置。
 
 ```
 <repository>

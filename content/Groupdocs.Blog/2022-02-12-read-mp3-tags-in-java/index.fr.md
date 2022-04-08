@@ -20,7 +20,7 @@ Les sujets suivants sont traités ci-dessous :
 
 ## API Java pour les balises de métadonnées MP3 {#mp3-tags-java-api}
 
-[GroupDocs.Metadata](https://products.groupdocs.com/metadata) est équipé d'API pour automatiser la gestion des métadonnées de [divers formats de fichiers](https://docs.groupdocs.com/metadata/net/supported-document -formats/) dans les applications. Son API Java vous permet de lire, mettre à jour, ajouter, nettoyer et supprimer les métadonnées pour de nombreux formats de fichiers dans l'application Java. Nous l'utiliserons pour travailler avec les balises de métadonnées MP3.
+[GroupDocs.Metadata](https://products.groupdocs.com/metadata) est équipé d'API pour automatiser la gestion des métadonnées de [divers formats de fichiers](https://docs.groupdocs.com/metadata/net/supported-document-formats/) dans les applications. Son API Java vous permet de lire, mettre à jour, ajouter, nettoyer et supprimer les métadonnées pour de nombreux formats de fichiers dans l'application Java. Nous l'utiliserons pour travailler avec les balises de métadonnées MP3.
 
 ### Télécharger et configurer
 
@@ -135,7 +135,7 @@ try (Metadata metadata = new Metadata("path/audio-Lyrics.mp3")) {
 Les étapes suivantes montrent comment nous pouvons extraire les balises MP3 APEv2 dans l'application Java.
 
 * Chargez le fichier MP3 à l'aide de la classe [Metadata](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata/Metadata).
-* Récupérez le **[paquet racine](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MP3RootPackage)** en utilisant la méthode ****getRootPackageGeneric**()**.
+* Récupérez le **[paquet racine](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MP3RootPackage)** en utilisant la méthode **getRootPackageGeneric()**.
 * À partir de la racine, vous pouvez récupérer les balises APEv2 telles que Album, Genre, Copyrights, Language, etc.
 
 Les exemples de code Java suivants lisent certaines des propriétés des balises MP3 APE d'un fichier MP3.
@@ -171,7 +171,7 @@ Apprenez-en plus sur l'API dans la [documentation](https://docs.groupdocs.com/me
 
 * [Nettoyeur de métadonnées pour les documents et les images utilisant Java](https://blog.groupdocs.com/2020/12/17/remove-metadata-from-documents-and-images-using-java/)
 * [Supprimer les balises MP3 en Java](https://blog.groupdocs.com/2022/01/30/remove-mp3-tags-in-java/)
-* [Gérer les données XMP et EXIF des images HEIF/HEIC à l'aide de Java](https://blog.groupdocs.com/2021/05/10/xmp-and-exif-data-of-heif-heic-images-using- Java/)
+* [Gérer les données XMP et EXIF des images HEIF/HEIC à l'aide de Java](https://blog.groupdocs.com/2021/05/10/xmp-and-exif-data-of-heif-heic-images-using-Java/)
 * [Extraire les informations RIFF et les métadonnées des fichiers WAV en Java](https://blog.groupdocs.com/2021/03/22/extract-riff-info-and-metadata-of-wav-files-in-java/ )
 
 

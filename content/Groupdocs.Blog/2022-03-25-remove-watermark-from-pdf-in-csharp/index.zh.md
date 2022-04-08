@@ -32,7 +32,7 @@ API 使您能够轻松找到并删除文档中的特定水印和所有水印。�
 
 * 使用 [Watermarker](https://apireference.groupdocs.com/watermark/net/groupdocs.watermark/watermarker) 加载 PDF 文件。
 * 使用搜索将所有 [可能的水印](https://apireference.groupdocs.com/watermark/net/groupdocs.watermark.search/possiblewatermarkcollection) 作为集合获取。
-*遍历整个集合并删除每个水印或符合您标准的水印。
+* 遍历整个集合并删除每个水印或符合您标准的水印。
 * 保存更新后的 PDF，不要再添加水印。
 
 以下 C# 代码从 PDF 文档中删除所有水印。

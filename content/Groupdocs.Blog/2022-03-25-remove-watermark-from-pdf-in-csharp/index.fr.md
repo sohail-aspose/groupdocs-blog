@@ -18,7 +18,7 @@ Les filigranes sont normalement utilisés pour éviter toute utilisation illéga
 
 ## API .NET pour supprimer les filigranes PDF
 
-[GroupDocs.Watermark](https://products.groupdocs.com/watermark) présente l'API .NET pour traiter les filigranes dans les documents et les images de différents [formats de fichiers](https://docs.groupdocs.com/conversion/net /formats-de-document-supportés/). Si vous créez une _application de suppression de filigrane_, elle vous fournit des moyens utiles pour :
+[GroupDocs.Watermark](https://products.groupdocs.com/watermark) présente l'API .NET pour traiter les filigranes dans les documents et les images de différents [formats de fichiers](https://docs.groupdocs.com/conversion/net/supported-document-formats/). Si vous créez une _application de suppression de filigrane_, elle vous fournit des moyens utiles pour :
 
 * Supprimer tous les filigranes du PDF
 * Supprimer les filigranes avec un formatage de texte particulier

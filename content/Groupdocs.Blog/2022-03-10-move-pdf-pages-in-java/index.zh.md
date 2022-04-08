@@ -22,7 +22,7 @@ GroupDocs 提供 [GroupDocs.Merger for Java](https://products.groupdocs.com/merg
 
 ### 下载并配置
 
-从 [下载](https://downloads.groupdocs.com/merger/) 部分获取库。对于基于 Maven 的 Java 应用程序，只需添加以下 pom.xml 配置。在此之后，您可以尝试本文的示例以及 [GitHub](https://github.com/groupdocs-merger) 上提供的更多示例。详情可访问【API 参考】(https://apireference.groupdocs.com/merger/java)。
+从 [下载](https://downloads.groupdocs.com/merger/) 部分获取库。对于基于 Maven 的 Java 应用程序，只需添加以下 pom.xml 配置。在此之后，您可以尝试本文的示例以及 [GitHub](https://github.com/groupdocs-merger) 上提供的更多示例。详情可访问 [API 参考](https://apireference.groupdocs.com/merger/java)。
 
 ```
 <repository>
@@ -79,7 +79,7 @@ merger.save("path\rearranged-document.pdf");
 
 ## 也可以看看
 
-* [](https://blog.groupdocs.com/2022/02/10/lock-unlock-ppt-pptx-files-with-password-in-java/)[Java中PDF文件的密码保护](https ://blog.groupdocs.com/2021/12/07/password-protect-pdf-files-in-java/)
+* [Java中PDF文件的密码保护](https://blog.groupdocs.com/2021/12/07/password-protect-pdf-files-in-java/)
 * [Java 中拆分 PDF 文件的方法](https://blog.groupdocs.com/2021/10/19/split-pdf-files-in-java/)
 * [使用 Java 将多种文件类型合并为一种](https://blog.groupdocs.com/2021/06/13/merge-multiple-file-types-using-java/)
 

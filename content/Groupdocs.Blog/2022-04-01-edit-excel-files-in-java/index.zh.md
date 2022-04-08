@@ -9,8 +9,6 @@ tags: ['Edit Excel Files', 'Edit Excel Files in Java', 'Excel Editing in Java', 
 categories: ['GroupDocs.Editor Product Family']
 ---
 
-
-
 {{< figure align=center src="images/edit-excel-sheets-in-java.jpg" alt="用 Java 编辑 Excel 工作表">}}
 
 
@@ -48,11 +46,11 @@ categories: ['GroupDocs.Editor Product Family']
 
 *准备加载选项。
 * 使用 [Editor](https://apireference.groupdocs.com/editor/java/com.groupdocs.editor/Editor) 加载 Excel XLS/XLSX 电子表格。
-* 设置工作表标签索引并使用 [edit()](https://apireference.groupdocs) 获取 [Editable Document](https://apireference.groupdocs.com/editor/java/com.groupdocs.editor/EditableDocument) .com/editor/java/com.groupdocs.editor/Editor#edit())。
+* 设置工作表标签索引并使用 [edit()](https://apireference.groupdocs.com/editor/java/com.groupdocs.editor/Editor#edit()) 获取 [Editable Document](https://apireference.groupdocs.com/editor/java/com.groupdocs.editor/EditableDocument)。
 * 您可以使用相应的 getter 方法获取加载的工作表选项卡的内容。
 * 以编程方式或使用任何所见即所得编辑器编辑内容。
 * 将编辑后的内容转换回可编辑文档。
-* 使用适当的 [save()](https://apireference.groupdocs.com/editor/java/com.groupdocs.editor/Editor#save(com.groupdocs.editor.EditableDocument,%20java.lang) 保存更新后的电子表格.String,%20com.groupdocs.editor.options.ISaveOptions)) 方法使用相关的保存选项。
+* 使用相关的保存选项，使用适当的 [save()](https://apireference.groupdocs.com/editor/java/com.groupdocs.editor/Editor#save(com.groupdocs.editor.EditableDocument,%20java.lang.String,%20com.groupdocs.editor.options.ISaveOptions)) 方法保存更新的电子表格。
 
 以下 Java 代码允许您在应用程序中编辑 Excel 电子表格。
 
@@ -85,11 +83,11 @@ firstTab.dispose();
 editor.dispose();
 ```
 
-**加载：**您可以在加载电子表格时应用其他选项；就像在文档受到保护时提供密码一样。
+**加载** 您可以在加载电子表格时应用其他选项；就像在文档受到保护时提供密码一样。
 
-**编辑：**加载后，您可以编辑加载的电子表格。上面的示例在 XLSX 电子表格的第一个选项卡中将所有出现的“旧公司名称”替换为“新公司名称”。
+**编辑** 加载后，您可以编辑加载的电子表格。上面的示例在 XLSX 电子表格的第一个选项卡中将所有出现的“旧公司名称”替换为“新公司名称”。
 
-**保存：**在保存编辑后的电子表格时，您可以设置各种选项，如密码保护、文件格式等。
+**保存** 在保存编辑后的电子表格时，您可以设置各种选项，如密码保护、文件格式等。
 
 ## 结论
 

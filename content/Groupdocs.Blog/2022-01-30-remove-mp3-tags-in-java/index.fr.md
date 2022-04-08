@@ -25,11 +25,11 @@ Les sujets suivants sont traités ci-dessous :
 
 ## API Java pour la suppression des balises MP3 {#mp3-tags-java-api}
 
-[GroupDocs.Metadata](https://products.groupdocs.com/metadata) fournit une [API Java de gestion des métadonnées](https://products.groupdocs.com/metadata/java/) pour gérer les métadonnées de différents formats de fichiers. **GroupDocs.Metadata for Java** permet de lire, mettre à jour, ajouter, nettoyer et supprimer totalement les métadonnées pour [divers formats de fichiers](https://docs.groupdocs.com/metadata/java/supported-document-formats /). Je vais utiliser cette API pour supprimer les balises de métadonnées des fichiers MP3.
+[GroupDocs.Metadata](https://products.groupdocs.com/metadata) fournit une [API Java de gestion des métadonnées](https://products.groupdocs.com/metadata/java/) pour gérer les métadonnées de différents formats de fichiers. **GroupDocs.Metadata for Java** permet de lire, mettre à jour, ajouter, nettoyer et supprimer totalement les métadonnées pour [divers formats de fichiers](https://docs.groupdocs.com/metadata/java/supported-document-formats/). Je vais utiliser cette API pour supprimer les balises de métadonnées des fichiers MP3.
 
 ### Télécharger ou configurer
 
-Vous pouvez télécharger le fichier **JAR** à partir de la [section des téléchargements](https://downloads.groupdocs.com/metadata), ou simplement obtenir les configurations du référentiel et des dépendances pour le pox.xml de votre **Maven-based ** Applications Java.
+Vous pouvez télécharger le fichier **JAR** à partir de la [section des téléchargements](https://downloads.groupdocs.com/metadata), ou simplement obtenir les configurations du référentiel et des dépendances pour le pox.xml de votre **Maven-based** Applications Java.
 
 ```
 <repository>
@@ -63,7 +63,7 @@ Metadata metadata = new Metadata("path/mp3File.mp3");
 
 ### 2\. Obtenir le package racine MP3
 
-Obtenez le [paquet racine MP3](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MP3RootPackage) du fichier MP3 à l'aide de [getRootPackageGeneric()](https://apireference. groupdocs.com/metadata/java/com.groupdocs.metadata/Metadata#getRootPackageGeneric()).
+Obtenez le [paquet racine MP3](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MP3RootPackage) du fichier MP3 à l'aide de [getRootPackageGeneric()](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata/Metadata#getRootPackageGeneric()).
 
 ```
 MP3RootPackage root = metadata.getRootPackageGeneric();
@@ -144,7 +144,7 @@ Vous pouvez en savoir plus sur l'API dans la [documentation](https://docs.groupd
 
 * [Nettoyeur de métadonnées pour les documents et les images utilisant Java](https://blog.groupdocs.com/2020/12/17/remove-metadata-from-documents-and-images-using-java/)
 * [Extraire les informations RIFF et les métadonnées des fichiers WAV en Java](https://blog.groupdocs.com/2021/03/22/extract-riff-info-and-metadata-of-wav-files-in-java/ )
-* [Gérer les données XMP et EXIF des images HEIF/HEIC à l'aide de Java](https://blog.groupdocs.com/2021/05/10/xmp-and-exif-data-of-heif-heic-images-using- Java/)
+* [Gérer les données XMP et EXIF des images HEIF/HEIC à l'aide de Java](https://blog.groupdocs.com/2021/05/10/xmp-and-exif-data-of-heif-heic-images-using-Java/)
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "'Supprimer les balises MP3 à l'aide de C#'"
+title: "Supprimer les balises MP3 à l'aide de C#"
 date: Thu, 06 Jan 2022 05:27:00 +0000
 draft: false
 url: /fr/2022/01/06/remove-mp3-tags-using-csharp/
@@ -27,7 +27,7 @@ Les sujets suivants sont traités ci-dessous :
 
 [GroupDocs.Metadata](https://products.groupdocs.com/metadata) présente [l'API .NET de gestion des métadonnées](https://products.groupdocs.com/metadata/net/) pour gérer divers formats de fichiers dans . applications NET. L'API permet de lire, mettre à jour, ajouter, nettoyer et supprimer totalement les métadonnées pour de nombreux formats de fichiers. Nous utiliserons cette API pour supprimer les balises de métadonnées des fichiers MP3.
 
-Vous pouvez télécharger le programme d'installation **DLLs** ou **MSI** à partir de la [section téléchargements](https://downloads.groupdocs.com/metadata) ou installer l'API dans votre application .NET via [NuGet](https ://www.nuget.org/packages/groupdocs.metadata).
+Vous pouvez télécharger le programme d'installation **DLLs** ou **MSI** à partir de la [section téléchargements](https://downloads.groupdocs.com/metadata) ou installer l'API dans votre application .NET via [NuGet](https://www.nuget.org/packages/groupdocs.metadata).
 
 ```
 PM> Install-Package GroupDocs.Metadata
@@ -52,7 +52,7 @@ Metadata metadata = new Metadata("path/mp3File.mp3");
 
 ### 2\. Obtenir le package racine MP3
 
-Obtenez le [paquet racine MP3](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.audio/mp3rootpackage) du fichier MP3 à l'aide de [GetRootPackage()](https://apireference. groupdocs.com/metadata/net/groupdocs.metadata/metadata/methods/getrootpackage/index).
+Obtenez le [paquet racine MP3](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.audio/mp3rootpackage) du fichier MP3 à l'aide de [GetRootPackage()](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata/metadata/methods/getrootpackage/index).
 
 ```
 var root = metadata.GetRootPackage();
@@ -86,7 +86,7 @@ Supprimez les balises **Lyrics** en définissant la propriété [Lyrics3V2](http
 root.Lyrics3V2 = null;
 ```
 
-#### ****APE****
+#### **APE**
 
 Utilisez la méthode [RemoveApeV2()](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.audio/mp3rootpackage/methods/removeapev2) du package racine pour éliminer les balises **APEv2**.
 
@@ -133,7 +133,7 @@ Pour résumer, nous avons appris à supprimer les balises de métadonnées des f
 
 * [Lire les balises MP3 en utilisant C # - (ID3, Paroles, APE)](https://blog.groupdocs.com/2022/01/22/read-mp3-tags-using-csharp/)
 * [Extraire les informations RIFF et les métadonnées des fichiers WAV en C #](https://blog.groupdocs.com/2021/03/05/extract-riff-info-and-metadata-of-wav-files-in-csharp/ )
-* [Gérer les données XMP et EXIF des images HEIF/HEIC à l'aide de C#](https://blog.groupdocs.com/2021/07/17/manage-xmp-and-exif-data-of-heif-heic-images- using-csharp/)
+* [Gérer les données XMP et EXIF des images HEIF/HEIC à l'aide de C#](https://blog.groupdocs.com/2021/07/17/manage-xmp-and-exif-data-of-heif-heic-images-using-csharp/)
 
 
 

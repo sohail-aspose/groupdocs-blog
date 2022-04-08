@@ -41,7 +41,7 @@ Il n'est pas nécessaire d'installer MS Office ou tout autre logiciel tiers dans
 L'étape suivante explique comment rechercher un mot/une phrase dans un document Word, puis remplace toutes les occurrences par un autre texte dans l'application C#.
 
 * Chargez le document Word (DOC/DOCX) à l'aide de la classe [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor).
-* Trouvez la phrase ou le mot exact à l'aide de la classe [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction) avec [ReplacementOptions](https://apireference.groupdocs. com/redaction/net/groupdocs.redaction.redactions/replacementoptions).
+* Trouvez la phrase ou le mot exact à l'aide de la classe [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction) avec [ReplacementOptions](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/replacementoptions).
 * Utilisez la méthode [Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) de Redactor pour appliquer la rédaction.
 * Enregistrez les modifications à l'aide de la méthode [Save](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/save/index).
 
@@ -88,7 +88,7 @@ La sortie du code est la suivante.
 Pour rechercher et remplacer n'importe quel modèle de texte dans les fichiers Word (DOC, DOCX), vous pouvez utiliser des expressions régulières. Les étapes suivantes vous permettent de rédiger un document Word avec RegEx à l'aide de C#.
 
 * Chargez le document Word à l'aide de la classe [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor).
-* Trouvez la correspondance d'expression régulière à l'aide de la classe [RegexRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/regexredaction) avec [ReplacementOptions](https://apireference.groupdocs.com/redaction /net/groupdocs.redaction.redactions/replacementoptions).
+* Trouvez la correspondance d'expression régulière à l'aide de la classe [RegexRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/regexredaction) avec [ReplacementOptions](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/replacementoptions).
 * Utilisez la méthode [Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) pour remplacer tous les textes de correspondance de regex.
 * Utilisez la méthode [Save](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/save/index) pour obtenir le fichier Word expurgé.
 

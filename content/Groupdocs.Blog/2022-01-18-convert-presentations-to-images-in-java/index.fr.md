@@ -4,7 +4,7 @@ date: Tue, 18 Jan 2022 09:02:01 +0000
 draft: false
 url: /fr/2022/01/18/convert-presentations-to-images-in-java/
 author: 'Shoaib Khan'
-summary: "Bienvenue développeur ! nous espérons que vous êtes ici pour convertir par programme certaines de vos diapositives de présentation en formats d'image. Cela peut être nécessaire lorsque nous voulons partager des diapositives spécifiques sous forme d'images ou si vous souhaitez créer des vignettes à partir des présentations. Dans cet article, vous apprendrez ** comment convertir les diapositives de présentation PPT ou PPTX en images JPG et PNG ** en Java.
+summary: "Bienvenue développeur ! nous espérons que vous êtes ici pour convertir par programme certaines de vos diapositives de présentation en formats d'image. Cela peut être nécessaire lorsque nous voulons partager des diapositives spécifiques sous forme d'images ou si vous souhaitez créer des vignettes à partir des présentations. Dans cet article, vous apprendrez **comment convertir les diapositives de présentation PPT ou PPTX en images JPG et PNG** en Java.
 
 Les sujets suivants sont abordés dans cet article :
 
@@ -15,14 +15,11 @@ tags: ['Convert PPT', 'Convert PPT to JPG in Java', 'Convert PPT to PNG in Java'
 categories: ['GroupDocs.Conversion Product Family']
 ---
 
-Bienvenue développeur ! nous espérons que vous êtes ici pour convertir par programme certaines de vos diapositives de présentation en formats d'image. Cela peut être nécessaire lorsque nous voulons partager des diapositives spécifiques sous forme d'images ou si vous souhaitez créer des vignettes à partir des présentations. Dans cet article, vous apprendrez ** comment convertir les diapositives de présentation PPT ou PPTX en images JPG et PNG ** en Java.
-
-
+Bienvenue développeur ! nous espérons que vous êtes ici pour convertir par programme certaines de vos diapositives de présentation en formats d'image. Cela peut être nécessaire lorsque nous voulons partager des diapositives spécifiques sous forme d'images ou si vous souhaitez créer des vignettes à partir des présentations. Dans cet article, vous apprendrez **comment convertir les diapositives de présentation PPT ou PPTX en images JPG et PNG** en Java.
 
 {{< figure align=center src="images/convert-ppt-to-jpg-png-image-in-java.jpg" alt="Convertir PPT en JPG ou PNG Image en Java">}}
 
-
-Les sujets suivants sont abordés ici :
+Les sujets suivants sont abordés ici:
 
 * [API Java pour la conversion de présentation](#ppt-convert-java-api)
 * [Image PPT/PPTX vers JPG](#ppt-to-jpg)
@@ -31,11 +28,11 @@ Les sujets suivants sont abordés ici :
 
 ## API Java pour convertir des présentations {#ppt-convert-java-api}
 
-[GroupDocs.Conversion](https://products.groupdocs.com/conversion/) fournit une API Java qui permet de convertir des présentations en images. Aujourd'hui, nous allons utiliser son [GroupDocs.Conversion pour Java](https://products.groupdocs.com/conversion/net/) pour convertir les présentations des formats PPT & PPTX en images JPG et PNG. L'API prend également en charge de nombreuses autres conversions de documents de traitement de texte, feuilles de calcul, présentations, livres électroniques, images, etc. qui sont mentionnés dans la [documentation](https://docs.groupdocs.com/conversion/java/supported-document-formats /).
+[GroupDocs.Conversion](https://products.groupdocs.com/conversion/) fournit une API Java qui permet de convertir des présentations en images. Aujourd'hui, nous allons utiliser son [GroupDocs.Conversion pour Java](https://products.groupdocs.com/conversion/net/) pour convertir les présentations des formats PPT & PPTX en images JPG et PNG. L'API prend également en charge de nombreuses autres conversions de documents de traitement de texte, feuilles de calcul, présentations, livres électroniques, images, etc. qui sont mentionnés dans la [documentation](https://docs.groupdocs.com/conversion/java/supported-document-formats/).
 
 ### Télécharger ou configurer
 
-Vous pouvez télécharger le fichier **JAR** à partir de la [section des téléchargements](https://downloads.groupdocs.com/conversion), ou simplement obtenir les configurations du référentiel et des dépendances pour le pox.xml de votre **Maven-based ** Applications Java.
+Vous pouvez télécharger le fichier **JAR** à partir de la [section des téléchargements](https://downloads.groupdocs.com/conversion), ou simplement obtenir les configurations du référentiel et des dépendances pour le pox.xml de votre **Maven-based** Applications Java.
 
 ```
 <repository>
@@ -109,7 +106,7 @@ Vous pouvez [obtenir une licence temporaire gratuite](https://purchase.groupdocs
 
 ## Conclusion
 
-Pour conclure, nous avons appris comment les diapositives de présentation peuvent être converties en images JPG et PNG en Java. Pour créer vos applications de conversion, vous pouvez en savoir plus sur la [documentation](https://docs.groupdocs.com/conversion/java/) et sur les exemples en cours d'exécution sur [GitHub](https://github.com/groupdocs -conversion). Contactez-nous pour toute question via le [forum](https://forum.groupdocs.com/).
+Pour conclure, nous avons appris comment les diapositives de présentation peuvent être converties en images JPG et PNG en Java. Pour créer vos applications de conversion, vous pouvez en savoir plus sur la [documentation](https://docs.groupdocs.com/conversion/java/) et sur les exemples en cours d'exécution sur [GitHub](https://github.com/groupdocs-conversion). Contactez-nous pour toute question via le [forum](https://forum.groupdocs.com/).
 
 ## Voir également
 

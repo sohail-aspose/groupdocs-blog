@@ -20,7 +20,7 @@ Voici les sujets abordés brièvement dans cet article :
 
 GroupDocs présente l'API .NET pour l'édition de feuilles de calcul. Je vais l'utiliser dans les exemples C# de cet article. Il s'agit de l'API d'édition de documents et permet aux développeurs de charger, modifier et enregistrer divers formats de documents à l'aide d'éditeurs HTML WYSIWYG. En plus des formats de feuille de calcul XLS, XLSX et ODS, l'API prend en charge l'édition de divers autres [feuilles de calcul et formats pris en charge par MS Excel](https://docs.groupdocs.com/editor/net/supported-document-formats/) comme CSV, TSV, DSV, XLT, XLTX, XLTM, XLSM, XLSB, XLAM, SXC, SpreadsheetML, FODS, DIF.
 
-Téléchargez le programme d'installation **DLLs** ou **MSI** à partir de la [section téléchargements](https://downloads.groupdocs.com/editor/net) ou installez l'API dans votre application .NET via [NuGet](https ://www.nuget.org/packages/groupdocs.editor).
+Téléchargez le programme d'installation **DLLs** ou **MSI** à partir de la [section téléchargements](https://downloads.groupdocs.com/editor/net) ou installez l'API dans votre application .NET via [NuGet](https://www.nuget.org/packages/groupdocs.editor).
 
 ```
 PM> Install-Package GroupDocs.Editor
@@ -51,7 +51,7 @@ Editor editor = new Editor("path/spreadsheet.xlsx", delegate { return loadOption
 
 Après le chargement, vous pouvez modifier la feuille de calcul chargée selon vos besoins. Nous allons maintenant remplacer toutes les occurrences de "Ancien nom de société" par "Nouveau nom de société" dans le premier onglet de la feuille de calcul. Les étapes suivantes vous permettent de modifier le fichier Excel en conséquence en C#.
 
-* Chargez le fichier Excel en utilisant [Editor](https://apireference.groupdocs.com/editor/net/groupdocs.editor/editor) et [loading options](https://apireference.groupdocs.com/editor/net/ groupdocs.editor.options/spreadsheetloadoptions).
+* Chargez le fichier Excel à l'aide de [Editor](https://apireference.groupdocs.com/editor/net/groupdocs.editor/editor) et des [options de chargement](https://apireference.groupdocs.com/editor/net/groupdocs.editor.options/spreadsheetloadoptions).
 * Préparez les [Options d'édition de feuille de calcul](https://apireference.groupdocs.com/editor/net/groupdocs.editor.options/spreadsheeteditoptions) pour extraire la feuille/l'onglet exact.
 * [Extraire](https://apireference.groupdocs.com/editor/net/groupdocs.editor/editabledocument/methods/index) le contenu de l'onglet.
 * Modifier le contenu de l'onglet.

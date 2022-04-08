@@ -41,7 +41,7 @@ PM> Install-Package GroupDocs.Redaction
 以下步骤说明了如何在 Word 文档中查找任何单词/短语，然后将所有出现的地方替换为 C# 应用程序中的一些其他文本。
 
 * 使用 [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor) 类加载 Word 文档 (DOC/DOCX)。
-* 使用 [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction) 类和 [ReplacementOptions](https://apireference.groupdocs. com/redaction/net/groupdocs.redaction.redactions/replacementoptions）。
+* 使用带有 [ReplacementOptions](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/replacementoptions) 的 [ExactPhraseRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/exactphraseredaction) 类查找确切的短语或单词。
 * 使用 Redactor 的 [Apply](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index) 方法应用编辑。
 * 使用 [Save](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/save/index) 方法保存更改。
 

@@ -1,5 +1,5 @@
 ---
-title: "'使用 C# 在多个文件中查找同音字'"
+title: "使用 C# 在多个文件中查找同音字"
 date: Tue, 04 Jan 2022 10:54:00 +0000
 draft: false
 url: /zh/2022/01/04/在多个文件中查找同音字-使用-csharp/
@@ -17,8 +17,6 @@ categories: ['GroupDocs.Search Product Family']
 
 发音相同但含义或拼写不同的单词是**同音字**。然而，拼写相同但含义或发音不同的单词是**同形异义词**。 **同音异义词**可以是同音异义词或同形异义词；或两者。让我们不要混淆和自动化它。在本文中，您将学习**如何使用 C#** 在多个文档中搜索同音字。
 
-
-
 {{< figure align=center src="images/Search-Homophones-in-Files.jpg" alt="使用 GroupDocs 在文件中搜索同音字">}}
 
 
@@ -35,11 +33,11 @@ categories: ['GroupDocs.Search Product Family']
 * 同义词搜索
 * 短语搜索
 * 模糊搜索
-*区分大小写的搜索
+* 区分大小写的搜索
 * 正则表达式搜索
 * 外卡搜索
 
-您可以从 [下载部分](https://downloads.groupdocs.com/search) 下载 **DLLs** 或 **MSI** 安装程序，或通过 [NuGet](https) 在您的 .NET 应用程序中安装 API ://www.nuget.org/packages/groupdocs.search）。
+您可以从 [下载部分](https://downloads.groupdocs.com/search) 下载 **DLLs** 或 **MSI** 安装程序，或通过 [NuGet](https://www.nuget.org/packages/groupdocs.search) 在您的 .NET 应用程序中安装 API。
 
 ```
 PM> Install-Package GroupDocs.Search
@@ -52,7 +50,7 @@ PM> Install-Package GroupDocs.Search
 * 定义搜索查询、索引文件夹和包含文件的文件夹。
 * 使用定义的索引文件夹创建[索引](https://apireference.groupdocs.com/search/net/groupdocs.search/index)。
 * 将文档的文件夹添加到创建的索引中。
-* 定义 [SearchOptions](https://apireference.groupdocs.com/search/net/groupdocs.search.options/searchoptions) 并设置 [UseHomophoneSearch](https://apireference.groupdocs.com/search/net/ groupdocs.search.options/searchoptions/properties/usehomophonesearch）为真。
+* 定义 [SearchOptions](https://apireference.groupdocs.com/search/net/groupdocs.search.options/searchoptions) 并将 [UseHomophoneSearch](https://apireference.groupdocs.com/search/net/groupdocs.search.options/searchoptions/properties/usehomophonesearch) 设置为 true。
 * 通过使用查询和搜索选项调用 [Search](https://apireference.groupdocs.com/search/net/groupdocs.search/index/methods/search/index) 方法搜索所有同音字。
 * 使用检索到的 [SearchResult](https://apireference.groupdocs.com/search/net/groupdocs.search.results/searchresult) 的属性使用摘要。
 
@@ -85,7 +83,7 @@ Console.WriteLine("Occurrences: " + result.OccurrenceCount);
 上述代码的输出如下：
 
 ```
-Query: **right**
+Query: right
 Documents: 2
 Occurrences: 17
 ```
@@ -95,9 +93,9 @@ Occurrences: 17
 在获取所有同音字及其在每个文档中出现的次数后，按照下面提到的步骤呈现同音字搜索结果。
 
 * 遍历之前检索到的同音字搜索结果。
-* 使用 [GetFoundDocument()](https://apireference.groupdocs.com/search) 将每个文档作为 [FoundDocument](https://apireference.groupdocs.com/search/net/groupdocs.search.results/founddocument) /net/groupdocs.search.results/searchresult/methods/getfounddocument) 方法。
+* 使用 [GetFoundDocument()](https://apireference.groupdocs.com/search/net/groupdocs.search.results/searchresult/methods/getfounddocument) 方法将每个文档作为 [FoundDocument](https://apireference.groupdocs.com/search/net/groupdocs.search.results/founddocument) 获取。
 * 根据需要使用每个 FoundDocument 的属性。
-* 现在，遍历FoundDocument的[FoundFields](https://apireference.groupdocs.com/search/net/groupdocs.search.results/founddocument/properties/foundfields)得到[FoundDocumentField](https://apireference.groupdocs .com/search/net/groupdocs.search.results/founddocumentfield）。
+* 现在，遍历 FoundDocument 的 [FoundFields](https://apireference.groupdocs.com/search/net/groupdocs.search.results/founddocument/properties/foundfields) 得到 [FoundDocumentField](https://apireference.groupdocs.com/search/net/groupdocs.search.results/founddocumentfield)。
 * 最后，从每个 FoundDocumentField 中，获取其术语及其在每个文档中的出现。
 
 以下 C# 源代码打印同音字搜索结果以及每个搜索词的出现次数。
@@ -132,7 +130,7 @@ for (int i = 0; i < result.DocumentCount; i++)
 以下是上述代码示例的输出。
 
 ```
-Query: **right**
+Query: right
 Documents: 2
 Total occurrences: 17
 
@@ -214,8 +212,3 @@ for (int i = 0; i < result.DocumentCount; i++)
 * [使用 C# 查找单词的同义词](https://blog.groupdocs.com/2021/09/14/find-synonyms-of-words-using-csharp)
 * [用 C# 构建您的全文搜索解决方案](https://blog.groupdocs.com/2021/06/03/build-your-full-text-search-solution-in-csharp/)
 * [使用 C# 进行文本索引和搜索您的目录](https://blog.groupdocs.com/2020/05/29/search-text-by-indexing-in-csharp-net/)
-
-
-
-
-

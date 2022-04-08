@@ -35,7 +35,7 @@ Les sujets suivants sont brièvement abordés ci-dessous :
 
 [GroupDocs.Annotation](https://products.groupdocs.com/annotation/) a son API .NET pour travailler avec les annotations dans les documents et les images. Il vous permet d'ajouter, de supprimer et d'extraire des annotations à partir de documents, de feuilles de calcul et de présentations PDF et Word. De plus, il prend en charge les images, les pages Web, les messages électroniques, les dessins Visio et bien plus encore. Vous pouvez consulter la documentation pour la liste complète des [formats de document pris en charge pour l'annotation](https://docs.groupdocs.com/annotation/net/supported-document-formats/).
 
-Téléchargez son programme d'installation **DLLs** ou **MSI** à partir de la [section téléchargements](https://downloads.groupdocs.com/annotation) ou installez l'API dans votre application .NET via [NuGet](https:/ /www.nuget.org/packages/groupdocs.annotation). Vous pouvez également utiliser la commande suivante du gestionnaire de packages.
+Téléchargez son programme d'installation **DLLs** ou **MSI** à partir de la [section téléchargements](https://downloads.groupdocs.com/annotation) ou installez l'API dans votre application .NET via [NuGet](https://www.nuget.org/packages/groupdocs.annotation). Vous pouvez également utiliser la commande suivante du gestionnaire de packages.
 
 ```
 PM> Install-Package GroupDocs.Annotation
@@ -177,7 +177,7 @@ Vous pouvez utiliser l'annotation de distance pour indiquer la distance entre de
 {{< figure align=center src="images/distance-annotation.jpg" alt="Ajouter une annotation de distance par programmation dans C# .NET et Java">}}
 
 
-* Après avoir chargé le document PDF à l'aide de la classe [Annotator](https://apireference.groupdocs.com/annotation/net/groupdocs.annotation/annotator), initialisez l'annotation de distance à l'aide de [DistanceAnnotation](https://apireference.groupdocs. com/annotation/net/groupdocs.annotation.models.annotationmodels/distanceannotation).
+* Après avoir chargé le document PDF à l'aide de la classe [Annotator](https://apireference.groupdocs.com/annotation/net/groupdocs.annotation/annotator), initialisez l'annotation de distance à l'aide de [DistanceAnnotation](https://apireference.groupdocs.com/annotation/net/groupdocs.annotation.models.annotationmodels/distanceannotation).
 * Définissez l'apparence, la couleur de la ligne, l'épaisseur, le style, etc.
 * Ajoutez l'annotation de distance à l'Annotateur.
 * Enregistrez le fichier PDF avec l'annotation à l'aide de la méthode [Save()](https://apireference.groupdocs.com/annotation/net/groupdocs.annotation/annotator/methods/save/index) appropriée.
@@ -226,7 +226,7 @@ using (Annotator annotator = new Annotator("path/document.pdf"))
 
 Pour conclure, vous avez appris à ajouter différentes annotations aux documents PDF dans les applications .NET à l'aide de C#. Plus précisément, nous avons ajouté des annotations de flèche, d'ellipse, de surface et de distance. De plus, vous avez également vu l'un des moyens de supprimer toutes les annotations de n'importe quel fichier PDF.
 
-Vous pouvez penser à créer votre propre application .NET d'annotateur de documents. Pour en savoir plus sur **GroupDocs.Annotation pour .NET**, consultez la [documentation](https://docs.groupdocs.com/annotation/net/) et le [GitHub](https://github.com/ référentiel groupdocs-annotation). Pour toute autre question, contactez le support sur le [forum](https://forum.groupdocs.com/).
+Vous pouvez penser à créer votre propre application .NET d'annotateur de documents. Pour en savoir plus sur **GroupDocs.Annotation pour .NET**, consultez la [documentation](https://docs.groupdocs.com/annotation/net/) et le [GitHub](https://github.com/groupdocs-annotation). Pour toute autre question, contactez le support sur le [forum](https://forum.groupdocs.com/).
 
 ## Voir également
 

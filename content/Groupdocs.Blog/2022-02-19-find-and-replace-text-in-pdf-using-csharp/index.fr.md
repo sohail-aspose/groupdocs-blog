@@ -14,8 +14,8 @@ Les modèles sont largement utilisés pour générer des documents personnalisé
 Les sujets suivants seront abordés ci-dessous :
 
 * [API .NET pour remplacer le texte](#dotnet-redaction-api)
-* [Rechercher et remplacer des mots ou une expression](#replace-word-or-phrase)
-* [Recherche et remplacement de mots sensibles à la casse](#case-sensitive-text-redaction)
+* [Rechercher et remplacer des mots ou une expression](#replace-word-or-phrase)
+* [Recherche et remplacement de mots sensibles à la casse](#case-sensitive-text-redaction)
 * [Remplacer par des expressions régulières (RegEx)](#replace-text-using-regex)
 * [Masquer le texte avec une boîte de couleur](#hide-text-with-colored-box)
 
@@ -23,7 +23,7 @@ Les sujets suivants seront abordés ci-dessous :
 
 GroupDocs présente GroupDocs.Redaction pour .NET, l'API permettant de biffer, masquer ou supprimer le contenu et même les métadonnées des documents, présentations, feuilles de calcul, fichiers PDF et images dans l'application .NET. Pour plus de détails sur l'API, consultez sa documentation.
 
-Vous pouvez télécharger le programme d'installation **DLLs** ou **MSI** à partir de la [section téléchargements](https://downloads.groupdocs.com/redaction) ou installer l'API dans votre application .NET via [NuGet](https ://www.nuget.org/packages/groupdocs.redaction).
+Vous pouvez télécharger le programme d'installation **DLLs** ou **MSI** à partir de la [section téléchargements](https://downloads.groupdocs.com/redaction) ou installer l'API dans votre application .NET via [NuGet](https://www.nuget.org/packages/groupdocs.redaction).
 
 ```
 PM> Install-Package GroupDocs.Redaction
@@ -88,7 +88,7 @@ La sortie du code est la suivante.
 Vous pouvez également remplacer n'importe quel modèle de texte spécifique à l'aide d'expressions régulières. Les étapes suivantes vous permettent de biffer le PDF après la recherche à l'aide d'une expression régulière (RegEx) dans votre application .NET.
 
 * **Chargez** le document PDF à l'aide de la classe [Redactor](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor).
-* **Trouvez la correspondance de regex** en utilisant la classe [RegexRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/regexredaction) avec [ReplacementOptions](https://apireference.groupdocs .com/redaction/net/groupdocs.redaction.redactions/replacementoptions).
+* **Trouvez la correspondance de regex** en utilisant la classe [RegexRedaction](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/regexredaction) avec [ReplacementOptions](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction.redactions/replacementoptions).
 * Introduisez les modifications dans le document à l'aide de la méthode [Apply()](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/apply/index).
 * **Enregistrer** le document expurgé en utilisant la méthode [Save()](https://apireference.groupdocs.com/redaction/net/groupdocs.redaction/redactor/methods/save/index) appropriée.
 
